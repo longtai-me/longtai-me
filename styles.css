@@ -1,98 +1,524 @@
-/* Basic Reset */
+/* ========================================
+   ROOT VARIABLES & THEME SETUP
+   ======================================== */
+
+:root {
+  --bg1: #0f2027;
+  --bg2: #203a43;
+  --bg3: #2c5364;
+  --card: #1e1e1e;
+  --text: #ffffff;
+  --sub: #b3bac3;
+  --accent: #ff6b9d;
+  --success: #26de81;
+  --warning: #fed330;
+}
+
+body.light-theme {
+  --bg1: #f5f7fa;
+  --bg2: #c3cfe2;
+  --bg3: #e2ebf0;
+  --card: #ffffff;
+  --text: #111;
+  --sub: #444;
+}
+
+/* ========================================
+   GLOBAL STYLES
+   ======================================== */
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-/* Body Styles */
+html, body {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
 body {
-  font-family: 'Helvetica Neue', Arial, sans-serif;
-  line-height: 1.6;
-  background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
-  color: #333;
-  padding: 20px;
-  transition: background 0.5s ease;
+  font-family: 'Poppins', sans-serif;
+  color: var(--text);
+  background: linear-gradient(-45deg, var(--bg1), var(--bg2), var(--bg3));
+  background-size: 400% 400%;
+  animation: bgMove 15s ease infinite;
+  transition: all 0.3s ease;
 }
 
-/* Header */
-header {
-  text-align: center;
-  padding: 50px 0;
+@keyframes bgMove {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
 }
 
-/* Navigation */
-nav {
+/* ========================================
+   THEME TOGGLE BUTTON
+   ======================================== */
+
+.theme-toggle {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  z-index: 100;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 2px solid var(--card);
+  background: var(--card);
+  color: var(--text);
+  font-size: 24px;
+  cursor: pointer;
+  transition: all 0.3s ease;
   display: flex;
+  align-items: center;
   justify-content: center;
-  background-color: rgba(255, 255, 255, 0.8);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
 }
 
-nav ul {
-  list-style: none;
+.theme-toggle:hover {
+  transform: scale(1.1);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
 }
 
-nav ul li {
-  margin: 0 20px;
+/* ========================================
+   NAVIGATION DOTS
+   ======================================== */
+
+.dots-container {
+  position: fixed;
+  left: 30px;
+  top: 50%;
+  transform: translateY(-50%);
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  z-index: 50;
 }
 
-nav a {
-  text-decoration: none;
-  color: #333;
-  font-weight: bold;
-  padding: 10px;
-  border-radius: 5px;
-  transition: background 0.3s ease, color 0.3s ease;
+dot {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.4);
+  cursor: pointer;
+  transition: all 0.3s ease;
+  border: 2px solid transparent;
 }
 
-nav a:hover {
-  background: #333;
-  color: #fff;
+dot:hover {
+  background: rgba(255, 255, 255, 0.7);
+  transform: scale(1.2);
 }
 
-/* Main Section */
-main {
-  max-width: 1200px;
-  margin: auto;
-  padding: 20px;
+dot.active {
+  background: var(--accent);
+  transform: scale(1.5);
+  box-shadow: 0 0 15px var(--accent);
 }
 
-/* Animations */
-@keyframes fadeIn {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
-}
+/* ========================================
+   SLIDES CONTAINER & TRANSITIONS
+   ======================================== */
 
-section {
-  animation: fadeIn 1s ease-in;
-}
-
-/* Footer */
-footer {
-  text-align: center;
-  padding: 20px 0;
+.slides-container {
+  width: 100%;
+  height: 100%;
   position: relative;
 }
 
-footer p {
-  font-size: 0.9em;
+.slide {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 40px 20px;
+  opacity: 0;
+  transform: translateY(100px);
+  transition: all 0.8s cubic-bezier(0.77, 0, 0.18, 1);
+  pointer-events: none;
 }
 
-/* Media Queries */
+.slide.active {
+  opacity: 1;
+  transform: translateY(0);
+  z-index: 10;
+  pointer-events: auto;
+}
+
+/* ========================================
+   SLIDE CONTENT STYLES
+   ======================================== */
+
+.slide-content {
+  text-align: center;
+  max-width: 600px;
+}
+
+.slide-title {
+  font-size: 3.5rem;
+  font-weight: 700;
+  margin-bottom: 40px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.slide-icon {
+  font-size: 4rem;
+  margin-bottom: 20px;
+  animation: float 3s ease-in-out infinite;
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0px); }
+  50% { transform: translateY(-20px); }
+}
+
+/* ========================================
+   CARD SLIDE
+   ======================================== */
+
+.card {
+  background: var(--card);
+  padding: 50px;
+  border-radius: 25px;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.4);
+  max-width: 450px;
+  transform: translateY(40px);
+  opacity: 0;
+  transition: all 1s cubic-bezier(0.77, 0, 0.18, 1);
+}
+
+.slide.active .card {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+.card img {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  margin-bottom: 25px;
+  border: 4px solid var(--accent);
+  object-fit: cover;
+}
+
+.card h2 {
+  font-size: 2.2rem;
+  margin-bottom: 10px;
+  color: var(--text);
+}
+
+.card .subtitle {
+  font-size: 1.1rem;
+  color: var(--sub);
+  margin-bottom: 15px;
+  font-weight: 500;
+}
+
+.card p {
+  font-size: 1rem;
+  color: var(--sub);
+  line-height: 1.6;
+  margin-bottom: 30px;
+}
+
+/* ========================================
+   LIST SLIDE
+   ======================================== */
+
+.list-items {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 100%;
+  max-width: 500px;
+}
+
+.list-item {
+  background: var(--card);
+  padding: 20px;
+  border-radius: 15px;
+  transition: all 0.3s ease;
+  border-left: 4px solid var(--accent);
+  text-align: left;
+}
+
+.list-item:hover {
+  transform: translateX(10px);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+.list-item strong {
+  display: block;
+  color: var(--accent);
+  margin-bottom: 5px;
+  font-size: 1.1rem;
+}
+
+.list-item span {
+  color: var(--sub);
+  font-size: 0.95rem;
+}
+
+/* ========================================
+   TIMELINE SLIDE
+   ======================================== */
+
+.timeline {
+  position: relative;
+  width: 100%;
+  max-width: 500px;
+}
+
+timeline::before {
+  content: '';
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 2px;
+  height: 100%;
+  background: var(--accent);
+}
+
+timeline-item {
+  margin-bottom: 40px;
+  position: relative;
+}
+
+timeline-item:nth-child(odd) .timeline-content {
+  margin-left: 0;
+  margin-right: auto;
+  width: 45%;
+  text-align: right;
+}
+
+timeline-item:nth-child(even) .timeline-content {
+  margin-left: auto;
+  margin-right: 0;
+  width: 45%;
+  text-align: left;
+}
+
+.timeline-dot {
+  position: absolute;
+  left: 50%;
+  top: 0;
+  transform: translateX(-50%);
+  width: 20px;
+  height: 20px;
+  background: var(--accent);
+  border-radius: 50%;
+  border: 4px solid var(--bg1);
+  z-index: 5;
+}
+
+.timeline-content {
+  background: var(--card);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+timeline-content h3 {
+  color: var(--text);
+  margin-bottom: 5px;
+}
+
+timeline-content .period {
+  color: var(--sub);
+  font-size: 0.9rem;
+  margin-bottom: 8px;
+}
+
+timeline-content p {
+  color: var(--sub);
+  font-size: 0.95rem;
+}
+
+/* ========================================
+   GRID SLIDE (PROJECTS)
+   ======================================== */
+
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+  width: 100%;
+  max-width: 900px;
+}
+
+.project-card {
+  background: var(--card);
+  padding: 25px;
+  border-radius: 15px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  border: 2px solid transparent;
+}
+
+.project-card:hover {
+  transform: translateY(-10px);
+  border-color: var(--accent);
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.3);
+}
+
+.project-card h3 {
+  color: var(--text);
+  margin-bottom: 10px;
+  font-size: 1.3rem;
+}
+
+.project-card p {
+  color: var(--sub);
+  margin-bottom: 15px;
+  font-size: 0.95rem;
+}
+
+.tech-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.tech-tag {
+  background: var(--accent);
+  color: var(--card);
+  padding: 5px 12px;
+  border-radius: 20px;
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+
+/* ========================================
+   SOCIAL SLIDE
+   ======================================== */
+
+.social-buttons {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 15px;
+  width: 100%;
+  max-width: 600px;
+}
+
+.social-btn {
+  padding: 20px;
+  border-radius: 15px;
+  border: none;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  font-weight: 600;
+  color: white;
+}
+
+.social-btn:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+}
+
+/* ========================================
+   FOOTER
+   ======================================== */
+
+.footer {
+  position: fixed;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  color: var(--sub);
+  font-size: 0.9rem;
+  z-index: 40;
+}
+
+/* ========================================
+   RESPONSIVE DESIGN
+   ======================================== */
+
 @media (max-width: 768px) {
-  nav {
-    flex-direction: column;
+  .slide-title {
+    font-size: 2.2rem;
   }
 
-  main {
-    padding: 10px;
+  .dots-container {
+    left: 15px;
+    gap: 12px;
   }
 
-  footer {
-    font-size: 0.8em;
+  .dot {
+    width: 10px;
+    height: 10px;
+  }
+
+  .card {
+    padding: 30px;
+    max-width: 90%;
+  }
+
+  .card img {
+    width: 120px;
+    height: 120px;
+  }
+
+  .timeline::before {
+    display: none;
+  }
+
+  .timeline-item:nth-child(odd) .timeline-content,
+  .timeline-item:nth-child(even) .timeline-content {
+    margin-left: 0;
+    margin-right: 0;
+    width: 100%;
+    text-align: left;
+  }
+
+  .timeline-dot {
+    left: 0;
+  }
+
+  .project-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .social-buttons {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 480px) {
+  .slide-title {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+  }
+
+  .slide-icon {
+    font-size: 2.5rem;
+  }
+
+  .card {
+    padding: 20px;
+  }
+
+  .list-item,
+  .project-card {
+    padding: 15px;
+  }
+
+  .social-buttons {
+    grid-template-columns: 1fr;
   }
 }
