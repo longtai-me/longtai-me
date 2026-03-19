@@ -1,39 +1,306 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-Hant">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Personal Website</title>
-    <link rel="stylesheet" href="styles.css">
-    <script src="script.js" defer></script>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>LongTai Jiang</title>
+
+  <style>
+    :root {
+      --primary: #00a8f0;
+      --bg: #1b212c;
+      --card: #222222;
+      --card-2: #333333;
+      --text: #ffffff;
+      --muted: #9ca3af;
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      font-family: "Segoe UI", Arial, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+    }
+
+    a { text-decoration: none; color: inherit; }
+
+    header {
+      position: sticky;
+      top: 0;
+      background: rgba(27, 33, 44, 0.7);
+      backdrop-filter: blur(12px);
+      border-bottom: 1px solid #2a2f3a;
+      z-index: 100;
+    }
+
+    .nav {
+      max-width: 1100px;
+      margin: auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 15px 20px;
+    }
+
+    .logo {
+      font-size: 20px;
+      font-weight: bold;
+      color: var(--primary);
+    }
+
+    .nav-links { display: flex; gap: 20px; }
+    .nav-links a:hover { color: var(--primary); }
+
+    .hero {
+      text-align: center;
+      padding: 120px 20px 80px;
+      background: radial-gradient(circle at top, rgba(0,168,240,0.15), transparent 60%);
+    }
+
+    .avatar {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      background: linear-gradient(135deg, var(--primary), #0077aa);
+      margin: auto;
+      margin-bottom: 20px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 36px;
+      font-weight: bold;
+    }
+
+    .hero h1 { font-size: 48px; }
+    .hero span { color: var(--primary); }
+    .hero p { color: var(--muted); }
+
+    .btn {
+      display: inline-block;
+      padding: 12px 26px;
+      background: var(--primary);
+      border-radius: 999px;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+
+    .btn:hover {
+      transform: scale(1.05);
+      box-shadow: 0 0 20px rgba(0,168,240,0.4);
+    }
+
+    section {
+      max-width: 1100px;
+      margin: auto;
+      padding: 70px 20px;
+    }
+
+    h2 {
+      font-size: 28px;
+      margin-bottom: 25px;
+      border-left: 4px solid var(--primary);
+      padding-left: 10px;
+    }
+
+    .card {
+      background: var(--card);
+      padding: 25px;
+      border-radius: 18px;
+      transition: 0.3s;
+    }
+
+    .card:hover {
+      transform: translateY(-8px);
+      background: var(--card-2);
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+
+    .tags { margin-top: 10px; }
+    .tag {
+      display: inline-block;
+      background: #111;
+      padding: 5px 10px;
+      margin: 4px;
+      border-radius: 999px;
+      font-size: 12px;
+      color: var(--muted);
+    }
+
+    /* SOCIALS */
+    .socials {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 15px;
+    }
+
+    .social-icon {
+      width: 60px;
+      height: 60px;
+      border-radius: 50%;
+      background: var(--card);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 20px;
+      transition: 0.3s;
+      border: 1px solid #2a2f3a;
+    }
+
+    .social-icon:hover {
+      background: var(--card-2);
+      transform: translateY(-5px);
+      box-shadow: 0 0 10px rgba(0,168,240,0.3);
+    }
+
+    /* FRIENDS */
+    .friends {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+      gap: 20px;
+    }
+
+    .friend-card {
+      background: var(--card);
+      padding: 20px;
+      border-radius: 16px;
+      text-align: center;
+      transition: 0.3s;
+    }
+
+    .friend-card:hover {
+      transform: translateY(-6px);
+      background: var(--card-2);
+    }
+
+    .friend-avatar {
+      width: 70px;
+      height: 70px;
+      border-radius: 50%;
+      margin: auto;
+      margin-bottom: 10px;
+      overflow: hidden;
+      background: #444;
+    }
+
+    .friend-avatar img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    footer {
+      text-align: center;
+      padding: 40px 20px;
+      color: var(--muted);
+      border-top: 1px solid #2a2f3a;
+    }
+
+    @media (max-width: 768px) {
+      .hero h1 { font-size: 34px; }
+    }
+  </style>
 </head>
 <body>
-    <header>
-        <h1>Welcome to My Personal Website</h1>
-        <nav>
-            <ul>
-                <li><a href="#about">About</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
-    <main>
-        <section id="about">
-            <h2>About Me</h2>
-            <p>This is a brief introduction about myself.</p>
-        </section>
-        <section id="projects">
-            <h2>My Projects</h2>
-            <p>Details of my projects can go here.</p>
-        </section>
-        <section id="contact">
-            <h2>Contact</h2>
-            <p>Feel free to reach out!</p>
-        </section>
-    </main>
-    <footer>
-        <p>&copy; 2026 My Personal Website</p>
-    </footer>
+
+<header>
+  <div class="nav">
+    <div class="logo">LongTai Jiang</div>
+    <div class="nav-links">
+      <a href="#about">About</a>
+      <a href="#projects">Experience</a>
+      <a href="#social">Social</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </div>
+</header>
+
+<div class="hero">
+  <div class="avatar">L</div>
+  <h1>Hi, I'm <span>LongTai</span></h1>
+  <p>學生 / 未來軟體開發者</p>
+  <a href="#about" class="btn">認識我</a>
+</div>
+
+<section id="about">
+  <h2>About Me</h2>
+  <div class="card">
+    <p>目前就讀國立台中科技大學</p>
+    <p>正在資訊社群亂竄</p>
+    <div class="tags">
+      <span class="tag">HTML</span>
+      <span class="tag">CSS</span>
+      <span class="tag">Python</span>
+    </div>
+  </div>
+</section>
+
+<section id="projects">
+  <h2>Experience</h2>
+  <div class="grid">
+    <div class="card">餐廳內外場經驗</div>
+    <div class="card">製作多個網站專案</div>
+    <div class="card">持續學習與成長</div>
+  </div>
+</section>
+
+<!-- SOCIALS -->
+<section id="social">
+  <h2>Socials</h2>
+  <div class="socials">
+    <div class="social-icon">▶</div>
+    <div class="social-icon">T</div>
+    <div class="social-icon">X</div>
+    <div class="social-icon">♪</div>
+    <div class="social-icon">📺</div>
+    <div class="social-icon">F</div>
+    <div class="social-icon">IG</div>
+    <div class="social-icon">💬</div>
+  </div>
+</section>
+
+<!-- FRIENDS -->
+<section>
+  <h2>Friends</h2>
+  <div class="friends">
+    <a href="https://leinuoawa.xyz/">
+      <div class="friend-card">
+        <div class="friend-avatar">
+          <!-- 把 email 轉成 MD5 hash 後放進去 -->
+          <img src="https://www.gravatar.com/avatar/7d325263108d4e286af9797fbe802e2b?d=mp&amp;s=200" alt="Wuzuan">
+        </div>
+        <p>Wuzuan</p>
+      </div>
+    </a>
+    <a href="https://leinuoawa.xyz/">
+      <div class="friend-card">
+        <div class="friend-avatar">
+          <!-- 把 email 轉成 MD5 hash 後放進去 -->
+          <img src="https://www.gravatar.com/avatar/cd21846d91e039ae2418bbe6033a762b?d=mp&amp;s=200" alt="LeiNuo">
+        </div>
+        <p>Leinuo</p>
+      </div>
+    </a>
+
+  </div>
+</section>
+
+<section id="contact">
+  <h2>Contact</h2>
+  <div class="card">
+    <p>📧 Email: me@longtai</p>
+  </div>
+</section>
+
+<footer>
+  <p>© 2026 LongTai Jiang</p>
+</footer>
+
 </body>
 </html>
