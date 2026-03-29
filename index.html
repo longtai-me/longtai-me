@@ -435,6 +435,18 @@
 <script>
 
 const text = "Longtai"
+const target = document.querySelector(".typing");
+
+let i = 0;
+
+function type() {
+  if (i < text.length) {
+    target.textContent += text.charAt(i);
+    i++;
+    setTimeout(type, 120);
+  }
+}
+type();
 
 /* 滾動動畫 */
 const reveals = document.querySelectorAll('.card, .friend-card, .social-icon');
