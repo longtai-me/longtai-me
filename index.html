@@ -16,43 +16,45 @@
   <meta property="og:url" content="https://longtai.org">
   <meta property="og:type" content="website">
   <meta name="twitter:card" content="summary_large_image">
-  
-  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <link rel="stylesheet" href="public/css/main.css" />
   <script src="public/javascript/main.js" defer></script>
-
-  <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "Person",
-      "name": "LongTai Jiang",
-      "alternateName": "Jiang",
-      "url": "你的網站網址",
-      "image": "https://www.gravatar.com/avatar/64a851c812177321ca40d671ad3c014a",
-      "description": "國立台中科技大學學生，資訊社群活躍成員，參與過 COSCUP 與 SITCON。",
-      "jobTitle": "Student Developer",
-      "affiliation": {
-        "@type": "Organization",
-        "name": "國立台中科技大學"
-      },
-      "sameAs": [
-        "https://github.com/long-tai-0925",
-        "https://instagram.com/jiang.0925",
-        "https://t.me/lcngtai"
-      ]
-    }
-  </script>
 </head>
-
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "LongTai Jiang",
+    "alternateName": "Jiang",
+    "url": "你的網站網址",
+    "image": "https://www.gravatar.com/avatar/64a851c812177321ca40d671ad3c014a",
+    "description": "國立台中科技大學學生，資訊社群活躍成員，參與過 COSCUP 與 SITCON。",
+    "jobTitle": "Student Developer",
+    "affiliation": {
+      "@type": "Organization",
+      "name": "國立台中科技大學"
+    },
+    "sameAs": [
+      "https://github.com/long-tai-0925",
+      "https://instagram.com/jiang.0925",
+      "https://t.me/lcngtai"
+    ]
+  }
+</script>
 <body>
 
   <header>
     <div class="nav">
       <div class="logo">Jiang</div>
-      </div>
+      <!-- <div class="nav-links">
+      <a href="#about">About</a>
+      <a href="#projects">Experience</a>
+      <a href="#social">Social</a>
+      <a href="#contact">Contact</a>
+    </div> -->
+    </div>
   </header>
 
-  <div class="hero" data-aos="zoom-in" data-aos-duration="1000">
+  <div class="hero">
     <img loading="lazy" src="https://www.gravatar.com/avatar/64a851c812177321ca40d671ad3c014a?d=mp&s=200">
     <h1>Hi, I'm <span class="typing"></span></h1>
     <p>學生 / 討厭開發的開發者</p>
@@ -60,8 +62,8 @@
   </div>
 
   <section id="about">
-    <h2 data-aos="fade-up">關於我</h2>
-    <div class="card" data-aos="fade-up" data-aos-delay="100">
+    <h2>關於我</h2>
+    <div class="card">
       <p>目前就讀國立台中科技大學 資訊工程科 五專部</p>
       <p>喜歡在資訊社群亂竄</p>
       <div class="tags">
@@ -72,28 +74,30 @@
   </section>
 
   <section id="social">
-    <h2 data-aos="fade-up">社群媒體</h2>
+    <h2>社群媒體</h2>
     <div class="socials">
       <a target="_blank" href="https://github.com/long-tai-0925">
-        <div class="social-icon" data-aos="fade-up" data-aos-delay="100">
+        <div class="social-icon">
           <img loading="lazy" src="public/images/other/GitHub.png" alt="GitHub" width="60px">
         </div>
       </a>
       <a target="_blank" href="https://t.me/lcngtai">
-        <div class="social-icon" data-aos="fade-up" data-aos-delay="200">
+        <div class="social-icon">
           <img loading="lazy" src="public/images/other/Telegram.png" alt="Telegram" width="60px">
         </div>
       </a>
       <a target="_blank" href="https://instagram.com/jiang.0925">
-        <div class="social-icon" data-aos="fade-up" data-aos-delay="300">
+        <div class="social-icon">
           <svg loading="lazy" fill="currentColor" height="60" role="img" viewBox="0 0 24 24" width="60">
             <title>Instagram</title>
-            <path d="M12 2.982c2.937 0 3.285.011 4.445.064a6.087 6.087 0 0 1 2.042.379 3.408 3.408 0 0 1 1.265.823 3.408 3.408 0 0 1 .823 1.265 6.087 6.087 0 0 1 .379 2.042c.053 1.16.064 1.508.064 4.445s-.011 3.285-.064 4.445a6.087 6.087 0 0 1-.379 2.042 3.643 3.643 0 0 1-2.088 2.088 6.087 6.087 0 0 1-2.042.379c-1.16.053-1.508.064-4.445.064s-3.285-.011-4.445-.064a6.087 6.087 0 0 1-2.043-.379 3.408 3.408 0 0 1-1.264-.823 3.408 3.408 0 0 1-.823-1.265 6.087 6.087 0 0 1-.379-2.042c-.053-1.16-.064-1.508-.064-4.445s.011-3.285.064-4.445a6.087 6.087 0 0 1 .379-2.042 3.408 3.408 0 0 1 .823-1.265 3.408 3.408 0 0 1 1.265-.823 6.087 6.087 0 0 1 2.042-.379c1.16-.053 1.508-.064 4.445-.064M12 1c-2.987 0-3.362.013-4.535.066a8.074 8.074 0 0 0-2.67.511 5.392 5.392 0 0 0-1.949 1.27 5.392 5.392 0 0 0-1.269 1.948 8.074 8.074 0 0 0-.51 2.67C1.012 8.638 1 9.013 1 12s.013 3.362.066 4.535a8.074 8.074 0 0 0 .511 2.67 5.392 5.392 0 0 0 1.27 1.949 5.392 5.392 0 0 0 1.948 1.269 8.074 8.074 0 0 0 2.67.51C8.638 22.988 9.013 23 12 23s3.362-.013 4.535-.066a8.074 8.074 0 0 0 2.67-.511 5.625 5.625 0 0 0 3.218-3.218 8.074 8.074 0 0 0 .51-2.67C22.988 15.362 23 14.987 23 12s-.013-3.362-.066-4.535a8.074 8.074 0 0 0-.511-2.67 5.392 5.392 0 0 0-1.27-1.949 5.392 5.392 0 0 0-1.948-1.269 8.074 8.074 0 0 0-2.67-.51C15.362 1.012 14.987 1 12 1Zm0 5.351A5.649 5.649 0 1 0 17.649 12 5.649 5.649 0 0 0 12 6.351Zm0 9.316A3.667 3.667 0 1 1 15.667 12 3.667 3.667 0 0 1 12 15.667Zm5.872-10.859a1.32 1.32 0 1 0 1.32 1.32 1.32 1.32 0 0 0-1.32-1.32Z"></path>
+            <path
+              d="M12 2.982c2.937 0 3.285.011 4.445.064a6.087 6.087 0 0 1 2.042.379 3.408 3.408 0 0 1 1.265.823 3.408 3.408 0 0 1 .823 1.265 6.087 6.087 0 0 1 .379 2.042c.053 1.16.064 1.508.064 4.445s-.011 3.285-.064 4.445a6.087 6.087 0 0 1-.379 2.042 3.643 3.643 0 0 1-2.088 2.088 6.087 6.087 0 0 1-2.042.379c-1.16.053-1.508.064-4.445.064s-3.285-.011-4.445-.064a6.087 6.087 0 0 1-2.043-.379 3.408 3.408 0 0 1-1.264-.823 3.408 3.408 0 0 1-.823-1.265 6.087 6.087 0 0 1-.379-2.042c-.053-1.16-.064-1.508-.064-4.445s.011-3.285.064-4.445a6.087 6.087 0 0 1 .379-2.042 3.408 3.408 0 0 1 .823-1.265 3.408 3.408 0 0 1 1.265-.823 6.087 6.087 0 0 1 2.042-.379c1.16-.053 1.508-.064 4.445-.064M12 1c-2.987 0-3.362.013-4.535.066a8.074 8.074 0 0 0-2.67.511 5.392 5.392 0 0 0-1.949 1.27 5.392 5.392 0 0 0-1.269 1.948 8.074 8.074 0 0 0-.51 2.67C1.012 8.638 1 9.013 1 12s.013 3.362.066 4.535a8.074 8.074 0 0 0 .511 2.67 5.392 5.392 0 0 0 1.27 1.949 5.392 5.392 0 0 0 1.948 1.269 8.074 8.074 0 0 0 2.67.51C8.638 22.988 9.013 23 12 23s3.362-.013 4.535-.066a8.074 8.074 0 0 0 2.67-.511 5.625 5.625 0 0 0 3.218-3.218 8.074 8.074 0 0 0 .51-2.67C22.988 15.362 23 14.987 23 12s-.013-3.362-.066-4.535a8.074 8.074 0 0 0-.511-2.67 5.392 5.392 0 0 0-1.27-1.949 5.392 5.392 0 0 0-1.948-1.269 8.074 8.074 0 0 0-2.67-.51C15.362 1.012 14.987 1 12 1Zm0 5.351A5.649 5.649 0 1 0 17.649 12 5.649 5.649 0 0 0 12 6.351Zm0 9.316A3.667 3.667 0 1 1 15.667 12 3.667 3.667 0 0 1 12 15.667Zm5.872-10.859a1.32 1.32 0 1 0 1.32 1.32 1.32 1.32 0 0 0-1.32-1.32Z">
+            </path>
           </svg>
         </div>
       </a>
       <a target="_blank" href="https://broad-cotija-e7e.notion.site/114-310f7134db158042a236d68bcfbd571b?pvs=74">
-        <div class="social-icon" data-aos="fade-up" data-aos-delay="400">
+        <div class="social-icon">
           <img loading="lazy" src="public/images/other/Notion.png" alt="Notion" width="60px">
         </div>
       </a>
@@ -101,45 +105,45 @@
   </section>
 
   <section id="projects">
-    <h2 data-aos="fade-up">經驗與活動</h2>
+    <h2>經驗與活動</h2>
     <div class="grid">
       <a target="_blank" href="">
-        <div class="card" data-aos="fade-up" data-aos-delay="0">
+        <div class="card">
           <br/>
           <img loading="lazy" src="public/images/events/SCAICT.png" alt="SCAICT" height="60px">
           <p style="font-size: 20px;">SCAICT<br/>第五屆 - 臨時工人</p>
         </div>
       </a>
       <a target="_blank" href="">
-        <div class="card" data-aos="fade-up" data-aos-delay="100">
+        <div class="card">
           <br/>
           <img loading="lazy" src="public/images/events/SITCON_2026.svg" alt="SITCON" height="60px">
           <p style="font-size: 20px;">SITCON<br/>2026 - 邀請票會眾</p>
         </div>
       </a>
       <a target="_blank" href="">
-        <div class="card" data-aos="fade-up" data-aos-delay="200">
+        <div class="card">
           <br/>
           <img loading="lazy" src="public/images/events/SCAICT.png" alt="SCAICT" height="60px">
           <p style="font-size: 20px;">SCAICT<br/>第四屆 - 臨時工人</p>
         </div>
       </a>
       <a target="_blank" href="">
-        <div class="card" data-aos="fade-up" data-aos-delay="300">
+        <div class="card">
           <br/>
           <img loading="lazy" src="public/images/events/GDG.svg" alt="GDG" height="60px">
           <p style="font-size: 20px;">DevFest Taipei<br/>2025 - 會眾</p>
         </div>
       </a>
       <a target="_blank" href="">
-        <div class="card" data-aos="fade-up" data-aos-delay="400">
+        <div class="card">
           <br/>
           <img loading="lazy" src="public/images/events/COSCUP.svg" alt="COSCUP" height="60px">
           <p style="font-size: 20px;">COSCUP<br/>2025 - 會眾</p>
         </div>
       </a>
       <a target="_blank" href="">
-        <div class="card" data-aos="fade-up" data-aos-delay="500">
+        <div class="card">
           <br/>
           <img loading="lazy" src="public/images/events/NUTC_CSIE.jpeg" alt="NUTC CSIE" height="60px">
           <p style="font-size: 20px;">國立台中科技大學<br/>資訊工程科科學會<br/>第五屆 - 行銷組</p>
@@ -149,14 +153,14 @@
   </section>
 
   <section id="projects">
-    <h2 data-aos="fade-up">愛與支援</h2>
+    <h2>愛與支援</h2>
     <div class="grid">
-      <div class="card" data-aos="fade-up" data-aos-delay="0">
+      <div class="card">
         <br/>
         <img loading="lazy" src="public/images/events/SITCON_2026.svg" alt="SITCON 2026" height="60px">
         <p style="font-size: 20px;">SITCON 2026<br/>個人贊助</p>
       </div>
-      <div class="card" data-aos="fade-up" data-aos-delay="100">
+      <div class="card">
         <br/>
         <img loading="lazy" src="public/images/events/SCAICT.png" alt="SITCON 2026" height="60px">
         <p style="font-size: 20px;">SCAICT<br/>SITCON 2026 社群攤位設備支援</p>
@@ -165,9 +169,9 @@
   </section>
 
   <section id="projects">
-    <h2 data-aos="fade-up">頭腦風暴</h2>
+    <h2>頭腦風暴</h2>
     <div class="grid">
-      <div class="card" data-aos="fade-up">
+      <div class="card">
         <p style="font-size: 20px;">全球飲料瓶押金回收制度統一</p>
         <p>目前各國飲料瓶押金回收標準並不統一，生產生需要為各個國家標準額外印製外包裝<br/>若此議題持續推進，可讓飲料瓶生產商生產成本降低，且可實現跨國回收。</p>
       </div>
@@ -175,82 +179,92 @@
   </section>
 
   <section>
-    <h2 data-aos="fade-up">大電神們</h2>
+    <h2>大電神們</h2>
     <div class="friends">
       <a target="_blank" href="https://leinuoawa.xyz/">
-        <div class="friend-card" data-aos="zoom-in" data-aos-delay="0">
+        <div class="friend-card">
           <div class="friend-avatar">
-            <img loading="lazy" src="https://www.gravatar.com/avatar/cd21846d91e039ae2418bbe6033a762b?d=mp&amp;s=200" alt="LeiNuo">
+            <img loading="lazy" src="https://www.gravatar.com/avatar/cd21846d91e039ae2418bbe6033a762b?d=mp&amp;s=200"
+              alt="LeiNuo">
           </div>
           <p>Leinuo</p>
         </div>
       </a>
       <a target="_blank" href="https://wuzuantw.com/">
-        <div class="friend-card" data-aos="zoom-in" data-aos-delay="50">
+        <div class="friend-card">
           <div class="friend-avatar">
-            <img loading="lazy" src="https://www.gravatar.com/avatar/7d325263108d4e286af9797fbe802e2b?d=mp&amp;s=200" alt="Wuzuan">
+            <img loading="lazy" src="https://www.gravatar.com/avatar/7d325263108d4e286af9797fbe802e2b?d=mp&amp;s=200"
+              alt="Wuzuan">
           </div>
           <p>Wuzuan</p>
         </div>
       </a>
       <a target="_blank" href="https://sange.ge/">
-        <div class="friend-card" data-aos="zoom-in" data-aos-delay="100">
+        <div class="friend-card">
           <div class="friend-avatar">
-            <img loading="lazy" src="https://www.gravatar.com/avatar/f6d0a62624d1d82d90ea3232e3663561?d=mp&amp;s=200" alt="Sangege">
+            <img loading="lazy" src="https://www.gravatar.com/avatar/f6d0a62624d1d82d90ea3232e3663561?d=mp&amp;s=200"
+              alt="Sangege">
           </div>
           <p>sangege</p>
         </div>
       </a>
       <a target="_blank" href="https://elvismao.com/">
-        <div class="friend-card" data-aos="zoom-in" data-aos-delay="150">
+        <div class="friend-card">
           <div class="friend-avatar">
-            <img loading="lazy" src="https://www.gravatar.com/avatar/2c2e9a275f6129bc5f1f2742316fac94?d=mp&amp;s=200" alt="毛哥EM">
+            <img loading="lazy" src="https://www.gravatar.com/avatar/2c2e9a275f6129bc5f1f2742316fac94?d=mp&amp;s=200"
+              alt="毛哥EM">
           </div>
           <p>毛哥EM</p>
         </div>
       </a>
       <a target="_blank" href="https://monkey-cat.com/">
-        <div class="friend-card" data-aos="zoom-in" data-aos-delay="200">
+        <div class="friend-card">
           <div class="friend-avatar">
-            <img loading="lazy" src="https://www.gravatar.com/avatar/7499a6d667d7ed635282ab4a195727033532b0eb62fe26776d187d3662e69015?d=mp&amp;s=200" alt="猴貓">
+            <img loading="lazy"
+              src="https://www.gravatar.com/avatar/7499a6d667d7ed635282ab4a195727033532b0eb62fe26776d187d3662e69015?d=mp&amp;s=200"
+              alt="猴貓">
           </div>
           <p>猴貓</p>
         </div>
       </a>
       <a target="_blank" href="https://xn--hoq.tw/">
-        <div class="friend-card" data-aos="zoom-in" data-aos-delay="250">
+        <div class="friend-card">
           <div class="friend-avatar">
-            <img loading="lazy" src="https://www.gravatar.com/avatar/4705a54a507ff27d4d1c65e2f99ae0a7?d=mp&amp;s=200" alt="Cheerawab">
+            <img loading="lazy" src="https://www.gravatar.com/avatar/4705a54a507ff27d4d1c65e2f99ae0a7?d=mp&amp;s=200"
+              alt="Cheerawab">
           </div>
           <p>Cheerawab</p>
         </div>
       </a>
       <a target="_blank" href="https://leinuoawa.xyz/">
-        <div class="friend-card" data-aos="zoom-in" data-aos-delay="300">
+        <div class="friend-card">
           <div class="friend-avatar">
-            <img loading="lazy" src="https://www.gravatar.com/avatar/a5feea217bd9642a8e45bab03d11ecd7?d=mp&amp;s=200" alt="Tofu">
+            <img loading="lazy" src="https://www.gravatar.com/avatar/a5feea217bd9642a8e45bab03d11ecd7?d=mp&amp;s=200"
+              alt="Tofu">
           </div>
           <p>Tofu</p>
         </div>
       </a>
       <a target="_blank" href="https://jiaoyue.gay/">
-        <div class="friend-card" data-aos="zoom-in" data-aos-delay="350">
+        <div class="friend-card">
           <div class="friend-avatar">
-            <img loading="lazy" src="https://www.gravatar.com/avatar/7a755c16d6fbdaeabc32ef0e6d96447c?d=mp&amp;s=200" alt="Jiaoyue">
+            <img loading="lazy" src="https://www.gravatar.com/avatar/7a755c16d6fbdaeabc32ef0e6d96447c?d=mp&amp;s=200"
+              alt="Jiaoyue">
           </div>
           <p>Jiaoyue</p>
         </div>
       </a>
       <a target="_blank" href="https://yuan-tw.net/">
-        <div class="friend-card" data-aos="zoom-in" data-aos-delay="400">
+        <div class="friend-card">
           <div class="friend-avatar">
-            <img loading="lazy" src="https://www.gravatar.com/avatar/725330f134732796feb51fc589a0f456?d=mp&amp;s=200" alt="Yuan">
+            <img loading="lazy" src="https://www.gravatar.com/avatar/725330f134732796feb51fc589a0f456?d=mp&amp;s=200"
+              alt="Yuan">
           </div>
           <p>Yuan</p>
         </div>
       </a>
       <a target="_blank" href="mailto:me@longtai.org">
-        <div class="friend-card" data-aos="zoom-in" data-aos-delay="450">
+        <div class="friend-card">
           <div class="friend-avatar">
             <h1 loading="lazy">+</h1>
           </div>
@@ -258,17 +272,18 @@
         </div>
       </a>
     </div>
+    </div>
   </section>
 
   <section id="projects">
-    <h2 data-aos="fade-up">免費推廣 <span style="font-size:16px; font-weight:normal;">(此區域審查寬鬆，參考前請審慎評估)</span></h2>
+    <h2>免費推廣</h2>(此區域審查寬鬆，參考前請審慎評估)
     <div class="grid">
-      <div class="card" data-aos="fade-up" data-aos-delay="0">
+      <div class="card">
         <img loading="lazy" src="public/images/wuzaun/diamondhost.png" alt="DiamondHost" height="60px">
         <p style="font-size: 20px;">鑽石託管<br>鑽石託管提供台灣專業 Minecraft 伺服器託管、MC託管與 Discord
           機器人託管服務。我們致力於提供高效能、低延遲的託管伺服器體驗，並具備強大的 DDoS 防護。</p>
       </div>
-      <div class="card" data-aos="fade-up" data-aos-delay="100">
+      <div class="card">
         <br>
         <img loading="lazy" src="public/images/me.png" alt="SITCON 2026" height="60px">
         <p style="font-size: 20px;">範例</p>
@@ -279,17 +294,9 @@
   <footer>
     <p>© 2026 LongTai Jiang</p>
     <p>Check out the repo on <a href="https://github.com/long-tai-0925/NEW-ME">GitHub</a>!</p>
+
   </footer>
 
-  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-  
-  <script>
-    AOS.init({
-      once: false,
-      offset: 50
-    });
-  </script>
 
 </body>
-
 </html>
