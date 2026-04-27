@@ -178,135 +178,11 @@
     </div>
   </section>
 
-  <section id="friend">
-    <h2>
-      大電神們
-    </h2>
-    <div class="friends">
-      <a target="_blank" href="https://leinuoawa.xyz/">
-        <div class="friend-card">
-          <div class="friend-avatar">
-            <img loading="lazy" src="https://www.gravatar.com/avatar/cd21846d91e039ae2418bbe6033a762b?d=mp&amp;s=200"
-              alt="LeiNuo">
-          </div>
-          <p>
-            LeiNuo
-          </p>
-        </div>
-      </a>
-      <a target="_blank" href="https://wuzuantw.com/">
-        <div class="friend-card">
-          <div class="friend-avatar">
-            <img loading="lazy" src="https://www.gravatar.com/avatar/7d325263108d4e286af9797fbe802e2b?d=mp&amp;s=200"
-              alt="Wuzuan">
-          </div>
-          <p>
-            Wuzuan
-          </p>
-        </div>
-      </a>
-      <a target="_blank" href="https://sange.ge/">
-        <div class="friend-card">
-          <div class="friend-avatar">
-            <img loading="lazy" src="https://www.gravatar.com/avatar/f6d0a62624d1d82d90ea3232e3663561?d=mp&amp;s=200"
-              alt="Sangege">
-          </div>
-          <p>
-            sangege
-          </p>
-        </div>
-      </a>
-      <a target="_blank" href="https://elvismao.com/">
-        <div class="friend-card">
-          <div class="friend-avatar">
-            <img loading="lazy" src="https://www.gravatar.com/avatar/2c2e9a275f6129bc5f1f2742316fac94?d=mp&amp;s=200"
-              alt="毛哥EM">
-          </div>
-          <p>
-            毛哥EM
-          </p>
-        </div>
-      </a>
-      <a target="_blank" href="https://monkey-cat.com/">
-        <div class="friend-card">
-          <div class="friend-avatar">
-            <img loading="lazy"
-              src="https://www.gravatar.com/avatar/7499a6d667d7ed635282ab4a195727033532b0eb62fe26776d187d3662e69015?d=mp&amp;s=200"
-              alt="猴貓">
-          </div>
-          <p>
-            猴貓
-          </p>
-        </div>
-      </a>
-      <a target="_blank" href="https://xn--hoq.tw/">
-        <div class="friend-card">
-          <div class="friend-avatar">
-            <img loading="lazy" src="https://www.gravatar.com/avatar/4705a54a507ff27d4d1c65e2f99ae0a7?d=mp&amp;s=200"
-              alt="Cheerawab">
-          </div>
-          <p>
-            Cheerawab
-          </p>
-        </div>
-      </a>
-      <a target="_blank" href="https://tofu1201.tw">
-        <div class="friend-card">
-          <div class="friend-avatar">
-            <img loading="lazy" src="https://www.gravatar.com/avatar/a5feea217bd9642a8e45bab03d11ecd7?d=mp&amp;s=200"
-              alt="Tofu">
-          </div>
-          <p>
-            Tofu
-          </p>
-        </div>
-      </a>
-      <a target="_blank" href="https://jiaoyue.gay/">
-        <div class="friend-card">
-          <div class="friend-avatar">
-            <img loading="lazy" src="https://www.gravatar.com/avatar/7a755c16d6fbdaeabc32ef0e6d96447c?d=mp&amp;s=200"
-              alt="Jiaoyue">
-          </div>
-          <p>
-            Jiaoyue
-          </p>
-        </div>
-      </a>
-      <a target="_blank" href="https://yuan-tw.net/">
-        <div class="friend-card">
-          <div class="friend-avatar">
-            <img loading="lazy" src="https://www.gravatar.com/avatar/725330f134732796feb51fc589a0f456?d=mp&amp;s=200"
-              alt="Yuan">
-          </div>
-          <p>
-            Yuan
-          </p>
-        </div>
-      </a>
-      <a target="_blank" href="https://pan93.com">
-        <div class="friend-card">
-          <div class="friend-avatar">
-            <img loading="lazy" src="https://pan93.com/avatar.avif" alt="pan93412">
-          </div>
-          <p>
-            pan93412
-          </p>
-        </div>
-      </a>
-      <a target="_blank" href="https://github.com/long-tai-0925/NEW-ME/pulls">
-        <div class="friend-card">
-          <div class="friend-avatar">
-            <h1 loading="lazy">
-              +
-            </h1>
-          </div>
-          <p>
-            缺你一個
-          </p>
-        </div>
-      </a>
+<section id="friend">
+  <h2>大電神們</h2>
+  <div class="friends" id="friends-container">
     </div>
-  </section>
+</section>
 <!--
   <section id="Tool">
     <h2>工具運用</h2>
@@ -426,6 +302,70 @@ document.addEventListener('DOMContentLoaded', () => {
       container.innerHTML = '<p>資料載入中或暫時無法取得...</p>';
     });
 });
+
+document.addEventListener('DOMContentLoaded', () => {
+  // 渲染 經驗與活動
+  renderData('experiences.json', 'experience-container', item => `
+    <a target="_blank" href="${item.link}">
+      <div class="card">
+        <br/>
+        <img loading="lazy" src="${item.img}" alt="${item.alt}" height="60px">
+        <p style="font-size: 20px;">
+          ${item.title}<br/>
+          ${item.subtitle ? item.subtitle + '<br/>' : ''}
+          ${item.role}
+        </p>
+      </div>
+    </a>
+  `);
+
+  // 渲染 大電神們
+  renderData('friends.json', 'friends-container', friend => `
+    <a target="_blank" href="${friend.link}">
+      <div class="friend-card">
+        <div class="friend-avatar">
+          <img loading="lazy" src="${friend.avatar}" alt="${friend.name}">
+        </div>
+        <p>${friend.name}</p>
+      </div>
+    </a>
+  `, `
+    <a target="_blank" href="https://github.com/long-tai-0925/NEW-ME/pulls">
+      <div class="friend-card">
+        <div class="friend-avatar">
+          <h1>+</h1>
+        </div>
+        <p>缺你一個</p>
+      </div>
+    </a>
+  `);
+});
+
+/**
+ * 通用的資料渲染函式
+ * @param {string} url JSON 路徑
+ * @param {string} containerId 容器 ID
+ * @param {function} template 回傳 HTML 字串的函式
+ * @param {string} suffixHtml (可選) 附加在結尾的固定 HTML (例如：缺你一個)
+ */
+function renderData(url, containerId, template, suffixHtml = '') {
+  const container = document.getElementById(containerId);
+  if (!container) return;
+
+  fetch(url)
+    .then(response => {
+      if (!response.ok) throw new Error(`找不到檔案: ${url}`);
+      return response.json();
+    })
+    .then(data => {
+      const htmlContent = data.map(item => template(item)).join('');
+      container.innerHTML = htmlContent + suffixHtml;
+    })
+    .catch(error => {
+      console.error(`載入 ${url} 失敗:`, error);
+      container.innerHTML = '<p>資料讀取失敗，請確認檔案路徑或格式。</p>';
+    });
+}
 </script>
 </body>
 </html>
