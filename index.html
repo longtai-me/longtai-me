@@ -306,7 +306,6 @@
         </div>
       </a>
     </div>
-    </div>
   </section>
 <!--
   <section id="Tool">
@@ -399,33 +398,34 @@
   </footer>
 
 <script>
+document.addEventListener('DOMContentLoaded', () => {
   const container = document.getElementById('experience-container');
 
-fetch('experiences.json')
-  .then(response => {
-    if (!response.ok) throw new Error('無法讀取 JSON 資料');
-    return response.json();
-  })
-  .then(data => {
-    // 遍歷 JSON 陣列，產生 HTML 字串
-    const htmlContent = data.map(item => `
-      <a target="_blank" href="${item.link}">
-        <div class="card">
-          <br/>
-          <img loading="lazy" src="${item.img}" alt="${item.alt}" height="60px">
-          <p style="font-size: 20px;">
-            ${item.title}<br/>
-            ${item.subtitle}<br/>
-            ${item.role}
-          </p>
-        </div>
-      </a>
-    `).join(''); // 將陣列合併為單一字串
-
-    // 渲染到網頁上
-    container.innerHTML = htmlContent;
-  })
-  .catch(error => console.error('錯誤:', error));
+  fetch('experiences.json')
+    .then(response => {
+      if (!response.ok) throw new Error('無法讀取 JSON 資料');
+      return response.json();
+    })
+    .then(data => {
+      container.innerHTML = data.map(item => `
+        <a target="_blank" href="${item.link || '#'}">
+          <div class="card">
+            <br/>
+            <img loading="lazy" src="${item.img}" alt="${item.alt}" height="60px">
+            <p style="font-size: 20px;">
+              ${item.title}<br/>
+              ${item.subtitle ? item.subtitle + '<br/>' : ''}
+              ${item.role}
+            </p>
+          </div>
+        </a>
+      `).join('');
+    })
+    .catch(error => {
+      console.error('載入經驗資料失敗:', error);
+      container.innerHTML = '<p>資料載入中或暫時無法取得...</p>';
+    });
+});
 </script>
 </body>
 </html>
