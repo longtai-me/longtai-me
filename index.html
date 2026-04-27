@@ -180,82 +180,39 @@
 
 <script>
 document.addEventListener('DOMContentLoaded', () => {
-  // 1. 經驗與活動
-  renderData('public/json/experiences.json', 'experience-container', item => `
-    <a target="_blank" href="${item.link || '#'}">
-      <div class="card">
-        <br/>
-        <img loading="lazy" src="${item.img}" alt="${item.alt}" height="60px">
-        <p style="font-size: 20px;">
-          ${item.title}<br/>
-          ${item.subtitle ? item.subtitle + '<br/>' : ''}
-          ${item.role}
-        </p>
-      </div>
-    </a>
-  `);
+  const configs = [
+    {
+      url: 'public/json/experiences.json',
+      id: 'experience-container',
+      tpl: i => `<a target="_blank" href="${i.link || '#'}"><div class="card"><br/><img loading="lazy" src="${i.img}" alt="${i.alt}" height="60px"><p style="font-size:20px;">${i.title}<br/>${i.subtitle ? i.subtitle + '<br/>' : ''}${i.role}</p></div></a>`
+    },
+    {
+      url: 'public/json/friends.json',
+      id: 'friends-container',
+      tpl: f => `<a target="_blank" href="${f.link}"><div class="friend-card"><div class="friend-avatar"><img loading="lazy" src="${f.avatar}" alt="${f.name}"></div><p>${f.name}</p></div></a>`,
+      suffix: `<a target="_blank" href="https://github.com/long-tai-0925/NEW-ME/pulls"><div class="friend-card"><div class="friend-avatar"><h1>+</h1></div><p>缺你一個</p></div></a>`
+    },
+    {
+      url: 'public/json/support.json',
+      id: 'support-container',
+      tpl: s => `<div class="card"><br/><img loading="lazy" src="${s.img}" alt="${s.alt}" height="60px"><p style="font-size:20px;">${s.title}<br/>${s.subtitle ? s.subtitle + '<br/>' : ''}${s.desc}</p></div>`
+    },
+    {
+      url: 'public/json/ads.json',
+      id: 'ads-container',
+      tpl: a => `<div class="card"><img loading="lazy" src="${a.img}" alt="${a.alt}" height="60px"><h3 style="font-size:30px;">${a.title}</h3><p style="font-size:20px;">${a.desc}</p></div>`
+    }
+  ];
 
-  // 2. 大電神們 (附帶「缺你一個」)
-  renderData('public/json/friends.json', 'friends-container', friend => `
-    <a target="_blank" href="${friend.link}">
-      <div class="friend-card">
-        <div class="friend-avatar">
-          <img loading="lazy" src="${friend.avatar}" alt="${friend.name}">
-        </div>
-        <p>${friend.name}</p>
-      </div>
-    </a>
-  `, `
-    <a target="_blank" href="https://github.com/long-tai-0925/NEW-ME/pulls">
-      <div class="friend-card">
-        <div class="friend-avatar"><h1>+</h1></div>
-        <p>缺你一個</p>
-      </div>
-    </a>
-  `);
-
-  // 3. 愛與支援
-  renderData('public/json/support.json', 'support-container', item => `
-    <div class="card">
-      <br/>
-      <img loading="lazy" src="${item.img}" alt="${item.alt}" height="60px">
-      <p style="font-size: 20px;">
-        ${item.title}<br/>
-        ${item.subtitle ? item.subtitle + '<br/>' : ''}
-        ${item.desc}
-      </p>
-    </div>
-  `);
-
-  // 4. 免費推廣
-  renderData('public/json/ads.json', 'ads-container', ad => `
-    <div class="card">
-      <img loading="lazy" src="${ad.img}" alt="${ad.alt}" height="60px">
-      <h3 style="font-size: 30px;">${ad.title}</h3>
-      <p style="font-size: 20px;">${ad.desc}</p>
-    </div>
-  `);
+  configs.forEach(conf => {
+    const el = document.getElementById(conf.id);
+    if (!el) return;
+    fetch(conf.url)
+      .then(res => res.json())
+      .then(data => el.innerHTML = data.map(conf.tpl).join('') + (conf.suffix || ''))
+      .catch(err => console.error(`Error loading ${conf.url}:`, err));
+  });
 });
-
-// 通用的渲染函式
-function renderData(url, containerId, template, suffixHtml = '') {
-  const container = document.getElementById(containerId);
-  if (!container) return;
-
-  fetch(url)
-    .then(response => {
-      if (!response.ok) throw new Error(`找不到檔案: ${url}`);
-      return response.json();
-    })
-    .then(data => {
-      const htmlContent = data.map(item => template(item)).join('');
-      container.innerHTML = htmlContent + suffixHtml;
-    })
-    .catch(error => {
-      console.error(`載入 ${url} 失敗:`, error);
-      container.innerHTML = '<p>資料載入中或暫時無法取得...</p>';
-    });
-}
 </script>
 </body>
 </html>
