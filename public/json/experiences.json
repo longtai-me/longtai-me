@@ -66,15 +66,15 @@
     "img": "public/images/events/111 全國中等學校運動會.jpeg",
     "alt": "2022 全國中等學校運動會",
     "title": "2022 全國中等學校運動會",
-    "subtitle": "國男組 - 登山車越野賽決賽"
-    "role": ""
+    "subtitle": "登山車越野賽決賽",
+    "role": "國男組"
   },
   {
     "link": "",
     "img": "",
     "alt": "111 花蓮縣國中技藝競賽",
     "title": "111 花蓮縣國中技藝競賽",
-    "subtitle": "商業管理職群"
+    "subtitle": "商業管理職群",
     "role": "佳作"
     
   },
