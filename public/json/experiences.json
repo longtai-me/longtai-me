@@ -3,7 +3,7 @@
     "link": "",
     "img": "public/images/events/Zepro.jpg",
     "alt": "Zepro",
-    "title": "Zepro Run Taichung",
+    "title": "Zepro Run",
     "subtitle": "Taichung",
     "years": "2026",
     "role": "21K 跑者"
@@ -22,7 +22,7 @@
     "img": "public/images/events/SITCON_2026.svg",
     "alt": "SITCON",
     "title": "SITCON",
-    "subtitle": "2026",
+    "subtitle": "",
     "years": "2026",
     "role": "邀請票會眾"
   },
@@ -67,7 +67,7 @@
     "img": "public/images/events/2023 稻鎮好柚獲路跑.jpg",
     "alt": "2023 稻鎮好柚獲路跑",
     "title": "稻鎮好柚獲路跑",
-    "subtitle": "玉里鎮",
+    "subtitle": "玉溪場",
     "years": "2023",
     "role": "(不確定)K - 跑者"
   },
