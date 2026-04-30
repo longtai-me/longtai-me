@@ -1,53 +1,49 @@
+import { experienceConfig } from 'experience.js';
+import { friendsConfig } from 'friends.js';
+import { supportConfig } from 'support.js';
+import { adsConfig } from 'ads.js';
+import { initTyping, initScrollReveal, initHeaderScroll } from 'ui.js';
+import { applySpecialStyles } from 'special.js';
 
-const text = "Longtai"
-const target = document.querySelector(".typing");
+document.addEventListener('DOMContentLoaded', () => {
+  // 1. 初始化 UI 效果
+  initTyping("Longtai", 180);
+  initScrollReveal();
+  initHeaderScroll();
 
-let i = 0;
+  // 2. 處理資料渲染
+  const configs = [experienceConfig, friendsConfig, supportConfig, adsConfig];
+  
+  // 建立一個 Promise 陣列來追蹤所有資料是否載入完成
+  const fetchPromises = configs.map(conf => {
+    const el = document.getElementById(conf.id);
+    if (!el) return Promise.resolve();
 
-function type() {
-  if (i < text.length) {
-    target.textContent += text.charAt(i);
-    i++;
-    setTimeout(type, 180);
-  }
-}
-type();
-
-const reveals = document.querySelectorAll('.card, .friend-card, .social-icon');
-
-const observer = new IntersectionObserver(entries => {
-  entries.forEach(entry => {
-    if (entry.isIntersecting) {
-      entry.target.classList.add('active');
-    }
+    return fetch(conf.url)
+      .then(res => res.json())
+      .then(data => {
+        el.innerHTML = data.map(conf.tpl).join('') + (conf.suffix || '');
+      })
+      .catch(err => {
+        console.error(`載入 ${conf.url} 失敗:`, err);
+        el.innerHTML = `<p style="color:var(--muted); text-align:center;">暫時無法載入</p>`;
+      });
   });
-}, { threshold: 0.1 });
 
-reveals.forEach(el => {
-  el.classList.add('reveal');
-  observer.observe(el);
+  // 3. 當所有內容載入後，執行特定樣式檢查與動畫重新掃描
+  Promise.all(fetchPromises).then(() => {
+    applySpecialStyles(); // 處理鑽石託管樣式
+    initScrollReveal();   // 針對動態生成的卡片再次執行監聽
+  });
 });
 
-
-const header = document.querySelector("header");
-
-window.addEventListener("scroll", () => {
-  if (window.scrollY > 50) {
-    header.style.padding = "10px 0";
-  } else {
-    header.style.padding = "0";
-  }
-});
-
-window.addEventListener('load', function() {
-  setTimeout(function() {
-    var _0x1a2b = document.querySelectorAll('.card');
-    for (var i = 0; i < _0x1a2b.length; i++) {
-      var _txt = _0x1a2b[i].innerText.replace(/\s+/g, '');
-      if (_txt === '\u947D\u77F3\u8A17\u7BA1\u947D\u77F3\u8A17\u7BA1\u63D0\u4F9B\u53F0\u7063\u5C08\u696DMinecraft\u4F3A\u670D\u5668\u8A17\u7BA1\u3001MC\u8A17\u7BA1\u8207Discord\u6A5F\u5668\u4EBA\u8A17\u7BA1\u670D\u52D9\u3002\u6211\u5011\u81F4\u529B\u65BC\u63D0\u4F9B\u9AD8\u6548\u80FD\u3001\u4F4E\u5EF6\u9072\u7684\u8A17\u7BA1\u4F3A\u670D\u5668\u9AD4\u9A57\uFF0C\u4E26\u5177\u5099\u5F37\u5927\u7684DDoS\u9632\u8B77\u3002') {
-        _0x1a2b[i].setAttribute('style', decodeURIComponent('%62%61%63%6b%67%72%6f%75%6e%64%3a%20%6c%69%6e%65%61%72%2d%67%72%61%64%69%65%6e%74%28%72%67%62%61%28%30%2c%30%2c%30%2c%30%2e%37%35%29%2c%20%72%67%62%61%28%30%2c%30%2c%30%2c%30%2e%37%35%29%29%2c%20%75%72%6c%28%27%70%75%62%6c%69%63%2f%69%6d%61%67%65%73%2f%77%75%7a%61%75%6e%2f%31%36%2d%39%2e%70%6e%67%27%29%20%6e%6f%2d%72%65%70%65%61%74%20%63%65%6e%74%65%72%20%63%65%6e%74%65%72%20%2f%20%63%6f%76%65%72%3b%20%74%65%78%74%2d%73%68%61%64%6f%77%3a%20%30%20%32%70%78%20%36%70%78%20%72%67%62%61%28%30%2c%30%2c%30%2c%30%2e%39%29%3b'));
-      }
-    }
-  }, 100);
-});
-
+// 全域圖片錯誤處理
+window.addEventListener('error', (e) => {
+  if (e.target.tagName.toLowerCase() !== 'img') return;
+  const img = e.target;
+  if (img.dataset.errorAttempted) return;
+  img.dataset.errorAttempted = "true";
+  img.src = img.closest('.friend-avatar') 
+    ? 'https://www.gravatar.com/avatar/00000000?d=mp&s=200' 
+    : 'public/images/events/nopng.png';
+}, true);

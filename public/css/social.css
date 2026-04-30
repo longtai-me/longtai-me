@@ -1,0 +1,23 @@
+/* Socials */
+.socials {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.social-icon {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.3s;
+  will-change: transform;
+}
+
+.social-icon:hover {
+  background: var(--card-2);
+  transform: translateY(-5px);
+  box-shadow: 0 0 10px rgba(0,168,240,0.3);
+}
