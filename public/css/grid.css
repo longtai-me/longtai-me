@@ -1,0 +1,13 @@
+/* --- 卡片等高關鍵設定 --- */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  align-items: stretch; /* 讓同一列的項目等高 */
+}
+
+/* 讓 a 標籤也撐開，否則裡面的 card 無法繼承高度 */
+.grid > a {
+  display: flex;
+  flex-direction: column;
+}
