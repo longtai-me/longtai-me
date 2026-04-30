@@ -1,4 +1,4 @@
-import { experienceConfig } from './experience.js';
+import { experienceConfig } from './experiences.js';
 import { friendsConfig } from './friends.js';
 import { supportConfig } from './support.js';
 import { adsConfig } from './ads.js';
