@@ -6,7 +6,7 @@ export const experienceConfig = {
       <div class="card">
         <img loading="lazy" src="${i.img}" alt="${i.alt}">
         <p>
-          ${i.years ? `<span class="tag">${i.years}</span><br/>` : ''}
+          ${i.years ? `<span class="ex-tag">${i.years}</span><br/>` : ''}
           ${i.title}<br/>
           ${i.subtitle ? i.subtitle + '<br/>' : ''}
           ${i.role}
