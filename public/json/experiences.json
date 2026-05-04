@@ -36,6 +36,15 @@
     "role": "會眾"
   },
   {
+    "link": "https://coscup.org/2025/",
+    "img": "public/images/Experience/copscup.svg",
+    "alt": "COSCUP",
+    "title": "COSCUP",
+    "subtitle": "RubyConf Taiwan",
+    "years": "2025",
+    "role": "會眾"
+  },
+  {
     "link": "https://scaict.org/",
     "img": "public/images/Experience/SCAICT.png",
     "alt": "SCAICT",
