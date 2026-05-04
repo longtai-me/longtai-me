@@ -47,3 +47,8 @@ window.addEventListener('error', (e) => {
     ? 'https://www.gravatar.com/avatar/00000000?d=mp&s=200' 
     : '/public/images/nopng.png';
 }, true);
+
+// 根據日期動態更換圖示
+const today = new Date().getDate();
+const iconImage = document.getElementById('calendar-icon');
+iconImage.src = `https://ssl.gstatic.com/calendar/images/dynamiclogo_2020q4/calendar_${today}_2x.png`;
