@@ -1,12 +1,12 @@
 [
   {
-    "img": "public/images/wuzaun/diamondhost.png",
+    "img": "public/images/ads/diamondhost.png",
     "alt": "DiamondHost",
     "title": "鑽石託管",
     "desc": "鑽石託管提供台灣專業 Minecraft 伺服器託管、MC託管與 Discord 機器人託管服務。我們致力於提供高效能、低延遲的託管伺服器體驗，並具備強大的 DDoS 防護。"
   },
   {
-    "img": "public/images/wuzaun/TofuDigailStudio.svg",
+    "img": "public/images/ads/TofuDigailStudio.svg",
     "alt": "TofuDigitalStudio",
     "title": "好吃豆腐數位工作室",
     "desc": "結合工程品質與商業思維，為您打造可擴展的 Discord Bot 與企業級網站解決方案。"
