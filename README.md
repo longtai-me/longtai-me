@@ -19,8 +19,9 @@
 
 <!-- END_SECTION:experiences -->
 
-## support
+## 愛與支援
 <!-- START_SECTION:support -->
 <!-- END_SECTION:support -->
+
 ## GitHub 資訊
 ![GitHub Stats Card](https://ghstats.dev/api/card?username=long-tai-0925&theme=gruvbox)
