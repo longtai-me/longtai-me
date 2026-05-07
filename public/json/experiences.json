@@ -1,13 +1,4 @@
 [
-    {
-    "link": "",
-    "img": "public/images/Experience/Zepro.jpg",
-    "alt": "Zepro",
-    "title": "Zepro Run",
-    "subtitle": "Taichung",
-    "years": "2026",
-    "role": "21K 跑者"
-  },
   {
     "link": "https://scaict.org/",
     "img": "public/images/Experience/SCAICT.png",
@@ -16,6 +7,15 @@
     "subtitle": "資暑與你",
     "years": "2026",
     "role": "隊輔組組員"
+  },
+  {
+    "link": "https://www.ctrun.com.tw/Activity?EventMain_ID=282",
+    "img": "public/images/Experience/Zepro.jpg",
+    "alt": "Zepro",
+    "title": "Zepro Run",
+    "subtitle": "Taichung",
+    "years": "2026",
+    "role": "21K 跑者"
   },
   {
     "link": "https://sitcon.org/2026/",
