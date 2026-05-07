@@ -24,9 +24,9 @@
 
 | 項目 | 描述 | 角色 |
 | :--- | :--- | :--- |
-| SITCON 2026 |  |  |
-| SCAICT | SITCON 2026 |  |
-| SITCON 2026 |  |  |
+| SITCON 2026 |  | 個人贊助 |
+| SCAICT | SITCON 2026 | 社群攤位設備支援 |
+| SITCON 2026 |  | 個人贊助 |
 
 <!-- END_SECTION:support -->
 
