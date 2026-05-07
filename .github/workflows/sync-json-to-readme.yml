@@ -1,0 +1,37 @@
+name: Sync JSON to README
+
+on:
+  push:
+    paths:
+      - 'public/json/experiences.json' # 指向你專案內部的檔案路徑
+  workflow_dispatch: # 保留這個，這樣你也可以在 GitHub 介面上手動點擊執行
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    # 加入權限設定，確保 Action 有權利寫入 (Push) 你的 Repository
+    permissions:
+      contents: write
+      
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Run update script
+        run: python .github/scripts/update_readme.py
+
+      - name: Commit and Push
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git commit -m "docs: auto-update experiences from JSON" || exit 0
+          git push
