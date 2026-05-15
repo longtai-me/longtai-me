@@ -28,7 +28,7 @@
 | 2023 | [稻鎮好柚獲路跑](https://www.youtube.com/watch?v=HX-AvFdigPo) | 玉溪場 | 11 K 跑者 |
 | 2022 | [北濱萬金石](https://taiwanbike.org/index.php/558) | 自行車嘉年華挑戰 | 75 K 騎手 |
 | 2022 | [全國中等學校運動會](https://111sport.hlc.edu.tw/) | 登山車越野賽決賽 | 國男組 |
-| 2022 | [花蓮縣國中技藝競賽](https://www.facebook.com/hlbhtw/posts/花蓮縣111學年度商管群國中技藝競賽於本校舉行且圓滿完成職業試探及技藝教育-幫孩子找對未來的方向%EF%B8%8F%EF%B8%8F歡迎各校參賽選手共8校合計24位選手國風國中鳳林國中-光復國/703272488257034) | 商業管理職群 | 佳作 |
+| 2022 | [花蓮縣國中技藝競賽](https://www.facebook.com/hlbhtw/posts/花蓮縣111學年度商管群國中技藝競賽於本校舉行且圓滿完成職業試探及技藝教育-幫孩子找對未來的方向歡迎各校參賽選手共8校合計24位選手國風國中鳳林國中-光復國/703272488257034) | 商業管理職群 | 佳作 |
 | 2021 | [PTWA全國自走車大賽](https://sites.google.com/programtheworld.tw/2021/) | 相撲賽 | 佳作 |
 
 <!-- END_SECTION:experiences -->
@@ -43,3 +43,7 @@
 | SITCON | Jam the Chaos | 個人贊助 |
 
 <!-- END_SECTION:support -->
+
+# Pull-Requests
+## Friends
+[Friends](https://github.com/long-tai-0925/long-tai-0925/blob/main/public/json/friends.json )
