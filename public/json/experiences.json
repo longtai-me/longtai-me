@@ -1,7 +1,7 @@
 [
   {
     "link": "https://scaict.org/",
-    "img": "public/images/Experience/SCAICT.png",
+    "img": " /public/images/Experience/SCAICT.png",
     "alt": "SCAICT",
     "title": "SCAICT",
     "subtitle": "資暑與你",
@@ -10,7 +10,7 @@
   },
   {
     "link": "https://www.ctrun.com.tw/Activity?EventMain_ID=282",
-    "img": "public/images/Experience/Zepro.jpg",
+    "img": "/public/images/Experience/Zepro.jpg",
     "alt": "Zepro",
     "title": "Zepro Run",
     "subtitle": "Taichung",
@@ -19,7 +19,7 @@
   },
   {
     "link": "https://sitcon.org/2026/",
-    "img": "public/images/Experience/SITCON_2026.svg",
+    "img": "/public/images/Experience/SITCON_2026.svg",
     "alt": "SITCON",
     "title": "SITCON",
     "subtitle": "Jam the Chaos",
@@ -28,7 +28,7 @@
   },
   {
     "link": "https://devfest-taipei.gdg.tw/2025/",
-    "img": "public/images/Experience/GDG.svg",
+    "img": "/public/images/Experience/GDG.svg",
     "alt": "GDG",
     "title": "DevFest",
     "subtitle": "Taipei",
@@ -37,7 +37,7 @@
   },
   {
     "link": "https://coscup.org/2025/",
-    "img": "public/images/Experience/COSCUP.svg",
+    "img": "/public/images/Experience/COSCUP.svg",
     "alt": "COSCUP",
     "title": "COSCUP",
     "subtitle": "RubyConf Taiwan",
@@ -46,7 +46,7 @@
   },
   {
     "link": "https://scaict.org/",
-    "img": "public/images/Experience/SCAICT.png",
+    "img": "/public/images/Experience/SCAICT.png",
     "alt": "SCAICT",
     "title": "SCAICT",
     "subtitle": "第五屆",
@@ -55,7 +55,7 @@
   },
   {
     "link": "https://linktr.ee/nutccsie",
-    "img": "public/images/Experience/NUTC_CSIE.jpeg",
+    "img": "/public/images/Experience/NUTC_CSIE.jpeg",
     "alt": "NTCUST CSIE",
     "title": "國立台中科技大學",
     "subtitle": "資訊工程科科學會",
@@ -64,7 +64,7 @@
   },
   {
     "link": "https://taiwanbike.org/index.php/558",
-    "img": "public/images/Experience/2022北濱萬金石自行車嘉年華挑戰.jpg",
+    "img": "/public/images/Experience/2022北濱萬金石自行車嘉年華挑戰.jpg",
     "alt": "北濱萬金石馬拉松",
     "title": "北濱萬金石",
     "subtitle": "自行車嘉年華挑戰",
@@ -73,7 +73,7 @@
   },
   {
     "link": "https://www.youtube.com/watch?v=HX-AvFdigPo",
-    "img": "public/images/Experience/2023 稻鎮好柚獲路跑.jpg",
+    "img": "/public/images/Experience/2023 稻鎮好柚獲路跑.jpg",
     "alt": "2023 稻鎮好柚獲路跑",
     "title": "稻鎮好柚獲路跑",
     "subtitle": "玉溪場",
@@ -82,7 +82,7 @@
   },
   {
     "link": "https://111sport.hlc.edu.tw/",
-    "img": "public/images/Experience/111 全國中等學校運動會.jpeg",
+    "img": "/public/images/Experience/111 全國中等學校運動會.jpeg",
     "alt": "2022 全國中等學校運動會",
     "title": "全國中等學校運動會",
     "subtitle": "登山車越野賽決賽",
@@ -101,7 +101,7 @@
   },
   {
     "link": "https://sites.google.com/programtheworld.tw/2021/",
-    "img": "public/images/Experience/2021PTWA.jpg",
+    "img": "/public/images/Experience/2021PTWA.jpg",
     "alt": "PTWA",
     "title": "PTWA全國自走車大賽",
     "subtitle": "相撲賽",
