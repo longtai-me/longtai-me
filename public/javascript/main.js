@@ -45,7 +45,7 @@ window.addEventListener('error', (e) => {
   img.dataset.errorAttempted = "true";
   img.src = img.closest('.friend-avatar') 
     ? 'https://www.gravatar.com/avatar/00000000?d=mp&s=200' 
-    : '/public/images/nopng.png';
+    : 'public/images/nopng.png';
 }, true);
 
 // 根據日期動態更換圖示
