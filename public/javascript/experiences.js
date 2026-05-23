@@ -1,5 +1,5 @@
 export const experienceConfig = {
-  url: '/public/json/experiences.json',
+  url: 'public/json/experiences.json',
   id: 'experience-container',
   tpl: i => `
     <a target="_blank" href="${i.link || '#'}">

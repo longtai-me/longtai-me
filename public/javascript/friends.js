@@ -1,5 +1,5 @@
 export const friendsConfig = {
-  url: '/public/json/friends.json',
+  url: 'public/json/friends.json',
   id: 'friends-container',
   tpl: f => `
     <a target="_blank" href="${f.link}">
