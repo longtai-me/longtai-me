@@ -80,7 +80,7 @@
         const path = decodeURIComponent(rawPath).toLowerCase();
 
         try {
-          const response = await fetch("/links.json", { cache: "no-store" });
+          const response = await fetch("public/json/links.json", { cache: "no-store" });
 
           if (!response.ok) {
             throw new Error(`links.json responded with ${response.status}`);
