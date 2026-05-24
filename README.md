@@ -1,5 +1,20 @@
 # Jiang
 
+## 開發
+
+這個網站使用 [Astro](https://astro.build/) 建置，內容資料放在 `public/json`，樣式仍維持在 `public/css`。
+
+```bash
+npm install
+npm run dev
+```
+
+正式輸出：
+
+```bash
+npm run build
+npm run preview
+```
 
 ## 相關資訊
 | [個人網頁](https://longtai.org/) |

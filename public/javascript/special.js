@@ -5,7 +5,7 @@ export function applySpecialStyles() {
   cards.forEach(card => {
     const cleanText = card.innerText.replace(/\s+/g, '');
     if (cleanText === targetText) {
-      card.style.background = "linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)), url('public/images/wuzaun/16-9.png') no-repeat center center / cover";
+      card.style.background = "linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)), url('/images/ads/16-9.png') no-repeat center center / cover";
       card.style.textShadow = "0 2px 6px rgba(0,0,0,0.9)";
     }
   });

@@ -1,5 +1,5 @@
 export const adsConfig = {
-  url: 'public/json/ads.json',
+  url: '/json/ads.json',
   id: 'ads-container',
   
   // 每一筆廣告資料的 HTML 模板

@@ -1,5 +1,5 @@
 export const supportConfig = {
-  url: 'public/json/support.json',
+  url: '/json/support.json',
   id: 'support-container',
   
   // 每一筆贊助/支持項目的 HTML 模板
