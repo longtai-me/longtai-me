@@ -3,7 +3,7 @@
 
 ## 相關資訊
 | [個人網頁](https://longtai.org/) |
-| [GitHub](https://github.com/long-tai-0925) |
+| [GitHub](https://github.com/longtai-me) |
 | [Telegram](https://t.me/lcngtai) |
 | [Instagram](https://instagram.com/jiang.0925) |
 | [Notion 筆記](https://broad-cotija-e7e.notion.site/114-310f7134db158042a236d68bcfbd571b?pvs=74) |
