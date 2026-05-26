@@ -11,9 +11,9 @@
 | [Gravatar](https://gravatar.com/brisklybreade80de904f9) |
 
 ## GitHub 資訊
-![GitHub Stats](https://github-readme-stats-fast.vercel.app/api?username=long-tai-0925&show_icons=true&theme=radical)
-![GitHub Stats](https://github-readme-stats-fast.vercel.app/api/streak?username=long-tai-0925&theme=radical)
-![GitHub Stats](https://github-readme-stats-fast.vercel.app/api/top-langs/?username=long-tai-0925&layout=compact&theme=radical)
+![GitHub Stats](https://github-readme-stats-fast.vercel.app/api?username=longtai-me&show_icons=true&theme=radical)
+![GitHub Stats](https://github-readme-stats-fast.vercel.app/api/streak?username=longtai-me&theme=radical)
+![GitHub Stats](https://github-readme-stats-fast.vercel.app/api/top-langs/?username=longtai-me&layout=compact&theme=radical)
 
 ## 經驗與活動
 <!-- START_SECTION:experiences -->

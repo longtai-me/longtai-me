@@ -12,7 +12,7 @@ const personSchema = {
         "name": "國立台中科技大學"
       },
       "sameAs": [
-        "https://github.com/long-tai-0925",
+        "https://github.com/longtai-me",
         "https://instagram.com/jiang.0925",
         "https://t.me/lcngtai"
       ]
