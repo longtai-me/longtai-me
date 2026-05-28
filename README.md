@@ -51,25 +51,24 @@
 
 | 證書 | 發證單位 | 日期 | 驗證 |
 | :--- | :--- | :--- | :--- |
-| [Google Data Analytics Professional Certificate](https://coursera.org/verify/professional-cert/JPLN96VH63BI) | Google (via Coursera) | 2026-05-28 | [Verify](https://coursera.org/verify/professional-cert/JPLN96VH63BI) |
-| [Google Data Analytics Capstone: Complete a Case Study](https://coursera.org/verify/M3ZX7NDWT4LQ) | Google (via Coursera) | 2026-05-28 | [Verify](https://coursera.org/verify/M3ZX7NDWT4LQ) |
-| [Introduction to Data Analysis Using Python](https://coursera.org/verify/T468GHXED05D) | Google (via Coursera) | 2026-05-28 | [Verify](https://coursera.org/verify/T468GHXED05D) |
-| [Analyze Data to Answer Questions](https://coursera.org/verify/GZXEJ83E53YY) | Google (via Coursera) | 2026-05-28 | [Verify](https://coursera.org/verify/GZXEJ83E53YY) |
-| [Share Data Through the Art of Visualization](https://coursera.org/verify/HSWGFN2P7176) | Google (via Coursera) | 2026-05-28 | [Verify](https://coursera.org/verify/HSWGFN2P7176) |
-| [Process Data from Dirty to Clean](https://coursera.org/verify/FJGL5K42ACFJ) | Google (via Coursera) | 2026-05-28 | [Verify](https://coursera.org/verify/FJGL5K42ACFJ) |
-| [Prepare Data for Exploration](https://coursera.org/verify/8BCH2R5QFUI4) | Google (via Coursera) | 2026-05-28 | [Verify](https://coursera.org/verify/8BCH2R5QFUI4) |
-| [Ask Questions to Make Data-Driven Decisions](https://coursera.org/verify/LJ15DFFOKIZY) | Google (via Coursera) | 2026-05-28 | [Verify](https://coursera.org/verify/LJ15DFFOKIZY) |
-| [Foundations: Data, Data, Everywhere](https://coursera.org/verify/CG75IVEGHTQ3) | Google (via Coursera) | 2026-05-28 | [Verify](https://coursera.org/verify/CG75IVEGHTQ3) |
-| [Google Cybersecurity Professional Certificate](https://coursera.org/verify/professional-cert/GRVODEQ5675T) | Google (via Coursera) | 2026-05-27 | [Verify](https://coursera.org/verify/professional-cert/GRVODEQ5675T) |
-| [Put It to Work: Prepare for Cybersecurity Jobs](https://coursera.org/verify/GYHOEOBYNN8N) | Google (via Coursera) | 2026-05-27 | [Verify](https://coursera.org/verify/GYHOEOBYNN8N) |
-| [Automate Cybersecurity Tasks with Python](https://coursera.org/verify/79BNVW61PNUV) | Google (via Coursera) | 2026-05-27 | [Verify](https://coursera.org/verify/79BNVW61PNUV) |
-| [Sound the Alarm: Detection and Response](https://coursera.org/verify/3LOT2IECK940) | Google (via Coursera) | 2026-05-27 | [Verify](https://coursera.org/verify/3LOT2IECK940) |
-| [Assets, Threats, and Vulnerabilities](https://coursera.org/verify/JFLSH6NNQ353) | Google (via Coursera) | 2026-05-27 | [Verify](https://coursera.org/verify/JFLSH6NNQ353) |
-| [Tools of the Trade: Linux and SQL](https://coursera.org/verify/ZHGWC5SN8HYP) | Google (via Coursera) | 2026-05-27 | [Verify](https://coursera.org/verify/ZHGWC5SN8HYP) |
-| [Connect and Protect: Networks and Network Security](https://coursera.org/verify/51408QARRI6B) | Google (via Coursera) | 2026-05-27 | [Verify](https://coursera.org/verify/51408QARRI6B) |
-| [Play It Safe: Manage Security Risks](https://coursera.org/verify/ILJB3O4ACAGA) | Google (via Coursera) | 2026-05-27 | [Verify](https://coursera.org/verify/ILJB3O4ACAGA) |
-| [Foundations of Cybersecurity](https://coursera.org/verify/HIWTQIXALOMO) | Google (via Coursera) | 2026-05-27 | [Verify](https://coursera.org/verify/HIWTQIXALOMO) |
-| [Accelerate Your Job Search with AI](https://coursera.org/verify/3CNOMZVQOTH5) | Google (via Coursera) | 2026-05-27 | [Verify](https://coursera.org/verify/3CNOMZVQOTH5) |
-| [TEST ](https://longtai.me) | TEST | 2026-05-27 | [Verify](https://longtai.me) |
+| Google Data Analytics Professional Certificate | Google (via Coursera) | 2026-05-28 | [Verify](https://coursera.org/verify/professional-cert/JPLN96VH63BI) |
+| Google Data Analytics Capstone: Complete a Case Study | Google (via Coursera) | 2026-05-28 | [Verify](https://coursera.org/verify/M3ZX7NDWT4LQ) |
+| Introduction to Data Analysis Using Python | Google (via Coursera) | 2026-05-28 | [Verify](https://coursera.org/verify/T468GHXED05D) |
+| Analyze Data to Answer Questions | Google (via Coursera) | 2026-05-28 | [Verify](https://coursera.org/verify/GZXEJ83E53YY) |
+| Share Data Through the Art of Visualization | Google (via Coursera) | 2026-05-28 | [Verify](https://coursera.org/verify/HSWGFN2P7176) |
+| Process Data from Dirty to Clean | Google (via Coursera) | 2026-05-28 | [Verify](https://coursera.org/verify/FJGL5K42ACFJ) |
+| Prepare Data for Exploration | Google (via Coursera) | 2026-05-28 | [Verify](https://coursera.org/verify/8BCH2R5QFUI4) |
+| Ask Questions to Make Data-Driven Decisions | Google (via Coursera) | 2026-05-28 | [Verify](https://coursera.org/verify/LJ15DFFOKIZY) |
+| Foundations: Data, Data, Everywhere | Google (via Coursera) | 2026-05-28 | [Verify](https://coursera.org/verify/CG75IVEGHTQ3) |
+| Google Cybersecurity Professional Certificate | Google (via Coursera) | 2026-05-27 | [Verify](https://coursera.org/verify/professional-cert/GRVODEQ5675T) |
+| Put It to Work: Prepare for Cybersecurity Jobs | Google (via Coursera) | 2026-05-27 | [Verify](https://coursera.org/verify/GYHOEOBYNN8N) |
+| Automate Cybersecurity Tasks with Python | Google (via Coursera) | 2026-05-27 | [Verify](https://coursera.org/verify/79BNVW61PNUV) |
+| Sound the Alarm: Detection and Response | Google (via Coursera) | 2026-05-27 | [Verify](https://coursera.org/verify/3LOT2IECK940) |
+| Assets, Threats, and Vulnerabilities | Google (via Coursera) | 2026-05-27 | [Verify](https://coursera.org/verify/JFLSH6NNQ353) |
+| Tools of the Trade: Linux and SQL | Google (via Coursera) | 2026-05-27 | [Verify](https://coursera.org/verify/ZHGWC5SN8HYP) |
+| Connect and Protect: Networks and Network Security | Google (via Coursera) | 2026-05-27 | [Verify](https://coursera.org/verify/51408QARRI6B) |
+| Play It Safe: Manage Security Risks | Google (via Coursera) | 2026-05-27 | [Verify](https://coursera.org/verify/ILJB3O4ACAGA) |
+| Foundations of Cybersecurity | Google (via Coursera) | 2026-05-27 | [Verify](https://coursera.org/verify/HIWTQIXALOMO) |
+| Accelerate Your Job Search with AI | Google (via Coursera) | 2026-05-27 | [Verify](https://coursera.org/verify/3CNOMZVQOTH5) |
 
 <!--END_SECTION:certificate-->
