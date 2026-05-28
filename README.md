@@ -70,5 +70,6 @@
 | Play It Safe: Manage Security Risks | Google (via Coursera) | 2026-05-27 | [Verify](https://coursera.org/verify/ILJB3O4ACAGA) |
 | Foundations of Cybersecurity | Google (via Coursera) | 2026-05-27 | [Verify](https://coursera.org/verify/HIWTQIXALOMO) |
 | Accelerate Your Job Search with AI | Google (via Coursera) | 2026-05-27 | [Verify](https://coursera.org/verify/3CNOMZVQOTH5) |
+| Tool Maintenance & MRO Chemical Safety | Asia WD-40 Company | 2025-12-30 | [Verify](https://coursera.org/verify/professional-cert/3Z5K7Q9V8K2C) |
 
 <!--END_SECTION:certificate-->
