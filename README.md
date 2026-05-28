@@ -18,21 +18,59 @@
 ## 經驗與活動
 <!--START_SECTION:experiences-->
 
-Loading...
+| 年份 | 項目 | 描述 | 角色 |
+| :--- | :--- | :--- | :--- |
+| 2026 | [SCAICT](https://scaict.org/) | 資暑與你 | 隊輔組組員 |
+| 2026 | [Zepro Run](https://www.ctrun.com.tw/Activity?EventMain_ID=282) | Taichung | 21K 跑者 |
+| 2026 | [SITCON](https://sitcon.org/2026/) | Jam the Chaos | 邀請票會眾 |
+| 2025 | [DevFest](https://devfest-taipei.gdg.tw/2025/) | Taipei | 會眾 |
+| 2025 | [COSCUP](https://coscup.org/2025/) | RubyConf Taiwan | 會眾 |
+| 2025 | [SCAICT](https://scaict.org/) | 第五屆 | 臨時工人 |
+| 2024 | [國立台中科技大學](https://linktr.ee/nutccsie) | 資訊工程科科學會 | 第五屆 行銷組 |
+| 2023 | [稻鎮好柚獲路跑](https://www.youtube.com/watch?v=HX-AvFdigPo) | 玉溪場 | 11 K 跑者 |
+| 2022 | [北濱萬金石](https://taiwanbike.org/index.php/558) | 自行車嘉年華挑戰 | 75 K 騎手 |
+| 2022 | [全國中等學校運動會](https://111sport.hlc.edu.tw/) | 登山車越野賽決賽 | 國男組 |
+| 2022 | [花蓮縣國中技藝競賽](https://www.facebook.com/hlbhtw/posts/花蓮縣111學年度商管群國中技藝競賽於本校舉行且圓滿完成職業試探及技藝教育-幫孩子找對未來的方向歡迎各校參賽選手共8校合計24位選手國風國中鳳林國中-光復國/703272488257034) | 商業管理職群 | 佳作 |
+| 2021 | [PTWA全國自走車大賽](https://sites.google.com/programtheworld.tw/2021/) | 相撲賽 | 佳作 |
 
 <!--END_SECTION:experiences-->
 
 ## 愛與支援
 <!--START_SECTION:support-->
 
-Loading...
+| 項目 | 描述 | 角色 |
+| :--- | :--- | :--- |
+| SITCON | Jam the Chaos | 個人贊助 2 |
+| SCAICT | SITCON 2026 | 社群攤位設備支援 |
+| SITCON | Jam the Chaos | 個人贊助 |
 
 <!--END_SECTION:support-->
 
 ## 證書
 <!--START_SECTION:certificate-->
 
-Loading...
+| 證書 | 發證單位 | 日期 | 驗證 |
+| :--- | :--- | :--- | :--- |
+| [Google Data Analytics Professional Certificate](https://coursera.org/verify/professional-cert/JPLN96VH63BI) | Google (via Coursera) | 2026-05-28 | [Verify](https://coursera.org/verify/professional-cert/JPLN96VH63BI) |
+| [Google Data Analytics Capstone: Complete a Case Study](https://coursera.org/verify/M3ZX7NDWT4LQ) | Google (via Coursera) | 2026-05-28 | [Verify](https://coursera.org/verify/M3ZX7NDWT4LQ) |
+| [Introduction to Data Analysis Using Python](https://coursera.org/verify/T468GHXED05D) | Google (via Coursera) | 2026-05-28 | [Verify](https://coursera.org/verify/T468GHXED05D) |
+| [Analyze Data to Answer Questions](https://coursera.org/verify/GZXEJ83E53YY) | Google (via Coursera) | 2026-05-28 | [Verify](https://coursera.org/verify/GZXEJ83E53YY) |
+| [Share Data Through the Art of Visualization](https://coursera.org/verify/HSWGFN2P7176) | Google (via Coursera) | 2026-05-28 | [Verify](https://coursera.org/verify/HSWGFN2P7176) |
+| [Process Data from Dirty to Clean](https://coursera.org/verify/FJGL5K42ACFJ) | Google (via Coursera) | 2026-05-28 | [Verify](https://coursera.org/verify/FJGL5K42ACFJ) |
+| [Prepare Data for Exploration](https://coursera.org/verify/8BCH2R5QFUI4) | Google (via Coursera) | 2026-05-28 | [Verify](https://coursera.org/verify/8BCH2R5QFUI4) |
+| [Ask Questions to Make Data-Driven Decisions](https://coursera.org/verify/LJ15DFFOKIZY) | Google (via Coursera) | 2026-05-28 | [Verify](https://coursera.org/verify/LJ15DFFOKIZY) |
+| [Foundations: Data, Data, Everywhere](https://coursera.org/verify/CG75IVEGHTQ3) | Google (via Coursera) | 2026-05-28 | [Verify](https://coursera.org/verify/CG75IVEGHTQ3) |
+| [Google Cybersecurity Professional Certificate](https://coursera.org/verify/professional-cert/GRVODEQ5675T) | Google (via Coursera) | 2026-05-27 | [Verify](https://coursera.org/verify/professional-cert/GRVODEQ5675T) |
+| [Put It to Work: Prepare for Cybersecurity Jobs](https://coursera.org/verify/GYHOEOBYNN8N) | Google (via Coursera) | 2026-05-27 | [Verify](https://coursera.org/verify/GYHOEOBYNN8N) |
+| [Automate Cybersecurity Tasks with Python](https://coursera.org/verify/79BNVW61PNUV) | Google (via Coursera) | 2026-05-27 | [Verify](https://coursera.org/verify/79BNVW61PNUV) |
+| [Sound the Alarm: Detection and Response](https://coursera.org/verify/3LOT2IECK940) | Google (via Coursera) | 2026-05-27 | [Verify](https://coursera.org/verify/3LOT2IECK940) |
+| [Assets, Threats, and Vulnerabilities](https://coursera.org/verify/JFLSH6NNQ353) | Google (via Coursera) | 2026-05-27 | [Verify](https://coursera.org/verify/JFLSH6NNQ353) |
+| [Tools of the Trade: Linux and SQL](https://coursera.org/verify/ZHGWC5SN8HYP) | Google (via Coursera) | 2026-05-27 | [Verify](https://coursera.org/verify/ZHGWC5SN8HYP) |
+| [Connect and Protect: Networks and Network Security](https://coursera.org/verify/51408QARRI6B) | Google (via Coursera) | 2026-05-27 | [Verify](https://coursera.org/verify/51408QARRI6B) |
+| [Play It Safe: Manage Security Risks](https://coursera.org/verify/ILJB3O4ACAGA) | Google (via Coursera) | 2026-05-27 | [Verify](https://coursera.org/verify/ILJB3O4ACAGA) |
+| [Foundations of Cybersecurity](https://coursera.org/verify/HIWTQIXALOMO) | Google (via Coursera) | 2026-05-27 | [Verify](https://coursera.org/verify/HIWTQIXALOMO) |
+| [Accelerate Your Job Search with AI](https://coursera.org/verify/3CNOMZVQOTH5) | Google (via Coursera) | 2026-05-27 | [Verify](https://coursera.org/verify/3CNOMZVQOTH5) |
+| [TEST ](https://longtai.me) | TEST | 2026-05-27 | [Verify](https://longtai.me) |
 
 <!--END_SECTION:certificate-->
 | SITCON | Jam the Chaos | 個人贊助 |
