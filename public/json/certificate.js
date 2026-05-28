@@ -1,0 +1,116 @@
+[
+  {
+    "name": "Google Data Analytics Professional Certificate",
+    "organization": "Google (via Coursera)",
+    "issue_date": "2026-05-28",
+    "verification_link": "https://coursera.org/verify/professional-cert/JPLN96VH63BI"
+  },
+  {
+    "name": "Google Cybersecurity Professional Certificate",
+    "organization": "Google (via Coursera)",
+    "issue_date": "2026-05-27",
+    "verification_link": "https://coursera.org/verify/professional-cert/GRVODEQ5675T"
+  },
+  {
+    "name": "Google Data Analytics Capstone: Complete a Case Study",
+    "organization": "Google (via Coursera)",
+    "issue_date": "2026-05-28",
+    "verification_link": "https://coursera.org/verify/M3ZX7NDWT4LQ"
+  },
+  {
+    "name": "Introduction to Data Analysis Using Python",
+    "organization": "Google (via Coursera)",
+    "issue_date": "2026-05-28",
+    "verification_link": "https://coursera.org/verify/T468GHXED05D"
+  },
+  {
+    "name": "Analyze Data to Answer Questions",
+    "organization": "Google (via Coursera)",
+    "issue_date": "2026-05-28",
+    "verification_link": "https://coursera.org/verify/GZXEJ83E53YY"
+  },
+  {
+    "name": "Share Data Through the Art of Visualization",
+    "organization": "Google (via Coursera)",
+    "issue_date": "2026-05-28",
+    "verification_link": "https://coursera.org/verify/HSWGFN2P7176"
+  },
+  {
+    "name": "Process Data from Dirty to Clean",
+    "organization": "Google (via Coursera)",
+    "issue_date": "2026-05-28",
+    "verification_link": "https://coursera.org/verify/FJGL5K42ACFJ"
+  },
+  {
+    "name": "Prepare Data for Exploration",
+    "organization": "Google (via Coursera)",
+    "issue_date": "2026-05-28",
+    "verification_link": "https://coursera.org/verify/8BCH2R5QFUI4"
+  },
+  {
+    "name": "Ask Questions to Make Data-Driven Decisions",
+    "organization": "Google (via Coursera)",
+    "issue_date": "2026-05-28",
+    "verification_link": "https://coursera.org/verify/LJ15DFFOKIZY"
+  },
+  {
+    "name": "Foundations: Data, Data, Everywhere",
+    "organization": "Google (via Coursera)",
+    "issue_date": "2026-05-28",
+    "verification_link": "https://coursera.org/verify/CG75IVEGHTQ3"
+  },
+  {
+    "name": "Put It to Work: Prepare for Cybersecurity Jobs",
+    "organization": "Google (via Coursera)",
+    "issue_date": "2026-05-27",
+    "verification_link": "https://coursera.org/verify/GYHOEOBYNN8N"
+  },
+  {
+    "name": "Automate Cybersecurity Tasks with Python",
+    "organization": "Google (via Coursera)",
+    "issue_date": "2026-05-27",
+    "verification_link": "https://coursera.org/verify/79BNVW61PNUV"
+  },
+  {
+    "name": "Sound the Alarm: Detection and Response",
+    "organization": "Google (via Coursera)",
+    "issue_date": "2026-05-27",
+    "verification_link": "https://coursera.org/verify/3LOT2IECK940"
+  },
+  {
+    "name": "Assets, Threats, and Vulnerabilities",
+    "organization": "Google (via Coursera)",
+    "issue_date": "2026-05-27",
+    "verification_link": "https://coursera.org/verify/JFLSH6NNQ353"
+  },
+  {
+    "name": "Tools of the Trade: Linux and SQL",
+    "organization": "Google (via Coursera)",
+    "issue_date": "2026-05-27",
+    "verification_link": "https://coursera.org/verify/ZHGWC5SN8HYP"
+  },
+  {
+    "name": "Connect and Protect: Networks and Network Security",
+    "organization": "Google (via Coursera)",
+    "issue_date": "2026-05-27",
+    "verification_link": "https://coursera.org/verify/51408QARRI6B"
+  },
+  {
+    "name": "Play It Safe: Manage Security Risks",
+    "organization": "Google (via Coursera)",
+    "issue_date": "2026-05-27",
+    "verification_link": "https://coursera.org/verify/ILJB3O4ACAGA"
+  },
+  {
+    "name": "Foundations of Cybersecurity",
+    "organization": "Google (via Coursera)",
+    "issue_date": "2026-05-27",
+    "verification_link": "https://coursera.org/verify/HIWTQIXALOMO"
+  },
+  {
+    "name": "Accelerate Your Job Search with AI",
+    "organization": "Google (via Coursera)",
+    "issue_date": "2026-05-27",
+    "verification_link": "https://coursera.org/verify/3CNOMZVQOTH5"
+  }
+]
