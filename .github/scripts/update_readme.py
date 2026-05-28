@@ -3,8 +3,9 @@ import requests
 
 # 設定多個資料來源
 SOURCES = {
-    "experiences": "https://raw.githubusercontent.com/long-tai-0925/NEW-ME/refs/heads/main/public/json/experiences.json",
-    "support": "https://raw.githubusercontent.com/long-tai-0925/NEW-ME/refs/heads/main/public/json/support.json"
+    "experiences": "https://raw.githubusercontent.com/longtai-me/NEW-ME/refs/heads/main/public/json/experiences.json",
+    "support": "https://raw.githubusercontent.com/longtai-me/NEW-ME/refs/heads/main/public/json/support.json",
+    "certificate": "https://raw.githubusercontent.com/longtai-me/NEW-ME/refs/heads/main/public/json/certificate.json"
 }
 
 def fetch_data(url):
@@ -27,6 +28,15 @@ def render_support(data):
         # 修正點：確保對應到你 JSON 的 Key，如果 JSON 是 link/title/subtitle/role 結構：
         title = f"[{supp.get('title')}]({supp.get('link')})" if supp.get('link') else supp.get('title')
         table += f"| {title} | {supp.get('subtitle', '')} | {supp.get('desc', '')} |\n"
+    return table
+
+def render_certificate(data):
+    # 這裡根據你的 certificate.json 結構調整
+    table = "| 證書 | 發證單位 | 日期 | 驗證 |\n| :--- | :--- | :--- | :--- |\n"
+    for cert in data:
+        # 修正點：確保對應到你 JSON 的 Key，如果 JSON 是 link/title/subtitle/role 結構：
+        title = f"[{cert.get('name')}]({cert.get('link')})" if cert.get('link') else cert.get('name')
+        table += f"| {title} | {cert.get('name', '')} | {cert.get('organization', '')} | {cert.get('date', '')} | [{cert.get('link', '')}]({cert.get('link', '')}) |\n"
     return table
 
 def update_section(readme, section_id, new_content):
@@ -56,6 +66,13 @@ if __name__ == "__main__":
         readme_content = update_section(readme_content, "support", render_support(supp_data))
     except Exception as e:
         print(f"Support JSON 尚未就緒或發生錯誤: {e}")
+
+    # 3. 處理證書區塊
+    try:
+        cert_data = fetch_data(SOURCES["certificate"])
+        readme_content = update_section(readme_content, "certificate", render_certificate(cert_data))
+    except Exception as e:
+        print(f"Certificate JSON 尚未就緒或發生錯誤: {e}")
 
     with open("README.md", "w", encoding="utf-8") as f:
         f.write(readme_content)
