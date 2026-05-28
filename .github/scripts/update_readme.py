@@ -3,9 +3,9 @@ import requests
 
 # 設定多個資料來源
 SOURCES = {
-    "experiences": "https://raw.githubusercontent.com/longtai-me/NEW-ME/refs/heads/main/public/json/experiences.json",
-    "support": "https://raw.githubusercontent.com/longtai-me/NEW-ME/refs/heads/main/public/json/support.json",
-    "certificate": "https://raw.githubusercontent.com/longtai-me/NEW-ME/refs/heads/main/public/json/certificate.json"
+    "experiences": "https://raw.githubusercontent.com/longtai-me/longtai-me/refs/heads/main/public/json/experiences.json",
+    "support": "https://raw.githubusercontent.com/longtai-me/longtai-me/refs/heads/main/public/json/support.json",
+    "certificate": "https://raw.githubusercontent.com/longtai-me/ongtai-me/refs/heads/main/public/json/certificate.json"
 }
 
 def fetch_data(url):
