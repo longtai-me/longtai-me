@@ -22,26 +22,25 @@ def render_experiences(data):
     return table
 
 def render_support(data):
-    # 這裡根據你的 support.json 結構調整
     table = "| 項目 | 描述 | 角色 |\n| :--- | :--- | :--- |\n"
     for supp in data:
-        # 修正點：確保對應到你 JSON 的 Key，如果 JSON 是 link/title/subtitle/role 結構：
         title = f"[{supp.get('title')}]({supp.get('link')})" if supp.get('link') else supp.get('title')
         table += f"| {title} | {supp.get('subtitle', '')} | {supp.get('desc', '')} |\n"
     return table
 
 def render_certificate(data):
-    # 這裡根據你的 certificate.json 結構調整
-    table = "| 證書 | 發證單位 | 日期 | 驗證 |\n| :--- | :--- | :--- | :--- |\n"
+    # 修正點：確保表頭與下方填入的資料欄位數量一致 (皆為 4 欄)
+    table = "| 證書 | 發證單位 | 日期 | 驗證連結 |\n| :--- | :--- | :--- | :--- |\n"
     for cert in data:
-        # 修正點：確保對應到你 JSON 的 Key，如果 JSON 是 link/title/subtitle/role 結構：
+        # 將證書名稱結合點擊連結
         title = f"[{cert.get('name')}]({cert.get('link')})" if cert.get('link') else cert.get('name')
-        table += f"| {title} | {cert.get('name', '')} | {cert.get('organization', '')} | {cert.get('date', '')} | [{cert.get('link', '')}]({cert.get('link', '')}) |\n"
+        # 產生 4 欄： 證書(含連結) | 發證單位 | 日期 | 驗證連結文字
+        table += f"| {title} | {cert.get('organization', '')} | {cert.get('date', '')} | [Verify]({cert.get('link', '')}) |\n"
     return table
 
 def update_section(readme, section_id, new_content):
-    start_tag = f"<!-- START_SECTION:{section_id} -->"
-    end_tag = f"<!-- END_SECTION:{section_id} -->"
+    start_tag = f""
+    end_tag = f""
     if start_tag in readme and end_tag in readme:
         header = readme.split(start_tag)[0]
         footer = readme.split(end_tag)[1]
@@ -61,7 +60,6 @@ if __name__ == "__main__":
 
     # 2. 處理贊助/支援區塊
     try:
-        # 修正點：將原先誤植的 proj_data 改為 supp_data，並對應正確的 Key
         supp_data = fetch_data(SOURCES["support"])
         readme_content = update_section(readme_content, "support", render_support(supp_data))
     except Exception as e:
