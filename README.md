@@ -73,10 +73,3 @@
 | [TEST ](https://longtai.me) | TEST | 2026-05-27 | [Verify](https://longtai.me) |
 
 <!--END_SECTION:certificate-->
-| SITCON | Jam the Chaos | 個人贊助 |
-
-<!-- END_SECTION:support -->
-
-<!--START_SECTION:certificate-->
-Loading...
-<!--END_SECTION:certificate-->
