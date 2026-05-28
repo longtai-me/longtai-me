@@ -79,7 +79,7 @@ def render_certificate(data):
 
     for cert in sorted_data:
         title = (
-            f"[{cert.get('name')}]({cert.get('link')})"
+            f"{cert.get('name')}"
             if cert.get("link")
             else cert.get("name", "")
         )
