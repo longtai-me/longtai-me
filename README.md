@@ -45,3 +45,7 @@
 | SITCON | Jam the Chaos | 個人贊助 |
 
 <!-- END_SECTION:support -->
+
+<!--START_SECTION:certificate-->
+Loading...
+<!--END_SECTION:certificate-->
