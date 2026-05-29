@@ -51,30 +51,30 @@
 
 | 證書 | 發證單位 | 日期 | 驗證 |
 | :--- | :--- | :--- | :--- |
-|  |  |  | - |
-|  |  |  | - |
-|  |  |  | - |
-|  |  |  | - |
-|  |  |  | - |
-|  |  |  | - |
-|  |  |  | - |
-|  |  |  | - |
-|  |  |  | - |
-|  |  |  | - |
-|  |  |  | - |
-|  |  |  | - |
-|  |  |  | - |
-|  |  |  | - |
-|  |  |  | - |
-|  |  |  | - |
-|  |  |  | - |
-|  |  |  | - |
-|  |  |  | - |
-|  |  |  | - |
-|  |  |  | - |
-|  |  |  | - |
-|  |  |  | - |
-|  |  |  | - |
-|  |  |  | - |
+| Google IT Automation with Python Professional Certificate | Google (via Coursera) | 2026-05-29 | [Verify](https://coursera.org/verify/professional-cert/0QZBNXBS1NOR) |
+| Automating Real-World Tasks with Python | Google (via Coursera) | 2026-05-29 | [Verify](https://coursera.org/verify/RM36QNTK4VDB) |
+| Configuration Management and the Cloud | Google (via Coursera) | 2026-05-29 | [Verify](https://coursera.org/verify/3QT3FWN5P1IH) |
+| Troubleshooting and Debugging Techniques | Google (via Coursera) | 2026-05-29 | [Verify](https://coursera.org/verify/FTXV7ZB73PQI) |
+| Introduction to Git and GitHub | Google (via Coursera) | 2026-05-29 | [Verify](https://coursera.org/verify/N7A5113Y1B8G) |
+| Using Python to Interact with the Operating System | Google (via Coursera) | 2026-05-29 | [Verify](https://coursera.org/verify/HR6Y7QA6Q149) |
+| Crash Course on Python | Google (via Coursera) | 2026-05-29 | [Verify](https://coursera.org/verify/A96X77CMH9UE) |
+| Google Data Analytics Professional Certificate | Google (via Coursera) | 2026-05-28 | [Verify](https://coursera.org/verify/professional-cert/JPLN96VH63BI) |
+| Google Data Analytics Capstone: Complete a Case Study | Google (via Coursera) | 2026-05-28 | [Verify](https://coursera.org/verify/M3ZX7NDWT4LQ) |
+| Introduction to Data Analysis Using Python | Google (via Coursera) | 2026-05-28 | [Verify](https://coursera.org/verify/T468GHXED05D) |
+| Analyze Data to Answer Questions | Google (via Coursera) | 2026-05-28 | [Verify](https://coursera.org/verify/GZXEJ83E53YY) |
+| Share Data Through the Art of Visualization | Google (via Coursera) | 2026-05-28 | [Verify](https://coursera.org/verify/HSWGFN2P7176) |
+| Process Data from Dirty to Clean | Google (via Coursera) | 2026-05-28 | [Verify](https://coursera.org/verify/FJGL5K42ACFJ) |
+| Prepare Data for Exploration | Google (via Coursera) | 2026-05-28 | [Verify](https://coursera.org/verify/8BCH2R5QFUI4) |
+| Ask Questions to Make Data-Driven Decisions | Google (via Coursera) | 2026-05-28 | [Verify](https://coursera.org/verify/LJ15DFFOKIZY) |
+| Foundations: Data, Data, Everywhere | Google (via Coursera) | 2026-05-28 | [Verify](https://coursera.org/verify/CG75IVEGHTQ3) |
+| Google Cybersecurity Professional Certificate | Google (via Coursera) | 2026-05-27 | [Verify](https://coursera.org/verify/professional-cert/GRVODEQ5675T) |
+| Put It to Work: Prepare for Cybersecurity Jobs | Google (via Coursera) | 2026-05-27 | [Verify](https://coursera.org/verify/GYHOEOBYNN8N) |
+| Automate Cybersecurity Tasks with Python | Google (via Coursera) | 2026-05-27 | [Verify](https://coursera.org/verify/79BNVW61PNUV) |
+| Sound the Alarm: Detection and Response | Google (via Coursera) | 2026-05-27 | [Verify](https://coursera.org/verify/3LOT2IECK940) |
+| Assets, Threats, and Vulnerabilities | Google (via Coursera) | 2026-05-27 | [Verify](https://coursera.org/verify/JFLSH6NNQ353) |
+| Tools of the Trade: Linux and SQL | Google (via Coursera) | 2026-05-27 | [Verify](https://coursera.org/verify/ZHGWC5SN8HYP) |
+| Connect and Protect: Networks and Network Security | Google (via Coursera) | 2026-05-27 | [Verify](https://coursera.org/verify/51408QARRI6B) |
+| Play It Safe: Manage Security Risks | Google (via Coursera) | 2026-05-27 | [Verify](https://coursera.org/verify/ILJB3O4ACAGA) |
+| Foundations of Cybersecurity | Google (via Coursera) | 2026-05-27 | [Verify](https://coursera.org/verify/HIWTQIXALOMO) |
 
 <!--END_SECTION:certificate-->
