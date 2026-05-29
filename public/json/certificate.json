@@ -1,177 +1,152 @@
 [
   {
-    "certificate_name": "Google IT Automation with Python Professional Certificate",
-    "issuing_organization": "Google (via Coursera)",
-    "level": "Professional Certificate",
-    "issue_date": "2026-05-29",
-    "verification_link": "https://coursera.org/verify/professional-cert/0QZBNXBS1NOR"
+    "name": "Google IT Automation with Python Professional Certificate",
+    "organization": "Google (via Coursera)",
+    "date": "2026-05-29",
+    "link": "https://coursera.org/verify/professional-cert/0QZBNXBS1NOR"
   },
   {
-    "certificate_name": "Google Data Analytics Professional Certificate",
-    "issuing_organization": "Google (via Coursera)",
-    "level": "Professional Certificate",
-    "issue_date": "2026-05-28",
-    "verification_link": "https://coursera.org/verify/professional-cert/JPLN96VH63BI"
+    "name": "Google Data Analytics Professional Certificate",
+    "organization": "Google (via Coursera)",
+    "date": "2026-05-28",
+    "link": "https://coursera.org/verify/professional-cert/JPLN96VH63BI"
   },
   {
-    "certificate_name": "Google Cybersecurity Professional Certificate",
-    "issuing_organization": "Google (via Coursera)",
-    "level": "Professional Certificate",
-    "issue_date": "2026-05-27",
-    "verification_link": "https://coursera.org/verify/professional-cert/GRVODEQ5675T"
+    "name": "Google Cybersecurity Professional Certificate",
+    "organization": "Google (via Coursera)",
+    "date": "2026-05-27",
+    "link": "https://coursera.org/verify/professional-cert/GRVODEQ5675T"
   },
   {
-    "certificate_name": "Automating Real-World Tasks with Python",
-    "issuing_organization": "Google (via Coursera)",
-    "level": "Course",
-    "issue_date": "2026-05-29",
-    "verification_link": "https://coursera.org/verify/RM36QNTK4VDB"
+    "name": "Automating Real-World Tasks with Python",
+    "organization": "Google (via Coursera)",
+    "date": "2026-05-29",
+    "link": "https://coursera.org/verify/RM36QNTK4VDB"
   },
   {
-    "certificate_name": "Configuration Management and the Cloud",
-    "issuing_organization": "Google (via Coursera)",
-    "level": "Course",
-    "issue_date": "2026-05-29",
-    "verification_link": "https://coursera.org/verify/3QT3FWN5P1IH"
+    "name": "Configuration Management and the Cloud",
+    "organization": "Google (via Coursera)",
+    "date": "2026-05-29",
+    "link": "https://coursera.org/verify/3QT3FWN5P1IH"
   },
   {
-    "certificate_name": "Troubleshooting and Debugging Techniques",
-    "issuing_organization": "Google (via Coursera)",
-    "level": "Course",
-    "issue_date": "2026-05-29",
-    "verification_link": "https://coursera.org/verify/FTXV7ZB73PQI"
+    "name": "Troubleshooting and Debugging Techniques",
+    "organization": "Google (via Coursera)",
+    "date": "2026-05-29",
+    "link": "https://coursera.org/verify/FTXV7ZB73PQI"
   },
   {
-    "certificate_name": "Introduction to Git and GitHub",
-    "issuing_organization": "Google (via Coursera)",
-    "level": "Course",
-    "issue_date": "2026-05-29",
-    "verification_link": "https://coursera.org/verify/N7A5113Y1B8G"
+    "name": "Introduction to Git and GitHub",
+    "organization": "Google (via Coursera)",
+    "date": "2026-05-29",
+    "link": "https://coursera.org/verify/N7A5113Y1B8G"
   },
   {
-    "certificate_name": "Using Python to Interact with the Operating System",
-    "issuing_organization": "Google (via Coursera)",
-    "level": "Course",
-    "issue_date": "2026-05-29",
-    "verification_link": "https://coursera.org/verify/HR6Y7QA6Q149"
+    "name": "Using Python to Interact with the Operating System",
+    "organization": "Google (via Coursera)",
+    "date": "2026-05-29",
+    "link": "https://coursera.org/verify/HR6Y7QA6Q149"
   },
   {
-    "certificate_name": "Crash Course on Python",
-    "issuing_organization": "Google (via Coursera)",
-    "level": "Course",
-    "issue_date": "2026-05-29",
-    "verification_link": "https://coursera.org/verify/A96X77CMH9UE"
+    "name": "Crash Course on Python",
+    "organization": "Google (via Coursera)",
+    "date": "2026-05-29",
+    "link": "https://coursera.org/verify/A96X77CMH9UE"
   },
   {
-    "certificate_name": "Google Data Analytics Capstone: Complete a Case Study",
-    "issuing_organization": "Google (via Coursera)",
-    "level": "Course",
-    "issue_date": "2026-05-28",
-    "verification_link": "https://coursera.org/verify/M3ZX7NDWT4LQ"
+    "name": "Google Data Analytics Capstone: Complete a Case Study",
+    "organization": "Google (via Coursera)",
+    "date": "2026-05-28",
+    "link": "https://coursera.org/verify/M3ZX7NDWT4LQ"
   },
   {
-    "certificate_name": "Introduction to Data Analysis Using Python",
-    "issuing_organization": "Google (via Coursera)",
-    "level": "Course",
-    "issue_date": "2026-05-28",
-    "verification_link": "https://coursera.org/verify/T468GHXED05D"
+    "name": "Introduction to Data Analysis Using Python",
+    "organization": "Google (via Coursera)",
+    "date": "2026-05-28",
+    "link": "https://coursera.org/verify/T468GHXED05D"
   },
   {
-    "certificate_name": "Analyze Data to Answer Questions",
-    "issuing_organization": "Google (via Coursera)",
-    "level": "Course",
-    "issue_date": "2026-05-28",
-    "verification_link": "https://coursera.org/verify/GZXEJ83E53YY"
+    "name": "Analyze Data to Answer Questions",
+    "organization": "Google (via Coursera)",
+    "date": "2026-05-28",
+    "link": "https://coursera.org/verify/GZXEJ83E53YY"
   },
   {
-    "certificate_name": "Share Data Through the Art of Visualization",
-    "issuing_organization": "Google (via Coursera)",
-    "level": "Course",
-    "issue_date": "2026-05-28",
-    "verification_link": "https://coursera.org/verify/HSWGFN2P7176"
+    "name": "Share Data Through the Art of Visualization",
+    "organization": "Google (via Coursera)",
+    "date": "2026-05-28",
+    "link": "https://coursera.org/verify/HSWGFN2P7176"
   },
   {
-    "certificate_name": "Process Data from Dirty to Clean",
-    "issuing_organization": "Google (via Coursera)",
-    "level": "Course",
-    "issue_date": "2026-05-28",
-    "verification_link": "https://coursera.org/verify/FJGL5K42ACFJ"
+    "name": "Process Data from Dirty to Clean",
+    "organization": "Google (via Coursera)",
+    "date": "2026-05-28",
+    "link": "https://coursera.org/verify/FJGL5K42ACFJ"
   },
   {
-    "certificate_name": "Prepare Data for Exploration",
-    "issuing_organization": "Google (via Coursera)",
-    "level": "Course",
-    "issue_date": "2026-05-28",
-    "verification_link": "https://coursera.org/verify/8BCH2R5QFUI4"
+    "name": "Prepare Data for Exploration",
+    "organization": "Google (via Coursera)",
+    "date": "2026-05-28",
+    "link": "https://coursera.org/verify/8BCH2R5QFUI4"
   },
   {
-    "certificate_name": "Ask Questions to Make Data-Driven Decisions",
-    "issuing_organization": "Google (via Coursera)",
-    "level": "Course",
-    "issue_date": "2026-05-28",
-    "verification_link": "https://coursera.org/verify/LJ15DFFOKIZY"
+    "name": "Ask Questions to Make Data-Driven Decisions",
+    "organization": "Google (via Coursera)",
+    "date": "2026-05-28",
+    "link": "https://coursera.org/verify/LJ15DFFOKIZY"
   },
   {
-    "certificate_name": "Foundations: Data, Data, Everywhere",
-    "issuing_organization": "Google (via Coursera)",
-    "level": "Course",
-    "issue_date": "2026-05-28",
-    "verification_link": "https://coursera.org/verify/CG75IVEGHTQ3"
+    "name": "Foundations: Data, Data, Everywhere",
+    "organization": "Google (via Coursera)",
+    "date": "2026-05-28",
+    "link": "https://coursera.org/verify/CG75IVEGHTQ3"
   },
   {
-    "certificate_name": "Put It to Work: Prepare for Cybersecurity Jobs",
-    "issuing_organization": "Google (via Coursera)",
-    "level": "Course",
-    "issue_date": "2026-05-27",
-    "verification_link": "https://coursera.org/verify/GYHOEOBYNN8N"
+    "name": "Put It to Work: Prepare for Cybersecurity Jobs",
+    "organization": "Google (via Coursera)",
+    "date": "2026-05-27",
+    "link": "https://coursera.org/verify/GYHOEOBYNN8N"
   },
   {
-    "certificate_name": "Automate Cybersecurity Tasks with Python",
-    "issuing_organization": "Google (via Coursera)",
-    "level": "Course",
-    "issue_date": "2026-05-27",
-    "verification_link": "https://coursera.org/verify/79BNVW61PNUV"
+    "name": "Automate Cybersecurity Tasks with Python",
+    "organization": "Google (via Coursera)",
+    "date": "2026-05-27",
+    "link": "https://coursera.org/verify/79BNVW61PNUV"
   },
   {
-    "certificate_name": "Sound the Alarm: Detection and Response",
-    "issuing_organization": "Google (via Coursera)",
-    "level": "Course",
-    "issue_date": "2026-05-27",
-    "verification_link": "https://coursera.org/verify/3LOT2IECK940"
+    "name": "Sound the Alarm: Detection and Response",
+    "organization": "Google (via Coursera)",
+    "date": "2026-05-27",
+    "link": "https://coursera.org/verify/3LOT2IECK940"
   },
   {
-    "certificate_name": "Assets, Threats, and Vulnerabilities",
-    "issuing_organization": "Google (via Coursera)",
-    "level": "Course",
-    "issue_date": "2026-05-27",
-    "verification_link": "https://coursera.org/verify/JFLSH6NNQ353"
+    "name": "Assets, Threats, and Vulnerabilities",
+    "organization": "Google (via Coursera)",
+    "date": "2026-05-27",
+    "link": "https://coursera.org/verify/JFLSH6NNQ353"
   },
   {
-    "certificate_name": "Tools of the Trade: Linux and SQL",
-    "issuing_organization": "Google (via Coursera)",
-    "level": "Course",
-    "issue_date": "2026-05-27",
-    "verification_link": "https://coursera.org/verify/ZHGWC5SN8HYP"
+    "name": "Tools of the Trade: Linux and SQL",
+    "organization": "Google (via Coursera)",
+    "date": "2026-05-27",
+    "link": "https://coursera.org/verify/ZHGWC5SN8HYP"
   },
   {
-    "certificate_name": "Connect and Protect: Networks and Network Security",
-    "issuing_organization": "Google (via Coursera)",
-    "level": "Course",
-    "issue_date": "2026-05-27",
-    "verification_link": "https://coursera.org/verify/51408QARRI6B"
+    "name": "Connect and Protect: Networks and Network Security",
+    "organization": "Google (via Coursera)",
+    "date": "2026-05-27",
+    "link": "https://coursera.org/verify/51408QARRI6B"
   },
   {
-    "certificate_name": "Play It Safe: Manage Security Risks",
-    "issuing_organization": "Google (via Coursera)",
-    "level": "Course",
-    "issue_date": "2026-05-27",
-    "verification_link": "https://coursera.org/verify/ILJB3O4ACAGA"
+    "name": "Play It Safe: Manage Security Risks",
+    "organization": "Google (via Coursera)",
+    "date": "2026-05-27",
+    "link": "https://coursera.org/verify/ILJB3O4ACAGA"
   },
   {
-    "certificate_name": "Foundations of Cybersecurity",
-    "issuing_organization": "Google (via Coursera)",
-    "level": "Course",
-    "issue_date": "2026-05-27",
-    "verification_link": "https://coursera.org/verify/HIWTQIXALOMO"
+    "name": "Foundations of Cybersecurity",
+    "organization": "Google (via Coursera)",
+    "date": "2026-05-27",
+    "link": "https://coursera.org/verify/HIWTQIXALOMO"
   }
 ]
