@@ -51,7 +51,13 @@
 
 | 證書 | 發證單位 | 日期 | 驗證 |
 | :--- | :--- | :--- | :--- |
+| Google IT Support Professional Certificate | Google (via Coursera) | 2026-05-29 | [Verify](https://coursera.org/verify/professional-cert/5OITDZAW7YZ7) |
 | Google IT Automation with Python Professional Certificate | Google (via Coursera) | 2026-05-29 | [Verify](https://coursera.org/verify/professional-cert/0QZBNXBS1NOR) |
+| IT Security: Defense against the digital dark arts | Google (via Coursera) | 2026-05-29 | [Verify](https://coursera.org/verify/DOIFBBSGQ1CR) |
+| System Administration and IT Infrastructure Services | Google (via Coursera) | 2026-05-29 | [Verify](https://coursera.org/verify/A5GPSTORVAAT) |
+| Operating Systems and You: Becoming a Power User | Google (via Coursera) | 2026-05-29 | [Verify](https://coursera.org/verify/S4T9XRHMTUM6) |
+| The Bits and Bytes of Computer Networking | Google (via Coursera) | 2026-05-29 | [Verify](https://coursera.org/verify/CAZ08VWEIIBO) |
+| Technical Support Fundamentals | Google (via Coursera) | 2026-05-29 | [Verify](https://coursera.org/verify/R4P858AYABP7) |
 | Automating Real-World Tasks with Python | Google (via Coursera) | 2026-05-29 | [Verify](https://coursera.org/verify/RM36QNTK4VDB) |
 | Configuration Management and the Cloud | Google (via Coursera) | 2026-05-29 | [Verify](https://coursera.org/verify/3QT3FWN5P1IH) |
 | Troubleshooting and Debugging Techniques | Google (via Coursera) | 2026-05-29 | [Verify](https://coursera.org/verify/FTXV7ZB73PQI) |
