@@ -51,25 +51,30 @@
 
 | 證書 | 發證單位 | 日期 | 驗證 |
 | :--- | :--- | :--- | :--- |
-| Google Data Analytics Professional Certificate | Google (via Coursera) | 2026-05-28 | [Verify](https://coursera.org/verify/professional-cert/JPLN96VH63BI) |
-| Google Data Analytics Capstone: Complete a Case Study | Google (via Coursera) | 2026-05-28 | [Verify](https://coursera.org/verify/M3ZX7NDWT4LQ) |
-| Introduction to Data Analysis Using Python | Google (via Coursera) | 2026-05-28 | [Verify](https://coursera.org/verify/T468GHXED05D) |
-| Analyze Data to Answer Questions | Google (via Coursera) | 2026-05-28 | [Verify](https://coursera.org/verify/GZXEJ83E53YY) |
-| Share Data Through the Art of Visualization | Google (via Coursera) | 2026-05-28 | [Verify](https://coursera.org/verify/HSWGFN2P7176) |
-| Process Data from Dirty to Clean | Google (via Coursera) | 2026-05-28 | [Verify](https://coursera.org/verify/FJGL5K42ACFJ) |
-| Prepare Data for Exploration | Google (via Coursera) | 2026-05-28 | [Verify](https://coursera.org/verify/8BCH2R5QFUI4) |
-| Ask Questions to Make Data-Driven Decisions | Google (via Coursera) | 2026-05-28 | [Verify](https://coursera.org/verify/LJ15DFFOKIZY) |
-| Foundations: Data, Data, Everywhere | Google (via Coursera) | 2026-05-28 | [Verify](https://coursera.org/verify/CG75IVEGHTQ3) |
-| Google Cybersecurity Professional Certificate | Google (via Coursera) | 2026-05-27 | [Verify](https://coursera.org/verify/professional-cert/GRVODEQ5675T) |
-| Put It to Work: Prepare for Cybersecurity Jobs | Google (via Coursera) | 2026-05-27 | [Verify](https://coursera.org/verify/GYHOEOBYNN8N) |
-| Automate Cybersecurity Tasks with Python | Google (via Coursera) | 2026-05-27 | [Verify](https://coursera.org/verify/79BNVW61PNUV) |
-| Sound the Alarm: Detection and Response | Google (via Coursera) | 2026-05-27 | [Verify](https://coursera.org/verify/3LOT2IECK940) |
-| Assets, Threats, and Vulnerabilities | Google (via Coursera) | 2026-05-27 | [Verify](https://coursera.org/verify/JFLSH6NNQ353) |
-| Tools of the Trade: Linux and SQL | Google (via Coursera) | 2026-05-27 | [Verify](https://coursera.org/verify/ZHGWC5SN8HYP) |
-| Connect and Protect: Networks and Network Security | Google (via Coursera) | 2026-05-27 | [Verify](https://coursera.org/verify/51408QARRI6B) |
-| Play It Safe: Manage Security Risks | Google (via Coursera) | 2026-05-27 | [Verify](https://coursera.org/verify/ILJB3O4ACAGA) |
-| Foundations of Cybersecurity | Google (via Coursera) | 2026-05-27 | [Verify](https://coursera.org/verify/HIWTQIXALOMO) |
-| Accelerate Your Job Search with AI | Google (via Coursera) | 2026-05-27 | [Verify](https://coursera.org/verify/3CNOMZVQOTH5) |
-| Tool Maintenance & MRO Chemical Safety | Asia WD-40 Company | 2025-12-30 | [Verify](https://coursera.org/verify/professional-cert/3Z5K7Q9V8K2C) |
+|  |  |  | - |
+|  |  |  | - |
+|  |  |  | - |
+|  |  |  | - |
+|  |  |  | - |
+|  |  |  | - |
+|  |  |  | - |
+|  |  |  | - |
+|  |  |  | - |
+|  |  |  | - |
+|  |  |  | - |
+|  |  |  | - |
+|  |  |  | - |
+|  |  |  | - |
+|  |  |  | - |
+|  |  |  | - |
+|  |  |  | - |
+|  |  |  | - |
+|  |  |  | - |
+|  |  |  | - |
+|  |  |  | - |
+|  |  |  | - |
+|  |  |  | - |
+|  |  |  | - |
+|  |  |  | - |
 
 <!--END_SECTION:certificate-->
