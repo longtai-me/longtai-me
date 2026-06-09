@@ -1,5 +1,14 @@
 [
   {
+    "link": "https://www.computextaipei.com.tw/zh-tw/index.html",
+    "img": " public/images/Experience/computex.jpg",
+    "alt": "COMPUTEX",
+    "title": "COMPUTEX",
+    "subtitle": "Taipei",
+    "years": "2026",
+    "role": "一般民眾"
+  },
+  {
     "link": "https://sc.scaict.org/",
     "img": " public/images/Experience/SCAICT.png",
     "alt": "SCAICT",
