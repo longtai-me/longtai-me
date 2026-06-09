@@ -20,6 +20,7 @@
 
 | 年份 | 項目 | 描述 | 角色 |
 | :--- | :--- | :--- | :--- |
+| 2026 | [COMPUTEX](https://www.computextaipei.com.tw/zh-tw/index.html) | Taipei | 一般民眾 |
 | 2026 | [SCAICT](https://sc.scaict.org/) | 資暑與你 | 隊輔組組員 |
 | 2026 | [Zepro Run](https://www.ctrun.com.tw/Activity?EventMain_ID=282) | Taichung | 21K 跑者 |
 | 2026 | [SITCON](https://sitcon.org/2026/) | Jam the Chaos | 邀請票會眾 |
