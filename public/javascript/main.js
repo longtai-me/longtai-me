@@ -51,4 +51,13 @@ window.addEventListener('error', (e) => {
 // 根據日期動態更換圖示
 const today = new Date().getDate();
 const iconImage = document.getElementById('calendar-icon');
-iconImage.src = `https://ssl.gstatic.com/calendar/images/dynamiclogo_2020q4/calendar_${today}_2x.png`;
+if (iconImage) {
+  iconImage.src = `https://ssl.gstatic.com/calendar/images/dynamiclogo_2020q4/calendar_${today}_2x.png`;
+}
+
+// 全域禁止圖片拖曳
+document.addEventListener('dragstart', (e) => {
+  if (e.target.tagName && e.target.tagName.toLowerCase() === 'img') {
+    e.preventDefault();
+  }
+});
