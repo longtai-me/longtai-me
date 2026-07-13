@@ -11,7 +11,7 @@ export const friendsConfig = {
       </div>
     </a>`,
   suffix: `
-    <a target="_blank" href="https://github.com/longtai-me/longtai-me/pull">
+    <a target="_blank" href="https://github.com/longtai-me/longtai-me/pulls">
       <div class="friend-card">
         <div class="friend-avatar"><h1>+</h1></div>
         <p>缺你一個</p>
