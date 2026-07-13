@@ -5,7 +5,7 @@ export const supportConfig = {
   // 每一筆贊助/支持項目的 HTML 模板
   tpl: s => `
     <div class="card">
-      <img loading="lazy" src="${s.img}" alt="${s.alt}">
+      <img loading="lazy" src="${s.img}" alt="${s.alt}" width="200" height="60">
       <p>
         ${s.title}<br/>
         ${s.subtitle ? s.subtitle + '<br/>' : ''}

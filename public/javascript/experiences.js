@@ -4,7 +4,7 @@ export const experienceConfig = {
   tpl: i => `
     <a target="_blank" href="${i.link || '#'}">
       <div class="card">
-        <img loading="lazy" src="${i.img}" alt="${i.alt}">
+        <img loading="lazy" src="${i.img}" alt="${i.alt}" width="200" height="60">
         <p> 
           ${i.title}<br/>
           ${i.subtitle ? i.subtitle + '<br/>' : ''}

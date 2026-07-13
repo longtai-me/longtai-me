@@ -5,7 +5,7 @@ export const friendsConfig = {
     <a target="_blank" href="${f.link}">
       <div class="friend-card">
         <div class="friend-avatar">
-          <img loading="lazy" src="${f.avatar}" alt="${f.name}">
+          <img loading="lazy" src="${f.avatar}" alt="${f.name}" width="70" height="70">
         </div>
         <p>${f.name}</p>
       </div>
