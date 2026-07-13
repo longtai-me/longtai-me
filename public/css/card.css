@@ -26,12 +26,8 @@
 }
 
 .card p {
-  margin: 0;
+  margin: auto 0;
   font-size: 20px;
-  flex-grow: 1; /* 佔據剩餘空間，實現文字垂直對齊 */
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
 }
 
 .card h3 {
