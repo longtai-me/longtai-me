@@ -1,0 +1,290 @@
+/* --- main.css --- */
+:root {
+  --primary: #00a8f0;
+  --bg: #1b212c;
+  --card: #111;
+  --card-2: #555;
+  --text: #ffffff;
+  --muted: #9ca3af;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: "Segoe UI", Arial, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  opacity: 0;
+  animation: fadeIn 1s ease forwards;
+}
+
+@keyframes fadeIn {
+  to { opacity: 1; }
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* 圖片全域防爆設定 */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  -webkit-user-drag: none;
+  -khtml-user-drag: none;
+  -moz-user-drag: none;
+  -o-user-drag: none;
+  user-drag: none;
+}
+
+header {
+  position: sticky;
+  top: 0;
+  background: rgba(27, 33, 44, 0.7);
+  backdrop-filter: blur(12px);
+  border-bottom: 1px solid #2a2f3a;
+  z-index: 100;
+  transition: 0.3s;
+}
+
+.nav {
+  max-width: 1100px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 20px;
+}
+
+.logo {
+  font-size: 30px;
+  font-weight: bold;
+  color: var(--primary);
+}
+
+.nav-links { display: flex; gap: 20px; }
+.nav-links a:hover { color: var(--primary); }
+
+/* Hero Section */
+.hero {
+  text-align: center;
+  padding: 120px 20px 80px;
+  background: radial-gradient(circle at top, rgba(0,168,240,0.15), transparent 60%);
+}
+
+.hero img {
+  width: 160px;
+  margin: 0 auto 20px;
+}
+
+.hero h1 { font-size: 48px; }
+.typing { color: var(--primary); }
+.hero p { color: var(--muted); }
+
+.btn {
+  display: inline-block;
+  padding: 12px 26px;
+  background: var(--primary);
+  color: var(--bg);
+  border-radius: 999px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 20px rgba(0,168,240,0.4);
+}
+
+/* Section Layout */
+section {
+  max-width: 1100px;
+  margin: auto;
+  padding: 20px 20px;
+}
+
+h2 {
+  font-size: 28px;
+  margin-bottom: 25px;
+  border-left: 4px solid var(--primary);
+  padding-left: 10px;
+}
+
+@media (max-width: 768px) {
+  .hero h1 { font-size: 34px; }
+  .grid {
+    grid-template-columns: 1fr; /* 手機版單欄顯示 */
+  }
+}
+
+/* --- social.css --- */
+/* Socials */
+.socials {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.social-icon {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.3s;
+  will-change: transform;
+}
+
+.social-icon:hover {
+  background: var(--card-2);
+  transform: translateY(-5px);
+  box-shadow: 0 0 10px rgba(0,168,240,0.3);
+}
+
+/* --- friend.css --- */
+/* Friends Section */
+.friends {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 20px;
+}
+
+.friend-card {
+  background: var(--card);
+  padding: 20px;
+  border-radius: 16px;
+  text-align: center;
+  transition: 0.3s;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.friend-card:hover {
+  transform: translateY(-6px);
+  background: var(--card-2);
+}
+
+.friend-avatar {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  margin: 0 auto 10px;
+  overflow: hidden;
+  background: #444;
+  flex-shrink: 0;
+}
+
+.friend-avatar img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.friend-card p {
+  margin: 0;
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* --- card.css --- */
+.card {
+  background: var(--card);
+  padding: 25px;
+  border-radius: 18px;
+  transition: 0.3s;
+  will-change: transform;
+  
+  /* 內部 Flex 佈局 */
+  display: flex;
+  flex-direction: column;
+  height: 100%; /* 填滿 Grid 容器 */
+  text-align: center;
+}
+
+.card:hover {
+  transform: translateY(-8px);
+  background: var(--card-2);
+}
+
+.card img {
+  max-height: 60px;
+  width: auto;
+  margin: 0 auto 15px; /* 置中並空出間距 */
+  object-fit: contain;
+  flex-shrink: 0;
+}
+
+.card p {
+  margin: auto 0;
+  font-size: 20px;
+}
+
+.card h3 {
+  margin: 10px 0;
+  color: var(--primary);
+}
+
+/* --- footer.css --- */
+/* Footer */
+footer {
+  text-align: center;
+  padding: 40px 20px;
+  color: var(--muted);
+  border-top: 1px solid #2a2f3a;
+}
+
+/* --- grid.css --- */
+/* --- 卡片等高關鍵設定 --- */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  align-items: stretch; /* 讓同一列的項目等高 */
+}
+
+/* 讓 a 標籤也撐開，否則裡面的 card 無法繼承高度 */
+.grid > a {
+  display: flex;
+  flex-direction: column;
+}
+
+
+/* --- reveal.css --- */
+/* 滾動動畫 */
+.reveal {
+  opacity: 0;
+  transform: translateY(40px);
+  transition: all 1.2s ease;
+}
+
+.reveal.active {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* --- tag.css --- */
+/* Tags */
+.tags { margin-top: 10px; }
+.tag {
+  display: inline-block;
+  background: #333;
+  padding: 5px 10px;
+  margin: 4px;
+  border-radius: 999px;
+  font-size: 12px;
+  color: var(--muted);
+}
+

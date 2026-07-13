@@ -1,7 +1,7 @@
 [
   {
     "link": "https://nutccsie.org",
-    "img": "public/images/Experience/2026 NTCUST CSIE.png",
+    "img": "public/images/Experience/2026 NTCUST CSIE.webp",
     "alt": "國立台中科技大學 資訊工程科 科學會",
     "title": "國立台中科技大學",
     "subtitle": "資工科科學會",
@@ -10,7 +10,7 @@
   },
   {
     "link": "https://www.computextaipei.com.tw/zh-tw/index.html",
-    "img": "public/images/Experience/computex.jpg",
+    "img": "public/images/Experience/computex.webp",
     "alt": "COMPUTEX",
     "title": "COMPUTEX",
     "subtitle": "Taipei",
@@ -19,7 +19,7 @@
   },
   {
     "link": "https://sc.scaict.org/",
-    "img": " public/images/Experience/SCAICT.png",
+    "img": " public/images/Experience/SCAICT.webp",
     "alt": "SCAICT",
     "title": "SCAICT",
     "subtitle": "資暑與你",
@@ -28,7 +28,7 @@
   },
   {
     "link": "https://www.ctrun.com.tw/Activity?EventMain_ID=282",
-    "img": "public/images/Experience/Zepro.jpg",
+    "img": "public/images/Experience/Zepro.webp",
     "alt": "Zepro",
     "title": "Zepro Run",
     "subtitle": "Taichung",
@@ -64,7 +64,7 @@
   },
   {
     "link": "https://scaict.org/",
-    "img": "public/images/Experience/SCAICT.png",
+    "img": "public/images/Experience/SCAICT.webp",
     "alt": "SCAICT",
     "title": "SCAICT",
     "subtitle": "第五屆",
@@ -73,7 +73,7 @@
   },
   {
     "link": "https://linktr.ee/nutccsie",
-    "img": "public/images/Experience/NUTC_CSIE.jpeg",
+    "img": "public/images/Experience/NUTC_CSIE.webp",
     "alt": "NTCUST CSIE",
     "title": "國立台中科技大學",
     "subtitle": "資訊工程科科學會",
@@ -82,7 +82,7 @@
   },
   {
     "link": "https://taiwanbike.org/index.php/558",
-    "img": "public/images/Experience/2022北濱萬金石自行車嘉年華挑戰.jpg",
+    "img": "public/images/Experience/2022北濱萬金石自行車嘉年華挑戰.webp",
     "alt": "北濱萬金石馬拉松",
     "title": "北濱萬金石",
     "subtitle": "自行車嘉年華挑戰",
@@ -91,7 +91,7 @@
   },
   {
     "link": "https://www.youtube.com/watch?v=HX-AvFdigPo",
-    "img": "public/images/Experience/2023 稻鎮好柚獲路跑.jpg",
+    "img": "public/images/Experience/2023 稻鎮好柚獲路跑.webp",
     "alt": "2023 稻鎮好柚獲路跑",
     "title": "稻鎮好柚獲路跑",
     "subtitle": "玉溪場",
@@ -100,7 +100,7 @@
   },
   {
     "link": "https://111sport.hlc.edu.tw/",
-    "img": "public/images/Experience/111 全國中等學校運動會.jpeg",
+    "img": "public/images/Experience/111 全國中等學校運動會.webp",
     "alt": "2022 全國中等學校運動會",
     "title": "全國中等學校運動會",
     "subtitle": "登山車越野賽決賽",
@@ -115,11 +115,10 @@
     "subtitle": "商業管理職群",
     "years": "2022",
     "role": "佳作"
-    
   },
   {
     "link": "https://sites.google.com/programtheworld.tw/2021/",
-    "img": "public/images/Experience/2021PTWA.jpg",
+    "img": "public/images/Experience/2021PTWA.webp",
     "alt": "PTWA",
     "title": "PTWA全國自走車大賽",
     "subtitle": "相撲賽",
