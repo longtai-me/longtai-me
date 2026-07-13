@@ -2,7 +2,7 @@ export const experienceConfig = {
   url: 'public/json/experiences.json',
   id: 'experience-container',
   tpl: i => `
-    <a target="_blank" href="${i.link || '#'}">
+    <a target="_blank" href="${i.link || '#'}" aria-label="查看 ${i.title} 的相關經歷">
       <div class="card">
         <img loading="lazy" src="${i.img}" alt="${i.alt}" width="200" height="60">
         <p> 
