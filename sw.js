@@ -1,9 +1,11 @@
 // LongTai Jiang 個人網站 Service Worker
-const CACHE_NAME = 'longtai-v1';
+const CACHE_NAME = 'longtai-v2';
 const STATIC_ASSETS = [
   '/',
   '/index.html',
   '/404.html',
+  '/robots.txt',
+  '/sitemap.xml',
   '/public/css/bundle.css',
   '/public/javascript/main.js',
   '/public/javascript/ui.js',
@@ -19,7 +21,10 @@ const STATIC_ASSETS = [
   '/public/json/ads.json',
   '/public/json/links.json',
   '/public/images/me.webp',
-  '/public/images/nopng.webp'
+  '/public/images/me.png',
+  '/public/images/nopng.webp',
+  '/public/manifest.webmanifest',
+  '/.well-known/ai-plugin.json'
 ];
 
 // 安裝：預快取靜態資源
