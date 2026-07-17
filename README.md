@@ -1,6 +1,4 @@
-# Jiang
-> LongTai Jiang 的個人網頁原始碼。就讀國立台中科技大學，活躍於 SCAICT、SITCON 等資訊社群。
-
+# Jiang Longtai
 ## 相關資訊
 | [個人網頁](https://longtai.org/) |
 | [GitHub](https://github.com/longtai-me) |
