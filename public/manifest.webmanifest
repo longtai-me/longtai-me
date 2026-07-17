@@ -1,0 +1,25 @@
+{
+  "name": "LongTai Jiang | 學生開發者",
+  "short_name": "LongTai",
+  "description": "就讀中科大的學生開發者，活躍於台灣各大資訊社群。",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#1b212c",
+  "theme_color": "#1b212c",
+  "lang": "zh-Hant",
+  "icons": [
+    {
+      "src": "images/me.webp",
+      "sizes": "240x240",
+      "type": "image/webp",
+      "purpose": "any"
+    },
+    {
+      "src": "images/me.png",
+      "sizes": "240x240",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
+}

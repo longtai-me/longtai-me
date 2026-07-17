@@ -14,7 +14,7 @@
 
 .card:hover {
   transform: translateY(-8px);
-  background: var(--card-2);
+  background: var(--card-hover);
 }
 
 .card img {

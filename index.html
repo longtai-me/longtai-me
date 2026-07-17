@@ -4,7 +4,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="icon" type="image/png" href="public/images/me.png">
+    <meta name="color-scheme" content="dark" />
+    <meta name="theme-color" content="#1b212c" />
+    <link rel="icon" type="image/png" href="/public/images/me.png">
+    <link rel="icon" type="image/webp" href="/public/images/me.webp">
     <title>LongTai Jiang | 學生開發者 - 國立台中科技大學 & 資訊社群</title>
     <meta name="description" content="LongTai Jiang 的個人網頁。目前就讀國立台中科技大學，活躍於 SCAICT、SITCON 等資訊社群。擅長 HTML, CSS, Python，是一位熱衷於社群交流的開發者。">
     <meta name="keywords" content="LongTai, Jiang, 國立台中科技大學, SCAICT, SITCON, COSCUP, 開發者, 學生, Python">
@@ -14,34 +17,80 @@
     <meta property="og:title" content="LongTai Jiang | 學生開發者">
     <meta property="og:description" content="就讀中科大的學生開發者，活躍於台灣各大資訊社群。">
     <meta property="og:image" content="https://www.gravatar.com/avatar/64a851c812177321ca40d671ad3c014a">
+    <meta property="og:image:width" content="240">
+    <meta property="og:image:height" content="240">
     <meta property="og:url" content="https://longtai.org">
     <meta property="og:type" content="website">
+    <meta property="og:locale" content="zh_TW">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="LongTai Jiang | 學生開發者">
     <meta name="twitter:description" content="就讀中科大的學生開發者，活躍於台灣各大資訊社群。">
-  <!-- Styles -->
-  <link rel="stylesheet" href="public/css/bundle.css">
-  
-  <!-- Preload Critical Data -->
-  <link rel="preload" href="public/json/experiences.json" as="fetch" crossorigin="anonymous">
-  <link rel="preload" href="public/json/friends.json" as="fetch" crossorigin="anonymous">
-  <link rel="preload" href="public/json/support.json" as="fetch" crossorigin="anonymous">
-  <link rel="preload" href="public/json/ads.json" as="fetch" crossorigin="anonymous">
-  
-  <!-- Preload JS Modules -->
-  <link rel="modulepreload" href="public/javascript/main.js">
-  <link rel="modulepreload" href="public/javascript/experiences.js">
-  <link rel="modulepreload" href="public/javascript/friends.js">
-  <link rel="modulepreload" href="public/javascript/support.js">
-  <link rel="modulepreload" href="public/javascript/ads.js">
-  <link rel="modulepreload" href="public/javascript/ui.js">
+    <meta name="twitter:image" content="https://www.gravatar.com/avatar/64a851c812177321ca40d671ad3c014a">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="public/css/bundle.css">
+
+    <!-- Preload Critical Data -->
+    <link rel="preload" href="public/json/experiences.json" as="fetch" crossorigin="anonymous">
+    <link rel="preload" href="public/json/friends.json" as="fetch" crossorigin="anonymous">
+    <link rel="preload" href="public/json/support.json" as="fetch" crossorigin="anonymous">
+    <link rel="preload" href="public/json/ads.json" as="fetch" crossorigin="anonymous">
+
+    <!-- Preload JS Modules -->
+    <link rel="modulepreload" href="public/javascript/main.js">
+    <link rel="modulepreload" href="public/javascript/experiences.js">
+    <link rel="modulepreload" href="public/javascript/friends.js">
+    <link rel="modulepreload" href="public/javascript/support.js">
+    <link rel="modulepreload" href="public/javascript/ads.js">
+    <link rel="modulepreload" href="public/javascript/ui.js">
+
+    <!-- PWA -->
+    <link rel="manifest" href="public/manifest.webmanifest">
+
+    <!-- Structured Data (Schema.org) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Person",
+          "@id": "https://longtai.org/#person",
+          "name": "LongTai Jiang",
+          "alternateName": "Jiang",
+          "url": "https://longtai.org",
+          "image": "https://www.gravatar.com/avatar/64a851c812177321ca40d671ad3c014a",
+          "description": "國立台中科技大學學生，資訊社群活躍成員，參與過 COSCUP 與 SITCON。",
+          "jobTitle": "Student Developer",
+          "knowsAbout": ["HTML", "CSS", "Python", "Community Management"],
+          "alumniOf": { "@type": "CollegeOrUniversity", "name": "國立台中科技大學" },
+          "memberOf": [
+            { "@type": "Organization", "name": "SCAICT" },
+            { "@type": "Organization", "name": "SITCON" },
+            { "@type": "Organization", "name": "國立台中科技大學 資訊工程科 學會" }
+          ],
+          "sameAs": [
+            "https://github.com/longtai-me",
+            "https://instagram.com/jiang.0925",
+            "https://t.me/lcngtai"
+          ]
+        },
+        {
+          "@type": "WebSite",
+          "@id": "https://longtai.org/#website",
+          "url": "https://longtai.org",
+          "name": "LongTai Jiang | 學生開發者",
+          "publisher": { "@id": "https://longtai.org/#person" }
+        }
+      ]
+    }
+    </script>
   </head>
 
   <body>
-    <script type="module" src="/public/javascript/schema-data.js"></script>
+    <a href="#main" class="skip-link">跳到主內容</a>
     <script type="module" src="public/javascript/main.js"></script>
     <header>
-      <nav class="nav">
+      <nav class="nav" aria-label="主要導覽">
         <div class="logo">Jiang</div>
         <div class="nav-links">
           <a href="#about">About</a>
@@ -51,57 +100,68 @@
       </nav>
     </header>
 
-    <main>
-    <div class="hero">
-      <img src="https://www.gravatar.com/avatar/64a851c812177321ca40d671ad3c014a?d=mp&s=240" alt="Avatar" width="240" height="240">
-      <h1>Hi, I'm <span class="typing"></span></h1>
-      <p>學生 / 討厭開發的開發者</p>
-    <a href="#about" class="btn">More...</a>
-    </div>
+    <main id="main">
+      <div class="hero">
+        <img src="https://www.gravatar.com/avatar/64a851c812177321ca40d671ad3c014a?d=mp&s=240" alt="Avatar" width="240" height="240" fetchpriority="high">
+        <h1>Hi, I'm <span class="typing"></span></h1>
+        <p>學生 / 討厭開發的開發者</p>
+        <a href="#about" class="btn">More...</a>
+      </div>
 
-    <section id="about">
-      <h2>關於我</h2>
-      <div class="card">
-        <p>就讀 國立台中科技大學 資訊工程科</br>活躍於 SCAICT、SITCON 等資訊社群</br>目前在 資工科學會 資訊部當狗</p>
-        <div class="tags">
-          <span class="tag">HTML, CSS</span>
-          <span class="tag">Python</span>
-          <span class="tag">SCAICT</span>
-          <span class="tag">NTCUST CSIE</span>
+      <section id="about">
+        <h2>關於我</h2>
+        <div class="card">
+          <p>就讀 國立台中科技大學 資訊工程科<br>活躍於 SCAICT、SITCON 等資訊社群<br>目前在 資工科學會 資訊部當狗</p>
+          <div class="tags">
+            <span class="tag">HTML, CSS</span>
+            <span class="tag">Python</span>
+            <span class="tag">SCAICT</span>
+            <span class="tag">NTCUST CSIE</span>
+          </div>
         </div>
-      </div>
-    </section>
+      </section>
 
-    <section id="social">
-      <h2>社群媒體</h2>
-      <div class="socials">
-        <a target="_blank" href="https://github.com/longtai-me" aria-label="GitHub"><div class="social-icon"><img src="public/images/social/GitHub.webp" alt="GitHub" width="60" height="60"></div></a>
-        <a target="_blank" href="https://t.me/lcngtai" aria-label="Telegram"><div class="social-icon"><img src="public/images/social/Telegram.webp" alt="Telegram" width="60" height="60"></div></a>
-        <a target="_blank" href="https://instagram.com/jiang.0925" aria-label="Instagram"><div class="social-icon"><img src="public/images/social/Instagram.svg" alt="Instagram" width="60" height="60"></div></a>
-        <a target="_blank" href="https://broad-cotija-e7e.notion.site/114-310f7134db158042a236d68bcfbd571b?pvs=74" aria-label="Notion"><div class="social-icon"><img src="public/images/social/Notion.webp" alt="Notion" width="60" height="60"></div></a>
-        <a target="_blank" href="https://calendar.google.com/calendar/u/0/r?cid=longtai010925@gmail.com&cid=bf537202b4e8f6ad769d9c95dff5fa3b92d992b4d5b9c244e3d26ae7d5063fe6@group.calendar.google.com&cid=ce8e4f85204848c916960bf82fc01d8e2dd6bbfd5636549c82308d1d870ca46b@group.calendar.google.com" aria-label="Google Calendar"><div class="social-icon"><img id="calendar-icon" src="public/images/social/Google%20Calendar.webp" alt="Google_Calendar" width="60" height="60"></div></a>
-        <a target="_blank" href="https://gravatar.com/brisklybreade80de904f9" aria-label="Gravatar"><div class="social-icon"><img src="public/images/social/Gravatar.webp" alt="Gravatar" width="60" height="60"></div></a>
-      </div>
-    </section>
-
-    <section id="Experience"><h2>經驗與活動</h2><div class="grid" id="experience-container"></div></section>
-
-    <section id="GitHub">
-      <h2>GitHub</h2>
-      <div class="grid" id="GitHub">
-        <div>
-          <img src="https://ghstats.dev/api/langs?username=longtai-me&theme=gruvbox" alt="Top Languages" width="300" height="165" /><br/>
-          <img src="https://ghstats.dev/api/card?username=longtai-me&theme=gruvbox&hide=stars%2Cgrade%2Cactive_day%2Cavg" alt="GitHub Stats Card" width="495" height="195" />
+      <section id="social">
+        <h2>社群媒體</h2>
+        <div class="socials">
+          <a target="_blank" rel="noopener noreferrer" href="https://github.com/longtai-me" aria-label="GitHub"><div class="social-icon"><img src="public/images/social/GitHub.webp" alt="GitHub" width="60" height="60"></div></a>
+          <a target="_blank" rel="noopener noreferrer" href="https://t.me/lcngtai" aria-label="Telegram"><div class="social-icon"><img src="public/images/social/Telegram.webp" alt="Telegram" width="60" height="60"></div></a>
+          <a target="_blank" rel="noopener noreferrer" href="https://instagram.com/jiang.0925" aria-label="Instagram"><div class="social-icon"><img src="public/images/social/Instagram.svg" alt="Instagram" width="60" height="60"></div></a>
+          <a target="_blank" rel="noopener noreferrer" href="https://broad-cotija-e7e.notion.site/114-310f7134db158042a236d68bcfbd571b?pvs=74" aria-label="Notion"><div class="social-icon"><img src="public/images/social/Notion.webp" alt="Notion" width="60" height="60"></div></a>
+          <a target="_blank" rel="noopener noreferrer" href="https://calendar.google.com/calendar/u/0/r?cid=longtai010925@gmail.com&cid=bf537202b4e8f6ad769d9c95dff5fa3b92d992b4d5b9c244e3d26ae7d5063fe6@group.calendar.google.com&cid=ce8e4f85204848c916960bf82fc01d8e2dd6bbfd5636549c82308d1d870ca46b@group.calendar.google.com" aria-label="Google Calendar"><div class="social-icon"><img id="calendar-icon" src="public/images/social/Google%20Calendar.webp" alt="Google Calendar" width="120" height="120"></div></a>
+          <a target="_blank" rel="noopener noreferrer" href="https://gravatar.com/brisklybreade80de904f9" aria-label="Gravatar"><div class="social-icon"><img src="public/images/social/Gravatar.webp" alt="Gravatar" width="60" height="60"></div></a>
         </div>
-      </div>
-    </section>
+      </section>
 
-    <section id="Support_whit_love"><h2>愛與支援</h2><div class="grid" id="support-container"></div></section>
+      <section id="Experience"><h2>經驗與活動</h2><div class="grid" id="experience-container"></div></section>
 
-    <section id="friend"><h2>大電神們</h2><div class="friends" id="friends-container"></div></section>
+      <section id="GitHub">
+        <h2>GitHub</h2>
+        <div class="grid" id="GitHub">
+          <div class="github-stats">
+            <img loading="lazy" src="https://ghstats.dev/api/langs?username=longtai-me&theme=gruvbox" alt="Top Languages" width="300" height="165" /><br/>
+            <img loading="lazy" src="https://ghstats.dev/api/card?username=longtai-me&theme=gruvbox&hide=stars%2Cgrade%2Cactive_day%2Cavg" alt="GitHub Stats Card" width="495" height="195" />
+          </div>
+        </div>
+      </section>
+
+      <section id="Support_whit_love"><h2>愛與支援</h2><div class="grid" id="support-container"></div></section>
+
+      <section id="friend"><h2>大電神們</h2><div class="friends" id="friends-container"></div></section>
     </main>
 
-    <footer><p>© 2026 LongTai Jiang</p><p>Check out the repo on <a href="https://github.com/longtai-me/longtai-me">GitHub</a> !</p>
+    <footer><p>© 2026 LongTai Jiang</p><p>Check out the repo on <a href="https://github.com/longtai-me/longtai-me" rel="noopener noreferrer">GitHub</a> !</p>
     </footer>
+
+    <!-- Service Worker 註冊 -->
+    <script>
+      if ('serviceWorker' in navigator) {
+        window.addEventListener('load', () => {
+          navigator.serviceWorker.register('/sw.js').catch(err => {
+            console.warn('Service Worker 註冊失敗:', err);
+          });
+        });
+      }
+    </script>
   </body>
 </html>

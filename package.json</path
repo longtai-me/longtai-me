@@ -1,0 +1,16 @@
+{
+  "name": "longtai-me",
+  "version": "1.0.0",
+  "description": "LongTai Jiang 個人網頁",
+  "private": true,
+  "scripts": {
+    "build:css": "cat public/css/main.css public/css/social.css public/css/friend.css public/css/card.css public/css/footer.css public/css/grid.css public/css/reveal.css public/css/tag.css > public/css/bundle.css",
+    "format": "prettier --write \"**/*.{html,css,js,json}\"",
+    "lint": "eslint public/javascript/*.js",
+    "serve": "npx serve ."
+  },
+  "devDependencies": {
+    "eslint": "^9.0.0",
+    "prettier": "^3.0.0"
+  }
+}

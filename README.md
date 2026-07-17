@@ -1,5 +1,51 @@
 # Jiang
 
+> LongTai Jiang 的個人網頁原始碼。就讀國立台中科技大學，活躍於 SCAICT、SITCON 等資訊社群。
+
+## 本地開發
+
+1. 安裝依賴（可選，用於格式化與 lint）：
+   ```bash
+   npm install
+   ```
+2. 啟動本地伺服器預覽：
+   ```bash
+   npm run serve
+   ```
+3. 修改 CSS 後重新合併 bundle.css：
+   ```bash
+   npm run build:css
+   ```
+4. 格式化程式碼：
+   ```bash
+   npm run format
+   ```
+5. 執行 ESLint 檢查：
+   ```bash
+   npm run lint
+   ```
+
+## 專案結構
+
+```
+index.html          # 首頁
+404.html            # 短網址導向與 404 頁面
+sw.js               # Service Worker（PWA 離線快取）
+public/
+  css/              # 各模組 CSS + bundle.css（合併產物）
+  javascript/       # ES Module 模組化 JS
+  json/             # 資料檔（experiences, friends, support, ads, links）
+  images/           # 圖片資源
+  manifest.webmanifest  # PWA manifest
+```
+
+## 貢獻
+
+歡迎發送 Issue 或 Pull Request。請先執行 `npm run format` 與 `npm run lint` 確保程式碼風格一致。
+
+## 授權
+
+MIT License
 
 ## 相關資訊
 | [個人網頁](https://longtai.org/) |
