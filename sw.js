@@ -1,12 +1,15 @@
 // LongTai Jiang 個人網站 Service Worker
-const CACHE_NAME = 'longtai-v2';
+const CACHE_NAME = 'longtai-v3';
 const STATIC_ASSETS = [
   '/',
   '/index.html',
+  '/blogs.html',
   '/404.html',
   '/robots.txt',
   '/sitemap.xml',
   '/public/css/bundle.css',
+  '/public/css/blogs.css',
+  '/public/css/markdown.css',
   '/public/javascript/main.js',
   '/public/javascript/ui.js',
   '/public/javascript/utils.js',
@@ -15,6 +18,7 @@ const STATIC_ASSETS = [
   '/public/javascript/support.js',
   '/public/javascript/ads.js',
   '/public/javascript/special.js',
+  '/public/javascript/blogs.js',
   '/public/json/experiences.json',
   '/public/json/friends.json',
   '/public/json/support.json',
@@ -48,35 +52,49 @@ self.addEventListener('activate', event => {
   );
 });
 
-// 攔截請求：快取優先，網路 fallback
+// 攔截請求：靜態資源快取優先，部落格文章網路優先
 self.addEventListener('fetch', event => {
-  // 只處理 GET 請求
   if (event.request.method !== 'GET') return;
 
-  event.respondWith(
-    caches.match(event.request)
-      .then(cached => {
-        // 快取命中則回傳
-        if (cached) return cached;
+  const url = new URL(event.request.url);
+  const isDynamicContent = url.pathname.startsWith('/public/blogs/') || url.pathname === '/public/json/blogs.json';
 
-        // 否則從網路取得，並快取成功的回應
-        return fetch(event.request)
-          .then(response => {
-            // 只快取同源且成功的回應
-            if (!response || response.status !== 200 || !response.url.startsWith(self.location.origin)) {
-              return response;
-            }
+  if (isDynamicContent) {
+    // 網路優先 (Network First) 策略：針對經常變動的部落格內容
+    event.respondWith(
+      fetch(event.request)
+        .then(response => {
+          if (response && response.status === 200) {
             const responseToCache = response.clone();
-            caches.open(CACHE_NAME)
-              .then(cache => cache.put(event.request, responseToCache));
-            return response;
-          })
-          .catch(() => {
-            // 網路失敗時，若為導航請求則回傳首頁
-            if (event.request.mode === 'navigate') {
-              return caches.match('/index.html');
-            }
-          });
-      })
-  );
+            caches.open(CACHE_NAME).then(cache => cache.put(event.request, responseToCache));
+          }
+          return response;
+        })
+        .catch(() => {
+          return caches.match(event.request);
+        })
+    );
+  } else {
+    // 快取優先 (Cache First) 策略：針對靜態資源
+    event.respondWith(
+      caches.match(event.request)
+        .then(cached => {
+          if (cached) return cached;
+          return fetch(event.request)
+            .then(response => {
+              if (!response || response.status !== 200 || !response.url.startsWith(self.location.origin)) {
+                return response;
+              }
+              const responseToCache = response.clone();
+              caches.open(CACHE_NAME).then(cache => cache.put(event.request, responseToCache));
+              return response;
+            })
+            .catch(() => {
+              if (event.request.mode === 'navigate') {
+                return caches.match('/index.html');
+              }
+            });
+        })
+    );
+  }
 });
