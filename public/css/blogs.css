@@ -171,17 +171,20 @@
 #back-btn {
     background: rgba(255, 255, 255, 0.05);
     color: var(--text);
-    border: 1px solid rgba(255, 255, 255, 0.1);
+    border: none;
     backdrop-filter: blur(10px);
-    box-shadow: none;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     font-size: 0.95rem;
     padding: 10px 20px;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    border-radius: 999px;
 }
 
 #back-btn:hover {
-    background: var(--primary);
-    color: var(--bg);
-    border-color: var(--primary);
+    background: rgba(255, 255, 255, 0.15);
+    color: #fff;
     transform: translateX(-5px);
-    box-shadow: 0 5px 15px rgba(0, 168, 240, 0.3);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
 }
