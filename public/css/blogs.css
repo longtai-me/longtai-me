@@ -141,13 +141,16 @@
 #back-btn {
     display: inline-flex;
     align-items: center;
-    gap: 6px;
+    gap: 8px;
     color: var(--muted);
-    font-size: 0.95rem;
+    font-size: 1rem;
+    font-weight: 500;
     text-decoration: none;
-    transition: color 0.2s ease;
+    transition: all 0.2s ease;
+    padding: 8px 0;
 }
 
 #back-btn:hover {
     color: var(--primary);
+    transform: translateX(-4px);
 }
