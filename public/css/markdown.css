@@ -106,6 +106,7 @@
     background: rgba(0, 0, 0, 0.3);
     border: 1px solid rgba(255, 255, 255, 0.05);
     border-radius: 8px;
+    position: relative; /* For copy button */
 }
 
 .markdown-body pre code {
@@ -113,6 +114,39 @@
     color: #e0e6ed;
     padding: 0;
     font-size: 1em;
+}
+
+/* Copy Code Button */
+.copy-code-btn {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    background: rgba(255, 255, 255, 0.1);
+    color: var(--muted);
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    border-radius: 6px;
+    padding: 6px 8px;
+    cursor: pointer;
+    opacity: 0;
+    transition: all 0.2s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.markdown-body pre:hover .copy-code-btn {
+    opacity: 1;
+}
+
+.copy-code-btn:hover {
+    background: rgba(255, 255, 255, 0.2);
+    color: #fff;
+}
+
+.copy-code-btn.copied {
+    background: var(--primary);
+    color: #fff;
+    border-color: var(--primary);
 }
 
 /* Custom Selection */
