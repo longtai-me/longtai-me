@@ -122,7 +122,7 @@ document.addEventListener('DOMContentLoaded', () => {
             
             // Parse Markdown to HTML
             const html = marked.parse(text);
-            postContent.innerHTML = html;
+            postContent.innerHTML = `<h1>${postId}</h1>\n${html}`;
             
             // Update document title
             document.title = `${postId} | Blog`;
