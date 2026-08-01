@@ -18,15 +18,6 @@
     "role": "一般民眾"
   },
   {
-    "link": "https://sc.scaict.org/",
-    "img": "public/images/Experience/SCAICT.webp",
-    "alt": "SCAICT",
-    "title": "SCAICT",
-    "subtitle": "資暑與你",
-    "years": "2026",
-    "role": "隊輔組組員"
-  },
-  {
     "link": "https://www.ctrun.com.tw/Activity?EventMain_ID=282",
     "img": "public/images/Experience/Zepro.webp",
     "alt": "Zepro",
@@ -70,6 +61,15 @@
     "subtitle": "資訊工程科科學會",
     "years": "2024",
     "role": "第五屆 行銷組"
+  },
+  {
+    "link": "https://sc.scaict.org/",
+    "img": "public/images/Experience/SCAICT.webp",
+    "alt": "SCAICT",
+    "title": "SCAICT",
+    "subtitle": "第四屆",
+    "years": "2024",
+    "role": "臨時工人"
   },
   {
     "link": "https://www.taichung.gov.tw/8868/8872/9962/2579903",
