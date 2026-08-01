@@ -26,8 +26,8 @@
 | 2026 | [SITCON](https://sitcon.org/2026/) | Jam the Chaos | 邀請票會眾 |
 | 2025 | [DevFest](https://devfest-taipei.gdg.tw/2025/) | Taipei | 會眾 |
 | 2025 | [COSCUP](https://coscup.org/2025/) | RubyConf Taiwan | 會眾 |
-| 2025 | [SCAICT](https://scaict.org/) | 第五屆 | 臨時工人 |
 | 2024 | [國立台中科技大學](https://linktr.ee/nutccsie) | 資訊工程科科學會 | 第五屆 行銷組 |
+| 2024 | [舞動盃羽球趣味競賽](https://www.taichung.gov.tw/8868/8872/9962/2579903) | 第二屆 | 志工 - 大會組 |
 | 2023 | [稻鎮好柚獲路跑](https://www.youtube.com/watch?v=HX-AvFdigPo) | 玉溪場 | 11 K 跑者 |
 | 2022 | [北濱萬金石](https://taiwanbike.org/index.php/558) | 自行車嘉年華挑戰 | 75 K 騎手 |
 | 2022 | [全國中等學校運動會](https://111sport.hlc.edu.tw/) | 登山車越野賽決賽 | 國男組 |
