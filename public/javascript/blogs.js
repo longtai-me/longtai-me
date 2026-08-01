@@ -67,21 +67,17 @@ document.addEventListener('DOMContentLoaded', () => {
             const preview = document.createElement('p');
             preview.textContent = previewText;
             
-            const link = document.createElement('a');
-            link.href = `?post=${encodeURIComponent(blog.id)}`;
-            link.className = 'btn';
-            link.textContent = 'Read';
-            link.style.marginTop = '1rem';
+            const link = document.createElement('div');
+            link.className = 'read-more';
+            link.textContent = '閱讀文章';
             
             card.appendChild(title);
             card.appendChild(preview);
             card.appendChild(link);
             
-            // Make the whole card clickable except the button (which handles its own click)
-            card.addEventListener('click', (e) => {
-                if (e.target.tagName !== 'A') {
-                    window.location.href = `?post=${encodeURIComponent(blog.id)}`;
-                }
+            // Make the whole card clickable
+            card.addEventListener('click', () => {
+                window.location.href = `?post=${encodeURIComponent(blog.id)}`;
             });
             card.style.cursor = 'pointer';
             

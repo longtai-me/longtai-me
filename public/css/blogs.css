@@ -1,50 +1,75 @@
-/* blogs.css */
+/* blogs.css - Premium Aesthetics */
 
 .blog-container {
-    max-width: 800px;
+    max-width: 900px;
     margin: 0 auto;
     padding: 2rem;
     padding-top: 100px; /* space for fixed header */
+    animation: fadeIn 0.8s ease-out;
 }
 
 .blog-header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 2rem;
+    margin-bottom: 3rem;
     flex-wrap: wrap;
-    gap: 1rem;
+    gap: 1.5rem;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+    padding-bottom: 2rem;
 }
 
 .blog-header h2 {
     margin: 0;
+    font-size: 36px;
+    border-left: none;
+    padding-left: 0;
+    background: linear-gradient(135deg, #fff, var(--primary));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 0 4px 15px rgba(0, 168, 240, 0.2);
 }
 
 .search-box {
     flex-grow: 1;
-    max-width: 400px;
+    max-width: 450px;
+    position: relative;
+}
+
+.search-box::before {
+    content: '🔍';
+    position: absolute;
+    left: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    opacity: 0.5;
+    pointer-events: none;
 }
 
 #blog-search {
     width: 100%;
-    padding: 0.8rem 1rem;
-    border: 1px solid var(--gray);
-    border-radius: 8px;
-    background: rgba(255, 255, 255, 0.05);
-    color: var(--white);
+    padding: 1rem 1rem 1rem 45px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 999px;
+    background: rgba(255, 255, 255, 0.03);
+    color: var(--text);
     font-size: 1rem;
+    backdrop-filter: blur(10px);
+    transition: all 0.3s ease;
+    box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.2);
 }
 
 #blog-search:focus {
     outline: none;
     border-color: var(--primary);
-    background: rgba(255, 255, 255, 0.1);
+    background: rgba(255, 255, 255, 0.08);
+    box-shadow: 0 0 20px rgba(0, 168, 240, 0.2), inset 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .blog-grid {
     display: grid;
     grid-template-columns: 1fr;
-    gap: 1.5rem;
+    gap: 2rem;
 }
 
 @media (min-width: 768px) {
@@ -54,35 +79,109 @@
 }
 
 .blog-card {
-    transition: transform 0.2s, background 0.2s;
+    position: relative;
+    padding: 2rem;
+    border-radius: 20px;
+    background: linear-gradient(145deg, rgba(20, 25, 35, 0.8), rgba(10, 15, 20, 0.8));
+    border: 1px solid rgba(255, 255, 255, 0.03);
+    backdrop-filter: blur(10px);
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: flex-start;
+    transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    overflow: hidden;
+}
+
+/* 微光特效 */
+.blog-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 50%;
+    height: 100%;
+    background: linear-gradient(to right, transparent, rgba(255, 255, 255, 0.05), transparent);
+    transform: skewX(-25deg);
+    transition: all 0.7s ease;
 }
 
 .blog-card:hover {
-    transform: translateY(-5px);
-    background: rgba(255, 255, 255, 0.1);
+    transform: translateY(-10px);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4), 0 0 20px rgba(0, 168, 240, 0.15);
+    border-color: rgba(0, 168, 240, 0.3);
+}
+
+.blog-card:hover::before {
+    left: 200%;
 }
 
 .blog-card h3 {
     margin-top: 0;
-    margin-bottom: 0.5rem;
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+    line-height: 1.3;
+    color: var(--text);
+    transition: color 0.3s;
+}
+
+.blog-card:hover h3 {
     color: var(--primary);
 }
 
 .blog-card p {
     flex-grow: 1;
-    margin-bottom: 1rem;
-    color: #cccccc;
-    font-size: 0.95rem;
-    line-height: 1.5;
+    margin-bottom: 1.5rem;
+    color: var(--muted);
+    font-size: 1rem;
+    line-height: 1.6;
 }
 
+.blog-card .read-more {
+    font-weight: 600;
+    color: var(--primary);
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-top: auto;
+}
+
+.blog-card .read-more::after {
+    content: '→';
+    transition: transform 0.3s;
+}
+
+.blog-card:hover .read-more::after {
+    transform: translateX(5px);
+}
+
+/* --- Blog Post View --- */
 .blog-post {
     max-width: 800px;
     margin: 0 auto;
     padding: 2rem;
     padding-top: 100px;
+    animation: fadeIn 0.8s ease-out;
+}
+
+.back-btn-container {
+    margin-bottom: 3rem;
+}
+
+#back-btn {
+    background: rgba(255, 255, 255, 0.05);
+    color: var(--text);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    box-shadow: none;
+    font-size: 0.95rem;
+    padding: 10px 20px;
+}
+
+#back-btn:hover {
+    background: var(--primary);
+    color: var(--bg);
+    border-color: var(--primary);
+    transform: translateX(-5px);
+    box-shadow: 0 5px 15px rgba(0, 168, 240, 0.3);
 }
