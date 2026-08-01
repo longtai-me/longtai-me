@@ -1,140 +1,128 @@
-/* blogs.css - Minimalist Aesthetics */
+/* blogs.css - Aligned with main site aesthetic */
 
 .blog-container {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 2rem;
     padding-top: 100px;
-    animation: fadeIn 0.5s ease-out;
+    animation: fadeIn 1s ease forwards;
 }
 
 .blog-header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 3rem;
+    margin-bottom: 40px;
     flex-wrap: wrap;
-    gap: 1.5rem;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-    padding-bottom: 1.5rem;
+    gap: 20px;
 }
 
 .blog-header h2 {
     margin: 0;
-    font-size: 28px;
-    border-left: none;
-    padding-left: 0;
-    color: var(--text);
+    /* Uses bundle.css h2 styles (border-left, etc.) */
 }
 
 .search-box {
     flex-grow: 1;
-    max-width: 350px;
+    max-width: 400px;
     position: relative;
 }
 
 .search-icon {
     position: absolute;
-    left: 12px;
+    left: 15px;
     top: 50%;
     transform: translateY(-50%);
     opacity: 0.5;
     pointer-events: none;
-    color: var(--muted);
+    color: var(--text);
 }
 
 #blog-search {
     width: 100%;
-    padding: 0.75rem 1rem 0.75rem 38px;
-    border: 1px solid rgba(255, 255, 255, 0.2);
-    border-radius: 8px;
-    background: transparent;
+    padding: 12px 15px 12px 42px;
+    background: var(--card);
+    border: 1px solid #2a2f3a;
+    border-radius: 999px;
     color: var(--text);
-    font-size: 0.95rem;
-    transition: all 0.2s ease;
+    font-size: 16px;
+    font-family: inherit;
+    transition: 0.3s;
 }
 
 #blog-search:focus {
     outline: none;
     border-color: var(--primary);
-    background: rgba(255, 255, 255, 0.05);
+    box-shadow: 0 0 15px rgba(0, 168, 240, 0.2);
 }
 
 .blog-grid {
     display: grid;
-    grid-template-columns: 1fr;
-    gap: 1.5rem;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 25px;
+    align-items: stretch;
 }
 
-@media (min-width: 768px) {
-    .blog-grid {
-        grid-template-columns: repeat(2, 1fr);
-    }
-}
-
+/* Inherit exactly from bundle.css .card but specialized for blog */
 .blog-card {
-    padding: 1.5rem;
-    border-radius: 12px;
     background: var(--card);
-    border: 1px solid rgba(255, 255, 255, 0.05);
+    padding: 25px;
+    border-radius: 18px;
+    transition: 0.3s;
+    will-change: transform;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    align-items: flex-start;
-    transition: transform 0.2s ease, background 0.2s ease;
+    text-align: left;
 }
 
 .blog-card:hover {
-    transform: translateY(-4px);
+    transform: translateY(-8px);
     background: var(--card-hover);
 }
 
 .blog-card h3 {
-    margin-top: 0;
-    margin-bottom: 0.75rem;
-    font-size: 1.25rem;
-    line-height: 1.4;
-    color: var(--text);
+    margin: 0 0 15px 0;
+    font-size: 22px;
+    color: var(--primary);
 }
 
 .blog-card p {
-    flex-grow: 1;
-    margin-bottom: 1.5rem;
+    margin: 0 0 20px 0;
     color: var(--muted);
-    font-size: 0.95rem;
+    font-size: 16px;
     line-height: 1.6;
+    flex-grow: 1;
 }
 
 .blog-card .read-more {
-    font-weight: 500;
-    font-size: 0.9rem;
-    color: var(--primary);
+    font-weight: bold;
+    color: var(--text);
     display: flex;
     align-items: center;
-    gap: 4px;
-    margin-top: auto;
+    gap: 8px;
+    font-size: 15px;
+}
+
+.blog-card:hover .read-more {
+    color: var(--primary);
 }
 
 .blog-card .read-more::after {
     content: '→';
-    transition: transform 0.2s;
+    transition: 0.3s;
 }
 
 .blog-card:hover .read-more::after {
-    transform: translateX(4px);
+    transform: translateX(5px);
 }
 
 /* --- Blog Post View --- */
 .blog-post {
     max-width: 800px;
     margin: 0 auto;
-    padding: 2rem;
     padding-top: 100px;
-    animation: fadeIn 0.5s ease-out;
+    animation: fadeIn 1s ease forwards;
 }
 
 .back-btn-container {
-    margin-bottom: 2rem;
+    margin-bottom: 30px;
 }
 
 #back-btn {
@@ -142,14 +130,13 @@
     align-items: center;
     gap: 8px;
     color: var(--muted);
-    font-size: 1rem;
-    font-weight: 500;
+    font-size: 16px;
+    font-weight: bold;
     text-decoration: none;
-    transition: all 0.2s ease;
-    padding: 8px 0;
+    transition: 0.3s;
 }
 
 #back-btn:hover {
     color: var(--primary);
-    transform: translateX(-4px);
+    transform: translateX(-5px);
 }
