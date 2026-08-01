@@ -21,12 +21,12 @@
 | :--- | :--- | :--- | :--- |
 | 2026 | [國立台中科技大學](https://nutccsie.org) | 資工科科學會 | 資訊部 |
 | 2026 | [COMPUTEX](https://www.computextaipei.com.tw/zh-tw/index.html) | Taipei | 一般民眾 |
-| 2026 | [SCAICT](https://sc.scaict.org/) | 資暑與你 | 隊輔組組員 |
 | 2026 | [Zepro Run](https://www.ctrun.com.tw/Activity?EventMain_ID=282) | Taichung | 21K 跑者 |
 | 2026 | [SITCON](https://sitcon.org/2026/) | Jam the Chaos | 邀請票會眾 |
 | 2025 | [DevFest](https://devfest-taipei.gdg.tw/2025/) | Taipei | 會眾 |
 | 2025 | [COSCUP](https://coscup.org/2025/) | RubyConf Taiwan | 會眾 |
 | 2024 | [國立台中科技大學](https://linktr.ee/nutccsie) | 資訊工程科科學會 | 第五屆 行銷組 |
+| 2024 | [SCAICT](https://sc.scaict.org/) | 第四屆 | 臨時工人 |
 | 2024 | [舞動盃羽球趣味競賽](https://www.taichung.gov.tw/8868/8872/9962/2579903) | 第二屆 | 志工 - 大會組 |
 | 2023 | [稻鎮好柚獲路跑](https://www.youtube.com/watch?v=HX-AvFdigPo) | 玉溪場 | 11 K 跑者 |
 | 2022 | [北濱萬金石](https://taiwanbike.org/index.php/558) | 自行車嘉年華挑戰 | 75 K 騎手 |
