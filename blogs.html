@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/png" href="/public/images/me.png">
+    <title>Blog | LongTai Jiang</title>
+    <meta name="description" content="LongTai Jiang 的個人部落格，記錄開發心得、活動經驗與技術分享。">
+    <link rel="canonical" href="https://longtai.org/blogs.html" />
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="/public/css/bundle.css">
+    <link rel="stylesheet" href="/public/css/markdown.css">
+    <link rel="stylesheet" href="/public/css/blogs.css">
+    
+    <!-- Marked.js -->
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <script type="module" src="/public/javascript/blogs.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <nav class="nav" aria-label="主要導覽">
+            <div class="logo"><a href="/" style="color: inherit; text-decoration: none;">Jiang</a></div>
+            <div class="nav-links">
+                <a href="/#about">About</a>
+                <a href="/#social">Social</a>
+                <a href="/#Experience">Experience</a>
+                <a href="/blogs.html" class="active">Blog</a>
+            </div>
+        </nav>
+    </header>
+
+    <main id="main">
+        <section id="blog-container" class="blog-container">
+            <div class="blog-header">
+                <h2>部落格</h2>
+                <div class="search-box">
+                    <input type="text" id="blog-search" placeholder="搜尋標題或內文關鍵字..." aria-label="搜尋部落格">
+                </div>
+            </div>
+            
+            <div id="blog-list" class="blog-grid">
+                <!-- Blog cards will be inserted here -->
+                <p class="loading-text">載入中...</p>
+            </div>
+        </section>
+
+        <article id="blog-post" class="blog-post" style="display: none;">
+            <button id="back-btn" class="btn" style="margin-bottom: 2rem;">&larr; 返回列表</button>
+            <div id="post-content" class="markdown-body">
+                <!-- Markdown content will be rendered here -->
+            </div>
+        </article>
+    </main>
+
+    <footer>
+        <p>© 2026 LongTai Jiang</p>
+        <p>Check out the repo on <a href="https://github.com/longtai-me/longtai-me">GitHub</a> !</p>
+    </footer>
+</body>
+</html>
