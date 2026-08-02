@@ -6,7 +6,7 @@ export const blogsConfig = {
   tpl: b => {
     escapeFields(b, ['id', 'title']);
     return `
-    <a href="/blogs.html?post=${encodeURIComponent(b.id || b.title)}" aria-label="閱讀文章：${b.title}">
+    <a href="/blogs?post=${encodeURIComponent(b.id || b.title)}" aria-label="閱讀文章：${b.title}">
       <div class="card" style="text-align: left; justify-content: space-between;">
         <div>
           <div style="font-size: 0.85rem; color: var(--primary); font-weight: 600; margin-bottom: 8px; letter-spacing: 0.05em;">ARTICLE</div>
