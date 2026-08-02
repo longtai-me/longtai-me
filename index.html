@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="color-scheme" content="dark" />
     <meta name="theme-color" content="#1b212c" />
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Expires" content="0" />
 
     <!-- Favicon -->
     <link rel="icon" type="image/png" href="/public/images/me.png">
@@ -311,14 +314,15 @@
       <p>Check out the repo on <a href="https://github.com/longtai-me/longtai-me" rel="noopener noreferrer">GitHub</a> !</p>
     </footer>
 
-    <!-- Service Worker 註冊 -->
+    <!-- 清除舊有 Service Worker 與快取，確保每次載入最新內容 -->
     <script>
       if ('serviceWorker' in navigator) {
-        window.addEventListener('load', () => {
-          navigator.serviceWorker.register('/sw.js').catch(err => {
-            console.warn('Service Worker 註冊失敗:', err);
-          });
+        navigator.serviceWorker.getRegistrations().then(regs => {
+          for (const reg of regs) reg.unregister();
         });
+      }
+      if ('caches' in window) {
+        caches.keys().then(keys => keys.forEach(key => caches.delete(key)));
       }
     </script>
   </body>

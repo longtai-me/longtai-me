@@ -4,6 +4,9 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Expires" content="0" />
     <link rel="icon" type="image/png" href="/public/images/me.png">
     <title>Blog | LongTai Jiang</title>
     <meta name="description" content="LongTai Jiang 的個人部落格，記錄開發心得、活動經驗與技術分享。">
@@ -65,5 +68,17 @@
         <p>© 2026 LongTai Jiang</p>
         <p>Check out the repo on <a href="https://github.com/longtai-me/longtai-me">GitHub</a> !</p>
     </footer>
+
+    <!-- 清除舊有 Service Worker 與快取，確保每次載入最新內容 -->
+    <script>
+      if ('serviceWorker' in navigator) {
+        navigator.serviceWorker.getRegistrations().then(regs => {
+          for (const reg of regs) reg.unregister();
+        });
+      }
+      if ('caches' in window) {
+        caches.keys().then(keys => keys.forEach(key => caches.delete(key)));
+      }
+    </script>
 </body>
 </html>

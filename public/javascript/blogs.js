@@ -56,7 +56,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     async function loadBlogList() {
         try {
-            const response = await fetch('/public/json/blogs.json', { cache: 'no-cache' });
+            const response = await fetch('/public/json/blogs.json', { cache: 'no-store' });
             if (!response.ok) throw new Error('Cannot fetch blogs.json');
             
             allBlogs = await response.json();
@@ -130,7 +130,7 @@ document.addEventListener('DOMContentLoaded', () => {
         postContent.innerHTML = '<p>載入文章中...</p>';
         
         try {
-            const response = await fetch(`/public/blogs/${postId}.md`, { cache: 'no-cache' });
+            const response = await fetch(`/public/blogs/${postId}.md`, { cache: 'no-store' });
             if (!response.ok) {
                 if (response.status === 404) {
                     throw new Error('找不到該文章。');

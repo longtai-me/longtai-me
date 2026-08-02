@@ -20,7 +20,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const el = document.getElementById(conf.id);
     if (!el) return Promise.resolve();
 
-    return fetch(conf.url)
+    return fetch(conf.url, { cache: 'no-store' })
       .then(res => res.json())
       .then(data => {
         el.innerHTML = data.map(conf.tpl).join('') + (conf.suffix || '');
