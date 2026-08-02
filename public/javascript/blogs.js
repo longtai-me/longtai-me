@@ -1,4 +1,27 @@
 document.addEventListener('DOMContentLoaded', () => {
+    // Configure marked to support CJK characters and punctuation around bold syntax (**text**)
+    if (typeof marked !== 'undefined') {
+        const strongExtension = {
+            name: 'strong',
+            level: 'inline',
+            start(src) {
+                return src.match(/\*\*/)?.index;
+            },
+            tokenizer(src, tokens) {
+                const match = /^\*\*([^\*\n]+?)\*\*/.exec(src);
+                if (match) {
+                    return {
+                        type: 'strong',
+                        raw: match[0],
+                        text: match[1],
+                        tokens: this.lexer.inlineTokens(match[1])
+                    };
+                }
+            }
+        };
+        marked.use({ extensions: [strongExtension] });
+    }
+
     const blogListContainer = document.getElementById('blog-list');
     const blogPostContainer = document.getElementById('blog-post');
     const blogContainer = document.getElementById('blog-container');
