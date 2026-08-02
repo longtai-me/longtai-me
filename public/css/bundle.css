@@ -145,11 +145,9 @@ h2 {
 
 .section-title-wrapper {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  align-items: baseline;
   margin-bottom: 25px;
-  flex-wrap: wrap;
-  gap: 10px;
+  gap: 15px;
 }
 
 .section-title-wrapper h2 {
@@ -159,7 +157,7 @@ h2 {
 .section-title-wrapper .more-link {
   display: inline-flex;
   align-items: center;
-  gap: 8px;
+  gap: 6px;
   color: var(--muted);
   font-size: 16px;
   font-weight: bold;
@@ -169,7 +167,7 @@ h2 {
 
 .section-title-wrapper .more-link:hover {
   color: var(--primary);
-  transform: translateX(5px);
+  transform: translateX(4px);
 }
 
 /* GitHub Stats 容器避免 CLS */
