@@ -2,6 +2,7 @@ import { experienceConfig } from './experiences.js';
 import { friendsConfig } from './friends.js';
 import { supportConfig } from './support.js';
 import { adsConfig } from './ads.js';
+import { blogsConfig } from './blogs_preview.js';
 import { initTyping, initScrollReveal, initHeaderScroll } from './ui.js';
 import { applySpecialStyles } from './special.js';
 
@@ -12,7 +13,7 @@ document.addEventListener('DOMContentLoaded', () => {
   initHeaderScroll();
 
   // 2. 處理資料渲染
-  const configs = [experienceConfig, friendsConfig, supportConfig, adsConfig];
+  const configs = [experienceConfig, friendsConfig, supportConfig, adsConfig, blogsConfig];
   
   // 建立一個 Promise 陣列來追蹤所有資料是否載入完成
   const fetchPromises = configs.map(conf => {

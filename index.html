@@ -60,6 +60,7 @@
     <link rel="preload" href="/public/json/friends.json" as="fetch" crossorigin="anonymous">
     <link rel="preload" href="/public/json/support.json" as="fetch" crossorigin="anonymous">
     <link rel="preload" href="/public/json/ads.json" as="fetch" crossorigin="anonymous">
+    <link rel="preload" href="/public/json/blogs.json" as="fetch" crossorigin="anonymous">
 
     <!-- Preload JS Modules -->
     <link rel="modulepreload" href="/public/javascript/main.js">
@@ -67,6 +68,7 @@
     <link rel="modulepreload" href="/public/javascript/friends.js">
     <link rel="modulepreload" href="/public/javascript/support.js">
     <link rel="modulepreload" href="/public/javascript/ads.js">
+    <link rel="modulepreload" href="/public/javascript/blogs_preview.js">
     <link rel="modulepreload" href="/public/javascript/ui.js">
 
     <!-- PWA -->
@@ -232,7 +234,7 @@
           <a href="#about">About</a>
           <a href="#social">Social</a>
           <a href="#Experience">Experience</a>
-          <a href="blogs">Blog</a>
+          <a href="#blogs">Blog</a>
         </div>
       </nav>
     </header>
@@ -288,6 +290,11 @@
       <section id="Support_whit_love" aria-labelledby="support-heading">
         <h2 id="support-heading">愛與支援</h2>
         <div class="grid" id="support-container" role="list"></div>
+      </section>
+
+      <section id="blogs" aria-labelledby="blogs-heading">
+        <h2 id="blogs-heading">部落格</h2>
+        <div class="grid" id="blogs-container" role="list"></div>
       </section>
 
       <section id="friend" aria-labelledby="friend-heading">
