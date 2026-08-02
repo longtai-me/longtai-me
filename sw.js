@@ -1,5 +1,5 @@
 // LongTai Jiang 個人網站 Service Worker
-const CACHE_NAME = 'longtai-v5';
+const CACHE_NAME = 'longtai-v6';
 const STATIC_ASSETS = [
   '/',
   '/index.html',

@@ -18,12 +18,5 @@ export const blogsConfig = {
         </div>
       </div>
     </a>`;
-  },
-  suffix: `
-    <a href="/blogs.html" aria-label="查看所有部落格文章">
-      <div class="friend-card" style="min-height: 120px;">
-        <div class="friend-avatar"><h1>+</h1></div>
-        <p>所有文章</p>
-      </div>
-    </a>`
+  }
 };
