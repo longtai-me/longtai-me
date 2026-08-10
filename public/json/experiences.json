@@ -1,5 +1,14 @@
 [
   {
+    "link": "https://coscup.org/2026/",
+    "img": "public/images/Experience/COSCUP.svg",
+    "alt": "COSCUP",
+    "title": "COSCUP",
+    "subtitle": "UbuCon Asia",
+    "years": "2026",
+    "role": "會眾"
+  },
+  {
     "link": "https://nutccsie.org",
     "img": "public/images/Experience/2026 NTCUST CSIE.webp",
     "alt": "國立台中科技大學 資訊工程科 科學會",
