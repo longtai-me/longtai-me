@@ -1,5 +1,12 @@
 [
   {
+    "img": "public/images/Support_whit_love/SCAICT.webp",
+    "alt": "SCAICT",
+    "title": "SCAICT",
+    "subtitle": "COSCUP 2026",
+    "desc": "社群攤位支援"
+  },
+  {
     "img": "public/images/Support_whit_love/SITCON_2026.svg",
     "alt": "SITCON 2026",
     "title": "SITCON",
