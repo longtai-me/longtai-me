@@ -19,6 +19,7 @@
 
 | 年份 | 項目 | 描述 | 角色 |
 | :--- | :--- | :--- | :--- |
+| 2026 | [COSCUP](https://coscup.org/2026/) | UbuCon Asia | 會眾 |
 | 2026 | [國立台中科技大學](https://nutccsie.org) | 資工科科學會 | 資訊部 |
 | 2026 | [COMPUTEX](https://www.computextaipei.com.tw/zh-tw/index.html) | Taipei | 一般民眾 |
 | 2026 | [Zepro Run](https://www.ctrun.com.tw/Activity?EventMain_ID=282) | Taichung | 21K 跑者 |
@@ -41,6 +42,7 @@
 
 | 項目 | 描述 | 角色 |
 | :--- | :--- | :--- |
+| SCAICT | COSCUP 2026 | 社群攤位支援 |
 | SITCON | Jam the Chaos | 個人贊助 2 |
 | SCAICT | SITCON 2026 | 社群攤位設備支援 |
 | SITCON | Jam the Chaos | 個人贊助 |
