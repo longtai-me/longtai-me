@@ -19,6 +19,7 @@
 
 | 年份 | 項目 | 描述 | 角色 |
 | :--- | :--- | :--- | :--- |
+| 2026 | [HITCON](https://HITCON.org/2026/) | When AI Acts: Hacking the Age of Agentic Systems | 會眾 |
 | 2026 | [COSCUP](https://coscup.org/2026/) | UbuCon Asia | 會眾 |
 | 2026 | [國立台中科技大學](https://nutccsie.org) | 資工科科學會 | 資訊部長 |
 | 2026 | [COMPUTEX](https://www.computextaipei.com.tw/zh-tw/index.html) | Taipei | 一般民眾 |
