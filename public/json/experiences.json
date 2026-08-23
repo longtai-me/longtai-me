@@ -1,5 +1,14 @@
 [
   {
+    "link": "https://HITCON.org/2026/",
+    "img": "public/images/Experience/HITCON_2026.png",
+    "alt": "HITCON",
+    "title": "HITCON",
+    "subtitle": "When AI Acts: Hacking the Age of Agentic Systems",
+    "years": "2026",
+    "role": "會眾"
+  },
+  {
     "link": "https://coscup.org/2026/",
     "img": "public/images/Experience/COSCUP.svg",
     "alt": "COSCUP",
