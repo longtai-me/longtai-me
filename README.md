@@ -19,6 +19,7 @@
 
 | 年份 | 項目 | 描述 | 角色 |
 | :--- | :--- | :--- | :--- |
+| 2026 | [Orbital Design Contest](https://www.tasa.org.tw/zh-TW/events/detail/1ede28cc-8183-4171-947f-feed453f4182) | 1st | 初賽參賽者 |
 | 2026 | [HITCON](https://HITCON.org/2026/) | When AI Acts: Hacking the Age of Agentic Systems | 會眾 |
 | 2026 | [COSCUP](https://coscup.org/2026/) | UbuCon Asia | 會眾 |
 | 2026 | [國立台中科技大學](https://nutccsie.org) | 資工科科學會 | 資訊部長 |
