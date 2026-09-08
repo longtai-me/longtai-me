@@ -60,6 +60,7 @@
 
     <!-- Preload Critical Data -->
     <link rel="preload" href="/public/json/experiences.json" as="fetch" crossorigin="anonymous">
+    <link rel="preload" href="/public/json/certificate.json" as="fetch" crossorigin="anonymous">
     <link rel="preload" href="/public/json/friends.json" as="fetch" crossorigin="anonymous">
     <link rel="preload" href="/public/json/support.json" as="fetch" crossorigin="anonymous">
     <link rel="preload" href="/public/json/ads.json" as="fetch" crossorigin="anonymous">
@@ -68,6 +69,7 @@
     <!-- Preload JS Modules -->
     <link rel="modulepreload" href="/public/javascript/main.js">
     <link rel="modulepreload" href="/public/javascript/experiences.js">
+    <link rel="modulepreload" href="/public/javascript/certificate.js">
     <link rel="modulepreload" href="/public/javascript/friends.js">
     <link rel="modulepreload" href="/public/javascript/support.js">
     <link rel="modulepreload" href="/public/javascript/ads.js">
@@ -108,6 +110,36 @@
           "memberOf": [
             { "@type": "Organization", "name": "SCAICT", "url": "https://scaict.org" },
             { "@type": "Organization", "name": "國立台中科技大學 資訊工程科 學會", "url": "https://nutccsie.org" }
+          ],
+          "hasCredential": [
+            {
+              "@type": "EducationalOccupationalCredential",
+              "name": "Google IT Support Professional Certificate",
+              "credentialCategory": "Professional Certificate",
+              "recognizedBy": { "@type": "Organization", "name": "Google" },
+              "url": "https://coursera.org/verify/professional-cert/5OITDZAW7YZ7"
+            },
+            {
+              "@type": "EducationalOccupationalCredential",
+              "name": "Google IT Automation with Python Professional Certificate",
+              "credentialCategory": "Professional Certificate",
+              "recognizedBy": { "@type": "Organization", "name": "Google" },
+              "url": "https://coursera.org/verify/professional-cert/0QZBNXBS1NOR"
+            },
+            {
+              "@type": "EducationalOccupationalCredential",
+              "name": "Google Data Analytics Professional Certificate",
+              "credentialCategory": "Professional Certificate",
+              "recognizedBy": { "@type": "Organization", "name": "Google" },
+              "url": "https://coursera.org/verify/professional-cert/JPLN96VH63BI"
+            },
+            {
+              "@type": "EducationalOccupationalCredential",
+              "name": "Google Cybersecurity Professional Certificate",
+              "credentialCategory": "Professional Certificate",
+              "recognizedBy": { "@type": "Organization", "name": "Google" },
+              "url": "https://coursera.org/verify/professional-cert/GRVODEQ5675T"
+            }
           ],
           "sameAs": [
             "https://github.com/longtai-me",
@@ -211,6 +243,12 @@
           "position": 3,
           "name": "經驗與活動",
           "item": "https://longtai.org/#Experience"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "證書",
+          "item": "https://longtai.org/#certificate"
         }
       ]
     }
@@ -237,6 +275,7 @@
           <a href="#about">About</a>
           <a href="#social">Social</a>
           <a href="#Experience">Experience</a>
+          <a href="#certificate">Certificate</a>
           <a href="#blogs">Blog</a>
         </div>
       </nav>
@@ -278,6 +317,18 @@
       <section id="Experience" aria-labelledby="exp-heading">
         <h2 id="exp-heading">經驗與活動</h2>
         <div class="grid" id="experience-container" role="list"></div>
+      </section>
+
+      <section id="certificate" aria-labelledby="cert-heading">
+        <div class="section-title-wrapper">
+          <h2 id="cert-heading">證書</h2>
+          <span class="section-count" id="certificate-count"></span>
+        </div>
+        <div class="grid" id="certificate-container" role="list"></div>
+        <button type="button" class="cert-toggle" id="certificate-toggle" aria-controls="certificate-container" aria-expanded="false" hidden>
+          <span class="cert-toggle-label"></span>
+          <span class="cert-toggle-action"></span>
+        </button>
       </section>
 
       <section id="GitHub" aria-labelledby="github-heading">
