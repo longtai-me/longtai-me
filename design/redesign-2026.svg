@@ -1,0 +1,572 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="2320" height="5919" viewBox="0 0 2320 5919" role="img" aria-label="LongTai Jiang 個人網頁改版設計稿">
+<title>LongTai Jiang — 個人網頁改版設計稿 2026</title>
+<desc>桌機版、手機版與設計 token 三個 artboard，延續 #1b212c / #00a8f0 深色藍識別。</desc>
+<defs>
+<linearGradient id="logoGrad" x1="0" y1="0" x2="1" y2="1">
+<stop offset="0" stop-color="#7ee0ff"/>
+<stop offset="1" stop-color="#00a8f0"/>
+</linearGradient>
+<linearGradient id="titleGrad" x1="0" y1="0" x2="1" y2="0">
+<stop offset="0" stop-color="#00a8f0"/>
+<stop offset="1" stop-color="#7ee0ff"/>
+</linearGradient>
+<linearGradient id="avatarGrad" x1="0" y1="0" x2="1" y2="1">
+<stop offset="0" stop-color="#31404f"/>
+<stop offset="1" stop-color="#1e2733"/>
+</linearGradient>
+<linearGradient id="friendGrad" x1="0" y1="0" x2="1" y2="1">
+<stop offset="0" stop-color="#2b3542"/>
+<stop offset="1" stop-color="#212936"/>
+</linearGradient>
+<linearGradient id="ctaGrad" x1="0" y1="0" x2="1" y2="1">
+<stop offset="0" stop-color="#00a8f0" stop-opacity="0.18"/>
+<stop offset="0.55" stop-color="#00a8f0" stop-opacity="0.05"/>
+<stop offset="1" stop-color="#7ee0ff" stop-opacity="0.03"/>
+</linearGradient>
+<radialGradient id="heroGlow" cx="0.5" cy="0.5" r="0.5">
+<stop offset="0" stop-color="#00a8f0" stop-opacity="0.20"/>
+<stop offset="0.55" stop-color="#00a8f0" stop-opacity="0.06"/>
+<stop offset="1" stop-color="#00a8f0" stop-opacity="0"/>
+</radialGradient>
+<clipPath id="clipDesktop"><rect x="0" y="0" width="1440" height="5723" fill="none" rx="6"/></clipPath>
+<clipPath id="clipMobile"><rect x="0" y="0" width="390" height="1801" fill="none" rx="24"/></clipPath>
+<clipPath id="avatarClip0"><circle cx="1105" cy="380" r="110" fill="#fff"/></clipPath>
+<clipPath id="avatarClip1"><circle cx="195" cy="180" r="54" fill="#fff"/></clipPath>
+</defs>
+<rect x="0" y="0" width="2320" height="5919" fill="#0d1117"/>
+<text x="80" y="100" font-family="'JetBrains Mono', 'SFMono-Regular', Menlo, Consolas, monospace" font-size="12" fill="#b0b7c3" font-weight="700" letter-spacing="1.8">DESKTOP</text>
+<text x="146.4" y="100" font-family="'JetBrains Mono', 'SFMono-Regular', Menlo, Consolas, monospace" font-size="12" fill="#4d5766">1440 × 5723</text>
+<g transform="translate(80,116)" clip-path="url(#clipDesktop)"><rect x="0" y="0" width="1440" height="5723" fill="#1b212c"/>
+<rect x="160" y="26" width="36" height="36" fill="url(#logoGrad)" rx="11"/>
+<text x="178" y="51" font-family="Inter, 'Segoe UI', 'Noto Sans TC', 'PingFang TC', 'Microsoft JhengHei', sans-serif" font-size="19" fill="#1b212c" font-weight="800" text-anchor="middle">J</text>
+<text x="210" y="51" font-family="Inter, 'Segoe UI', 'Noto Sans TC', 'PingFang TC', 'Microsoft JhengHei', sans-serif" font-size="20" fill="#ffffff" font-weight="700">Jiang</text>
+<rect x="1168" y="22" width="112" height="44" fill="#00a8f0" rx="22"/>
+<text x="1224" y="49.4" font-family="Inter, 'Segoe UI', 'Noto Sans TC', 'PingFang TC', 'Microsoft JhengHei', sans-serif" font-size="15" fill="#1b212c" font-weight="700" text-anchor="middle">聯絡我</text>
+<text x="688.25" y="50" font-family="Inter, 'Segoe UI', 'Noto Sans TC', 'PingFang TC', 'Microsoft JhengHei', sans-serif" font-size="15" fill="#b0b7c3">About</text>
+<text x="756.35" y="50" font-family="Inter, 'Segoe UI', 'Noto Sans TC', 'PingFang TC', 'Microsoft JhengHei', sans-serif" font-size="15" fill="#b0b7c3">Experience</text>
+<text x="861.65" y="50" font-family="Inter, 'Segoe UI', 'Noto Sans TC', 'PingFang TC', 'Microsoft JhengHei', sans-serif" font-size="15" fill="#b0b7c3">Certificates</text>
+<text x="969.95" y="50" font-family="Inter, 'Segoe UI', 'Noto Sans TC', 'PingFang TC', 'Microsoft JhengHei', sans-serif" font-size="15" fill="#b0b7c3">Writing</text>
+<text x="1048.4" y="50" font-family="Inter, 'Segoe UI', 'Noto Sans TC', 'PingFang TC', 'Microsoft JhengHei', sans-serif" font-size="15" fill="#b0b7c3">Community</text>
+<line x1="688.25" y1="58" x2="726.35" y2="58" stroke="#00a8f0" stroke-width="2"/>
+<line x1="0" y1="88" x2="1440" y2="88" stroke="#2f3846" stroke-width="1"/>
+<rect x="0" y="88" width="1440" height="620" fill="#1b212c"/>
+<ellipse cx="1105" cy="378" rx="470" ry="400" fill="url(#heroGlow)"/>
+<line x1="160" y1="88" x2="160" y2="708" stroke="#2f3846" stroke-width="1" opacity="0.35"/>
+<line x1="240" y1="88" x2="240" y2="708" stroke="#2f3846" stroke-width="1" opacity="0.35"/>
+<line x1="320" y1="88" x2="320" y2="708" stroke="#2f3846" stroke-width="1" opacity="0.35"/>
+<line x1="400" y1="88" x2="400" y2="708" stroke="#2f3846" stroke-width="1" opacity="0.35"/>
+<line x1="480" y1="88" x2="480" y2="708" stroke="#2f3846" stroke-width="1" opacity="0.35"/>
+<line x1="560" y1="88" x2="560" y2="708" stroke="#2f3846" stroke-width="1" opacity="0.35"/>
+<line x1="640" y1="88" x2="640" y2="708" stroke="#2f3846" stroke-width="1" opacity="0.35"/>
+<line x1="720" y1="88" x2="720" y2="708" stroke="#2f3846" stroke-width="1" opacity="0.35"/>
+<line x1="800" y1="88" x2="800" y2="708" stroke="#2f3846" stroke-width="1" opacity="0.35"/>
+<line x1="880" y1="88" x2="880" y2="708" stroke="#2f3846" stroke-width="1" opacity="0.35"/>
+<line x1="960" y1="88" x2="960" y2="708" stroke="#2f3846" stroke-width="1" opacity="0.35"/>
+<line x1="1040" y1="88" x2="1040" y2="708" stroke="#2f3846" stroke-width="1" opacity="0.35"/>
+<line x1="1120" y1="88" x2="1120" y2="708" stroke="#2f3846" stroke-width="1" opacity="0.35"/>
+<line x1="1200" y1="88" x2="1200" y2="708" stroke="#2f3846" stroke-width="1" opacity="0.35"/>
+<line x1="1280" y1="88" x2="1280" y2="708" stroke="#2f3846" stroke-width="1" opacity="0.35"/>
+<line x1="0" y1="708" x2="1440" y2="708" stroke="#2f3846" stroke-width="1"/>
+<rect x="160" y="180" width="237.3" height="32" fill="#212936" rx="16" stroke="#2f3846" stroke-width="1"/>
+<circle cx="178" cy="196" r="3.5" fill="#00a8f0"/>
+<text x="196" y="201" font-family="Inter, 'Segoe UI', 'Noto Sans TC', 'PingFang TC', 'Microsoft JhengHei', sans-serif" font-size="13" fill="#b0b7c3">國立台中科技大學 · 資訊工程科</text>
+<text x="160" y="274" font-family="Inter, 'Segoe UI', 'Noto Sans TC', 'PingFang TC', 'Microsoft JhengHei', sans-serif" font-size="40" fill="#c8d0dc" font-weight="600">Hi, I'm</text>
+<text x="160" y="360" font-family="Inter, 'Segoe UI', 'Noto Sans TC', 'PingFang TC', 'Microsoft JhengHei', sans-serif" font-size="76" fill="url(#titleGrad)" font-weight="800">Longtai.</text>
+<text x="160" y="410" font-family="Inter, 'Segoe UI', 'Noto Sans TC', 'PingFang TC', 'Microsoft JhengHei', sans-serif" font-size="21" fill="#b0b7c3">學生 / 討厭開發的開發者</text>
+<text x="160" y="460" font-family="Inter, 'Segoe UI', 'Noto Sans TC', 'PingFang TC', 'Microsoft JhengHei', sans-serif" font-size="16" fill="#7f8a9c">平常寫一點 HTML、CSS 與 Python，把時間花在社群、活動與開源上，也</text>
+<text x="160" y="488" font-family="Inter, 'Segoe UI', 'Noto Sans TC', 'PingFang TC', 'Microsoft JhengHei', sans-serif" font-size="16" fill="#7f8a9c">在跑步、單車與各種競賽之間找平衡。</text>
+<rect x="160" y="524" width="117.12" height="52" fill="#00a8f0" rx="26"/>
+<text x="218.56" y="555.76" font-family="Inter, 'Segoe UI', 'Noto Sans TC', 'PingFang TC', 'Microsoft JhengHei', sans-serif" font-size="16" fill="#1b212c" font-weight="700" text-anchor="middle">認識我 →</text>
+<rect x="293.12" y="524" width="102.72" height="52" fill="none" rx="26" stroke="#3b4656" stroke-width="1"/>
+<text x="344.48" y="555.76" font-family="Inter, 'Segoe UI', 'Noto Sans TC', 'PingFang TC', 'Microsoft JhengHei', sans-serif" font-size="16" fill="#ffffff" font-weight="700" text-anchor="middle">GitHub</text>
+<rect x="160" y="606" width="62.5" height="30" fill="none" rx="15" stroke="#2f3846" stroke-width="1"/>
+<text x="191.25" y="625.5" font-family="'JetBrains Mono', 'SFMono-Regular', Menlo, Consolas, monospace" font-size="12.5" fill="#7f8a9c" text-anchor="middle">GitHub</text>
+<rect x="230.5" y="606" width="78.75" height="30" fill="none" rx="15" stroke="#2f3846" stroke-width="1"/>
+<text x="269.88" y="625.5" font-family="'JetBrains Mono', 'SFMono-Regular', Menlo, Consolas, monospace" font-size="12.5" fill="#7f8a9c" text-anchor="middle">Telegram</text>
+<rect x="317.25" y="606" width="82" height="30" fill="none" rx="15" stroke="#2f3846" stroke-width="1"/>
+<text x="358.25" y="625.5" font-family="'JetBrains Mono', 'SFMono-Regular', Menlo, Consolas, monospace" font-size="12.5" fill="#7f8a9c" text-anchor="middle">Instagram</text>
+<rect x="407.25" y="606" width="61.75" height="30" fill="none" rx="15" stroke="#2f3846" stroke-width="1"/>
+<text x="438.12" y="625.5" font-family="'JetBrains Mono', 'SFMono-Regular', Menlo, Consolas, monospace" font-size="12.5" fill="#7f8a9c" text-anchor="middle">Notion</text>
+<rect x="477" y="606" width="75.25" height="30" fill="none" rx="15" stroke="#2f3846" stroke-width="1"/>
+<text x="514.62" y="625.5" font-family="'JetBrains Mono', 'SFMono-Regular', Menlo, Consolas, monospace" font-size="12.5" fill="#7f8a9c" text-anchor="middle">Calendar</text>
+<rect x="560.25" y="606" width="72.5" height="30" fill="none" rx="15" stroke="#2f3846" stroke-width="1"/>
+<text x="596.5" y="625.5" font-family="'JetBrains Mono', 'SFMono-Regular', Menlo, Consolas, monospace" font-size="12.5" fill="#7f8a9c" text-anchor="middle">Gravatar</text>
+<ellipse cx="1105" cy="380" rx="196" ry="74" fill="none" stroke="#3b4656" stroke-width="1" opacity="0.55" transform="rotate(-18 1105 380)"/>
+<ellipse cx="1105" cy="380" rx="238" ry="98" fill="none" stroke="#3b4656" stroke-width="1" opacity="0.4" transform="rotate(17 1105 380)"/>
+<ellipse cx="1105" cy="380" rx="168" ry="62" fill="none" stroke="#3b4656" stroke-width="1" opacity="0.3" transform="rotate(64 1105 380)"/>
+<circle cx="1291" cy="320" r="5" fill="#00a8f0"/>
+<circle cx="879" cy="448" r="3.5" fill="#7ee0ff" opacity="0.7"/>
+<circle cx="1105" cy="380" r="124" fill="none" stroke="#00a8f0" stroke-width="1.5" opacity="0.35"/>
+<circle cx="1105" cy="380" r="110" fill="url(#avatarGrad)"/>
+<g clip-path="url(#avatarClip0)" opacity="0.5">
+<circle cx="1105" cy="353.6" r="36.3" fill="#1b212c"/>
+<path d="M 1032.4 492.2 a 72.6 72.6 0 0 1 145.2 0 Z" fill="#1b212c"/>
+</g>
+<circle cx="1105" cy="380" r="110" fill="none" stroke="#3b4656" stroke-width="1"/>
+<g transform="translate(1014.85,532)"><rect x="0" y="0" width="180.3" height="34" fill="#212936" rx="17" stroke="#3b4656" stroke-width="1"/>
+<text x="90.15" y="21.68" font-family="Inter, 'Segoe UI', 'Noto Sans TC', 'PingFang TC', 'Microsoft JhengHei', sans-serif" font-size="13" fill="#ffffff" text-anchor="middle">資工科科學會 · 資訊部長</text></g>
+<rect x="0" y="708" width="1440" height="148" fill="#161c25"/>
+<line x1="0" y1="856" x2="1440" y2="856" stroke="#2f3846" stroke-width="1"/>
+<text x="300" y="780" font-family="Inter, 'Segoe UI', 'Noto Sans TC', 'PingFang TC', 'Microsoft JhengHei', sans-serif" font-size="38" fill="#ffffff" font-weight="800" text-anchor="middle">18</text>
+<text x="300" y="812" font-family="Inter, 'Segoe UI', 'Noto Sans TC', 'PingFang TC', 'Microsoft JhengHei', sans-serif" font-size="13" fill="#7f8a9c" text-anchor="middle">活動與競賽經歷</text>
+<text x="580" y="780" font-family="Inter, 'Segoe UI', 'Noto Sans TC', 'PingFang TC', 'Microsoft JhengHei', sans-serif" font-size="38" fill="#ffffff" font-weight="800" text-anchor="middle">31</text>
+<text x="580" y="812" font-family="Inter, 'Segoe UI', 'Noto Sans TC', 'PingFang TC', 'Microsoft JhengHei', sans-serif" font-size="13" fill="#7f8a9c" text-anchor="middle">專業與課程證書</text>
+<line x1="440" y1="746" x2="440" y2="818" stroke="#2f3846" stroke-width="1"/>
+<text x="860" y="780" font-family="Inter, 'Segoe UI', 'Noto Sans TC', 'PingFang TC', 'Microsoft JhengHei', sans-serif" font-size="38" fill="#ffffff" font-weight="800" text-anchor="middle">4</text>
+<text x="860" y="812" font-family="Inter, 'Segoe UI', 'Noto Sans TC', 'PingFang TC', 'Microsoft JhengHei', sans-serif" font-size="13" fill="#7f8a9c" text-anchor="middle">Google 專業證書</text>
+<line x1="720" y1="746" x2="720" y2="818" stroke="#2f3846" stroke-width="1"/>
+<text x="1140" y="780" font-family="Inter, 'Segoe UI', 'Noto Sans TC', 'PingFang TC', 'Microsoft JhengHei', sans-serif" font-size="38" fill="#ffffff" font-weight="800" text-anchor="middle">21K</text>
+<text x="1140" y="812" font-family="Inter, 'Segoe UI', 'Noto Sans TC', 'PingFang TC', 'Microsoft JhengHei', sans-serif" font-size="13" fill="#7f8a9c" text-anchor="middle">最長完賽距離</text>
+<line x1="1000" y1="746" x2="1000" y2="818" stroke="#2f3846" stroke-width="1"/>
+<text x="160" y="952" font-family="'JetBrains Mono', 'SFMono-Regular', Menlo, Consolas, monospace" font-size="12" fill="#00a8f0" font-weight="700" letter-spacing="1.6">01 — ABOUT</text>
+<text x="160" y="996" font-family="Inter, 'Segoe UI', 'Noto Sans TC', 'PingFang TC', 'Microsoft JhengHei', sans-serif" font-size="34" fill="#ffffff" font-weight="700">關於我</text>
+<rect x="160" y="1036" width="1120" height="316" fill="#212936" rx="20" stroke="#2f3846" stroke-width="1"/>
+<line x1="860" y1="1076" x2="860" y2="1312" stroke="#2f3846" stroke-width="1"/>
+<text x="204" y="1098" font-family="Inter, 'Segoe UI', 'Noto Sans TC', 'PingFang TC', 'Microsoft JhengHei', sans-serif" font-size="17" fill="#ffffff">我是 LongTai Jiang（龍泰），就讀國立台中科技大學資訊工程科，目前在資</text>
+<text x="204" y="1129.45" font-family="Inter, 'Segoe UI', 'Noto Sans TC', 'PingFang TC', 'Microsoft JhengHei', sans-serif" font-size="17" fill="#ffffff">工科科學會擔任資訊部長。</text>
+<text x="204" y="1172.9" font-family="Inter, 'Segoe UI', 'Noto Sans TC', 'PingFang TC', 'Microsoft JhengHei', sans-serif" font-size="17" fill="#b0b7c3">活躍於 SCAICT、SITCON、COSCUP、HITCON 等台灣資訊社群，喜歡把學到的</text>
+<text x="204" y="1204.35" font-family="Inter, 'Segoe UI', 'Noto Sans TC', 'PingFang TC', 'Microsoft JhengHei', sans-serif" font-size="17" fill="#b0b7c3">東西寫下來、做成專案，然後拿去現場跟人聊。</text>
+<rect x="204" y="1251.8" width="57.38" height="30" fill="none" rx="15" stroke="#2f3846" stroke-width="1"/>
+<text x="232.69" y="1271.3" font-family="'JetBrains Mono', 'SFMono-Regular', Menlo, Consolas, monospace" font-size="12.5" fill="#b0b7c3" text-anchor="middle">HTML</text>
+<rect x="269.38" y="1251.8" width="46.5" height="30" fill="none" rx="15" stroke="#2f3846" stroke-width="1"/>
+<text x="292.62" y="1271.3" font-family="'JetBrains Mono', 'SFMono-Regular', Menlo, Consolas, monospace" font-size="12.5" fill="#b0b7c3" text-anchor="middle">CSS</text>
+<rect x="323.88" y="1251.8" width="62.5" height="30" fill="none" rx="15" stroke="#2f3846" stroke-width="1"/>
+<text x="355.12" y="1271.3" font-family="'JetBrains Mono', 'SFMono-Regular', Menlo, Consolas, monospace" font-size="12.5" fill="#b0b7c3" text-anchor="middle">Python</text>
+<rect x="204" y="1289.8" width="93.75" height="30" fill="none" rx="15" stroke="#2f3846" stroke-width="1"/>
+<text x="250.88" y="1309.3" font-family="'JetBrains Mono', 'SFMono-Regular', Menlo, Consolas, monospace" font-size="12.5" fill="#b0b7c3" text-anchor="middle">Open Source</text>
+<rect x="305.75" y="1289.8" width="124.88" height="30" fill="none" rx="15" stroke="#2f3846" stroke-width="1"/>
+<text x="368.19" y="1309.3" font-family="'JetBrains Mono', 'SFMono-Regular', Menlo, Consolas, monospace" font-size="12.5" fill="#b0b7c3" text-anchor="middle">Web Development</text>
+<rect x="438.62" y="1289.8" width="87" height="30" fill="none" rx="15" stroke="#2f3846" stroke-width="1"/>
+<text x="482.12" y="1309.3" font-family="'JetBrains Mono', 'SFMono-Regular', Menlo, Consolas, monospace" font-size="12.5" fill="#b0b7c3" text-anchor="middle">Community</text>
+<text x="904" y="1096" font-family="'JetBrains Mono', 'SFMono-Regular', Menlo, Consolas, monospace" font-size="10.5" fill="#00a8f0" font-weight="700" letter-spacing="1.4">SCHOOL</text>
+<text x="904" y="1120" font-family="Inter, 'Segoe UI', 'Noto Sans TC', 'PingFang TC', 'Microsoft JhengHei', sans-serif" font-size="14" fill="#ffffff">國立台中科技大學 資訊工程科</text>
+<line x1="904" y1="1136" x2="1236" y2="1136" stroke="#2f3846" stroke-width="1"/>
+<text x="904" y="1154" font-family="'JetBrains Mono', 'SFMono-Regular', Menlo, Consolas, monospace" font-size="10.5" fill="#00a8f0" font-weight="700" letter-spacing="1.4">ROLE</text>
+<text x="904" y="1178" font-family="Inter, 'Segoe UI', 'Noto Sans TC', 'PingFang TC', 'Microsoft JhengHei', sans-serif" font-size="14" fill="#ffffff">資工科科學會 資訊部長</text>
+<line x1="904" y1="1194" x2="1236" y2="1194" stroke="#2f3846" stroke-width="1"/>
+<text x="904" y="1212" font-family="'JetBrains Mono', 'SFMono-Regular', Menlo, Consolas, monospace" font-size="10.5" fill="#00a8f0" font-weight="700" letter-spacing="1.4">COMMUNITY</text>
+<text x="904" y="1236" font-family="Inter, 'Segoe UI', 'Noto Sans TC', 'PingFang TC', 'Microsoft JhengHei', sans-serif" font-size="14" fill="#ffffff">SCAICT / SITCON / COSCUP</text>
+<line x1="904" y1="1252" x2="1236" y2="1252" stroke="#2f3846" stroke-width="1"/>
+<text x="904" y="1270" font-family="'JetBrains Mono', 'SFMono-Regular', Menlo, Consolas, monospace" font-size="10.5" fill="#00a8f0" font-weight="700" letter-spacing="1.4">CONTACT</text>
+<text x="904" y="1294" font-family="Inter, 'Segoe UI', 'Noto Sans TC', 'PingFang TC', 'Microsoft JhengHei', sans-serif" font-size="14" fill="#ffffff">me@longtai.me</text>
+<text x="160" y="1544" font-family="'JetBrains Mono', 'SFMono-Regular', Menlo, Consolas, monospace" font-size="12" fill="#00a8f0" font-weight="700" letter-spacing="1.6">02 — EXPERIENCE</text>
+<text x="160" y="1588" font-family="Inter, 'Segoe UI', 'Noto Sans TC', 'PingFang TC', 'Microsoft JhengHei', sans-serif" font-size="34" fill="#ffffff" font-weight="700">經驗與活動</text>
+<text x="1280" y="1584" font-family="'JetBrains Mono', 'SFMono-Regular', Menlo, Consolas, monospace" font-size="13" fill="#7f8a9c" text-anchor="end">18 items · 2021–2026</text>
+<rect x="160" y="1628" width="357.33" height="214" fill="#212936" rx="18" stroke="#2f3846" stroke-width="1"/>
+<rect x="186" y="1628" width="56" height="3" fill="#00a8f0" rx="1.5"/>
+<text x="186" y="1672" font-family="'JetBrains Mono', 'SFMono-Regular', Menlo, Consolas, monospace" font-size="12" fill="#00a8f0" font-weight="700" letter-spacing="1.2">2026</text>
+<text x="186" y="1706" font-family="Inter, 'Segoe UI', 'Noto Sans TC', 'PingFang TC', 'Microsoft JhengHei', sans-serif" font-size="20" fill="#ffffff" font-weight="700">衛星軌道設計競賽</text>
+<text x="186" y="1754" font-family="Inter, 'Segoe UI', 'Noto Sans TC', 'PingFang TC', 'Microsoft JhengHei', sans-serif" font-size="13.5" fill="#7f8a9c">0 基礎能飛多遠</text>
+<rect x="186" y="1792" width="84" height="26" fill="rgba(0,168,240,0.10)" rx="13" stroke="#00a8f0" stroke-width="1"/>
+<text x="228" y="1809.32" font-family="Inter, 'Segoe UI', 'Noto Sans TC', 'PingFang TC', 'Microsoft JhengHei', sans-serif" font-size="12" fill="#7ee0ff" text-anchor="middle">初賽參賽者</text>
+<rect x="541.33" y="1628" width="357.33" height="214" fill="#212936" rx="18" stroke="#2f3846" stroke-width="1"/>
+<rect x="567.33" y="1628" width="56" height="3" fill="#00a8f0" rx="1.5"/>
+<text x="567.33" y="1672" font-family="'JetBrains Mono', 'SFMono-Regular', Menlo, Consolas, monospace" font-size="12" fill="#00a8f0" font-weight="700" letter-spacing="1.2">2026</text>
+<text x="567.33" y="1706" font-family="Inter, 'Segoe UI', 'Noto Sans TC', 'PingFang TC', 'Microsoft JhengHei', sans-serif" font-size="20" fill="#ffffff" font-weight="700">國立台中科技大學</text>
+<text x="567.33" y="1754" font-family="Inter, 'Segoe UI', 'Noto Sans TC', 'PingFang TC', 'Microsoft JhengHei', sans-serif" font-size="13.5" fill="#7f8a9c">資工科科學會</text>
+<rect x="567.33" y="1792" width="72" height="26" fill="rgba(0,168,240,0.10)" rx="13" stroke="#00a8f0" stroke-width="1"/>
+<text x="603.33" y="1809.32" font-family="Inter, 'Segoe UI', 'Noto Sans TC', 'PingFang TC', 'Microsoft JhengHei', sans-serif" font-size="12" fill="#7ee0ff" text-anchor="middle">資訊部長</text>
+<rect x="922.67" y="1628" width="357.33" height="214" fill="#212936" rx="18" stroke="#2f3846" stroke-width="1"/>
+<rect x="948.67" y="1628" width="56" height="3" fill="#00a8f0" rx="1.5"/>
+<text x="948.67" y="1672" font-family="'JetBrains Mono', 'SFMono-Regular', Menlo, Consolas, monospace" font-size="12" fill="#00a8f0" font-weight="700" letter-spacing="1.2">2026</text>
+<text x="948.67" y="1706" font-family="Inter, 'Segoe UI', 'Noto Sans TC', 'PingFang TC', 'Microsoft JhengHei', sans-serif" font-size="20" fill="#ffffff" font-weight="700">HITCON</text>
+<text x="948.67" y="1754" font-family="Inter, 'Segoe UI', 'Noto Sans TC', 'PingFang TC', 'Microsoft JhengHei', sans-serif" font-size="13.5" fill="#7f8a9c">When AI Acts: Hacking the Age of Agentic</text>
+<text x="948.67" y="1776" font-family="Inter, 'Segoe UI', 'Noto Sans TC', 'PingFang TC', 'Microsoft JhengHei', sans-serif" font-size="13.5" fill="#7f8a9c">Systems</text>
+<rect x="948.67" y="1792" width="48" height="26" fill="rgba(0,168,240,0.10)" rx="13" stroke="#00a8f0" stroke-width="1"/>
+<text x="972.67" y="1809.32" font-family="Inter, 'Segoe UI', 'Noto Sans TC', 'PingFang TC', 'Microsoft JhengHei', sans-serif" font-size="12" fill="#7ee0ff" text-anchor="middle">會眾</text>
+<line x1="256" y1="1906" x2="256" y2="3066" stroke="#2f3846" stroke-width="1"/>
+<text x="160" y="1926" font-family="'JetBrains Mono', 'SFMono-Regular', Menlo, Consolas, monospace" font-size="15" fill="#00a8f0" font-weight="700">2026</text>
+<line x1="292" y1="1920" x2="1280" y2="1920" stroke="#2f3846" stroke-width="1" opacity="0.6"/>
+<circle cx="256" cy="1972" r="4.5" fill="#1b212c" stroke="#3b4656" stroke-width="1.5"/>
+<text x="292" y="1978" font-family="Inter, 'Segoe UI', 'Noto Sans TC', 'PingFang TC', 'Microsoft JhengHei', sans-serif" font-size="16" fill="#ffffff" font-weight="600">futuremode</text>
+<text x="612" y="1977" font-family="Inter, 'Segoe UI', 'Noto Sans TC', 'PingFang TC', 'Microsoft JhengHei', sans-serif" font-size="13.5" fill="#7f8a9c">台灣未來祭</text>
+<text x="1280" y="1977" font-family="Inter, 'Segoe UI', 'Noto Sans TC', 'PingFang TC', 'Microsoft JhengHei', sans-serif" font-size="12.5" fill="#b0b7c3" text-anchor="end">會眾</text>
+<line x1="292" y1="2000" x2="1280" y2="2000" stroke="#2f3846" stroke-width="1" opacity="0.45"/>
+<circle cx="256" cy="2028" r="4.5" fill="#1b212c" stroke="#3b4656" stroke-width="1.5"/>
+<text x="292" y="2034" font-family="Inter, 'Segoe UI', 'Noto Sans TC', 'PingFang TC', 'Microsoft JhengHei', sans-serif" font-size="16" fill="#ffffff" font-weight="600">COSCUP</text>
+<text x="612" y="2033" font-family="Inter, 'Segoe UI', 'Noto Sans TC', 'PingFang TC', 'Microsoft JhengHei', sans-serif" font-size="13.5" fill="#7f8a9c">UbuCon Asia</text>
+<text x="1280" y="2033" font-family="Inter, 'Segoe UI', 'Noto Sans TC', 'PingFang TC', 'Microsoft JhengHei', sans-serif" font-size="12.5" fill="#b0b7c3" text-anchor="end">會眾</text>
+<line x1="292" y1="2056" x2="1280" y2="2056" stroke="#2f3846" stroke-width="1" opacity="0.45"/>
+<circle cx="256" cy="2084" r="4.5" fill="#1b212c" stroke="#3b4656" stroke-width="1.5"/>
+<text x="292" y="2090" font-family="Inter, 'Segoe UI', 'Noto Sans TC', 'PingFang TC', 'Microsoft JhengHei', sans-serif" font-size="16" fill="#ffffff" font-weight="600">COMPUTEX</text>
+<text x="612" y="2089" font-family="Inter, 'Segoe UI', 'Noto Sans TC', 'PingFang TC', 'Microsoft JhengHei', sans-serif" font-size="13.5" fill="#7f8a9c">Taipei</text>
+<text x="1280" y="2089" font-family="Inter, 'Segoe UI', 'Noto Sans TC', 'PingFang TC', 'Microsoft JhengHei', sans-serif" font-size="12.5" fill="#b0b7c3" text-anchor="end">一般民眾</text>
+<line x1="292" y1="2112" x2="1280" y2="2112" stroke="#2f3846" stroke-width="1" opacity="0.45"/>
+<circle cx="256" cy="2140" r="4.5" fill="#1b212c" stroke="#3b4656" stroke-width="1.5"/>
+<text x="292" y="2146" font-family="Inter, 'Segoe UI', 'Noto Sans TC', 'PingFang TC', 'Microsoft JhengHei', sans-serif" font-size="16" fill="#ffffff" font-weight="600">Zepro Run</text>
+<text x="612" y="2145" font-family="Inter, 'Segoe UI', 'Noto Sans TC', 'PingFang TC', 'Microsoft JhengHei', sans-serif" font-size="13.5" fill="#7f8a9c">Taichung</text>
+<text x="1280" y="2145" font-family="Inter, 'Segoe UI', 'Noto Sans TC', 'PingFang TC', 'Microsoft JhengHei', sans-serif" font-size="12.5" fill="#b0b7c3" text-anchor="end">21K 跑者</text>
+<line x1="292" y1="2168" x2="1280" y2="2168" stroke="#2f3846" stroke-width="1" opacity="0.45"/>
+<circle cx="256" cy="2196" r="4.5" fill="#1b212c" stroke="#3b4656" stroke-width="1.5"/>
+<text x="292" y="2202" font-family="Inter, 'Segoe UI', 'Noto Sans TC', 'PingFang TC', 'Microsoft JhengHei', sans-serif" font-size="16" fill="#ffffff" font-weight="600">SITCON</text>
+<text x="612" y="2201" font-family="Inter, 'Segoe UI', 'Noto Sans TC', 'PingFang TC', 'Microsoft JhengHei', sans-serif" font-size="13.5" fill="#7f8a9c">Jam the Chaos</text>
+<text x="1280" y="2201" font-family="Inter, 'Segoe UI', 'Noto Sans TC', 'PingFang TC', 'Microsoft JhengHei', sans-serif" font-size="12.5" fill="#b0b7c3" text-anchor="end">邀請票會眾</text>
+<line x1="292" y1="2224" x2="1280" y2="2224" stroke="#2f3846" stroke-width="1" opacity="0.45"/>
+<text x="160" y="2264" font-family="'JetBrains Mono', 'SFMono-Regular', Menlo, Consolas, monospace" font-size="15" fill="#00a8f0" font-weight="700">2025</text>
+<line x1="292" y1="2258" x2="1280" y2="2258" stroke="#2f3846" stroke-width="1" opacity="0.6"/>
+<circle cx="256" cy="2310" r="4.5" fill="#1b212c" stroke="#3b4656" stroke-width="1.5"/>
+<text x="292" y="2316" font-family="Inter, 'Segoe UI', 'Noto Sans TC', 'PingFang TC', 'Microsoft JhengHei', sans-serif" font-size="16" fill="#ffffff" font-weight="600">DevFest</text>
+<text x="612" y="2315" font-family="Inter, 'Segoe UI', 'Noto Sans TC', 'PingFang TC', 'Microsoft JhengHei', sans-serif" font-size="13.5" fill="#7f8a9c">Taipei</text>
+<text x="1280" y="2315" font-family="Inter, 'Segoe UI', 'Noto Sans TC', 'PingFang TC', 'Microsoft JhengHei', sans-serif" font-size="12.5" fill="#b0b7c3" text-anchor="end">會眾</text>
+<line x1="292" y1="2338" x2="1280" y2="2338" stroke="#2f3846" stroke-width="1" opacity="0.45"/>
+<circle cx="256" cy="2366" r="4.5" fill="#1b212c" stroke="#3b4656" stroke-width="1.5"/>
+<text x="292" y="2372" font-family="Inter, 'Segoe UI', 'Noto Sans TC', 'PingFang TC', 'Microsoft JhengHei', sans-serif" font-size="16" fill="#ffffff" font-weight="600">COSCUP</text>
+<text x="612" y="2371" font-family="Inter, 'Segoe UI', 'Noto Sans TC', 'PingFang TC', 'Microsoft JhengHei', sans-serif" font-size="13.5" fill="#7f8a9c">RubyConf Taiwan</text>
+<text x="1280" y="2371" font-family="Inter, 'Segoe UI', 'Noto Sans TC', 'PingFang TC', 'Microsoft JhengHei', sans-serif" font-size="12.5" fill="#b0b7c3" text-anchor="end">會眾</text>
+<line x1="292" y1="2394" x2="1280" y2="2394" stroke="#2f3846" stroke-width="1" opacity="0.45"/>
+<text x="160" y="2434" font-family="'JetBrains Mono', 'SFMono-Regular', Menlo, Consolas, monospace" font-size="15" fill="#00a8f0" font-weight="700">2024</text>
+<line x1="292" y1="2428" x2="1280" y2="2428" stroke="#2f3846" stroke-width="1" opacity="0.6"/>
+<circle cx="256" cy="2480" r="4.5" fill="#1b212c" stroke="#3b4656" stroke-width="1.5"/>
+<text x="292" y="2486" font-family="Inter, 'Segoe UI', 'Noto Sans TC', 'PingFang TC', 'Microsoft JhengHei', sans-serif" font-size="16" fill="#ffffff" font-weight="600">國立台中科技大學</text>
+<text x="612" y="2485" font-family="Inter, 'Segoe UI', 'Noto Sans TC', 'PingFang TC', 'Microsoft JhengHei', sans-serif" font-size="13.5" fill="#7f8a9c">資訊工程科科學會</text>
+<text x="1280" y="2485" font-family="Inter, 'Segoe UI', 'Noto Sans TC', 'PingFang TC', 'Microsoft JhengHei', sans-serif" font-size="12.5" fill="#b0b7c3" text-anchor="end">第五屆 行銷組</text>
+<line x1="292" y1="2508" x2="1280" y2="2508" stroke="#2f3846" stroke-width="1" opacity="0.45"/>
+<circle cx="256" cy="2536" r="4.5" fill="#1b212c" stroke="#3b4656" stroke-width="1.5"/>
+<text x="292" y="2542" font-family="Inter, 'Segoe UI', 'Noto Sans TC', 'PingFang TC', 'Microsoft JhengHei', sans-serif" font-size="16" fill="#ffffff" font-weight="600">SCAICT</text>
+<text x="612" y="2541" font-family="Inter, 'Segoe UI', 'Noto Sans TC', 'PingFang TC', 'Microsoft JhengHei', sans-serif" font-size="13.5" fill="#7f8a9c">第四屆</text>
+<text x="1280" y="2541" font-family="Inter, 'Segoe UI', 'Noto Sans TC', 'PingFang TC', 'Microsoft JhengHei', sans-serif" font-size="12.5" fill="#b0b7c3" text-anchor="end">臨時工人</text>
+<line x1="292" y1="2564" x2="1280" y2="2564" stroke="#2f3846" stroke-width="1" opacity="0.45"/>
+<circle cx="256" cy="2592" r="4.5" fill="#1b212c" stroke="#3b4656" stroke-width="1.5"/>
+<text x="292" y="2598" font-family="Inter, 'Segoe UI', 'Noto Sans TC', 'PingFang TC', 'Microsoft JhengHei', sans-serif" font-size="16" fill="#ffffff" font-weight="600">舞動盃羽球趣味競賽</text>
+<text x="612" y="2597" font-family="Inter, 'Segoe UI', 'Noto Sans TC', 'PingFang TC', 'Microsoft JhengHei', sans-serif" font-size="13.5" fill="#7f8a9c">第二屆</text>
+<text x="1280" y="2597" font-family="Inter, 'Segoe UI', 'Noto Sans TC', 'PingFang TC', 'Microsoft JhengHei', sans-serif" font-size="12.5" fill="#b0b7c3" text-anchor="end">志工 - 大會組</text>
+<line x1="292" y1="2620" x2="1280" y2="2620" stroke="#2f3846" stroke-width="1" opacity="0.45"/>
+<text x="160" y="2660" font-family="'JetBrains Mono', 'SFMono-Regular', Menlo, Consolas, monospace" font-size="15" fill="#00a8f0" font-weight="700">2023</text>
+<line x1="292" y1="2654" x2="1280" y2="2654" stroke="#2f3846" stroke-width="1" opacity="0.6"/>
+<circle cx="256" cy="2706" r="4.5" fill="#1b212c" stroke="#3b4656" stroke-width="1.5"/>
+<text x="292" y="2712" font-family="Inter, 'Segoe UI', 'Noto Sans TC', 'PingFang TC', 'Microsoft JhengHei', sans-serif" font-size="16" fill="#ffffff" font-weight="600">稻鎮好柚獲路跑</text>
+<text x="612" y="2711" font-family="Inter, 'Segoe UI', 'Noto Sans TC', 'PingFang TC', 'Microsoft JhengHei', sans-serif" font-size="13.5" fill="#7f8a9c">玉溪場</text>
+<text x="1280" y="2711" font-family="Inter, 'Segoe UI', 'Noto Sans TC', 'PingFang TC', 'Microsoft JhengHei', sans-serif" font-size="12.5" fill="#b0b7c3" text-anchor="end">11 K 跑者</text>
+<line x1="292" y1="2734" x2="1280" y2="2734" stroke="#2f3846" stroke-width="1" opacity="0.45"/>
+<text x="160" y="2774" font-family="'JetBrains Mono', 'SFMono-Regular', Menlo, Consolas, monospace" font-size="15" fill="#00a8f0" font-weight="700">2022</text>
+<line x1="292" y1="2768" x2="1280" y2="2768" stroke="#2f3846" stroke-width="1" opacity="0.6"/>
+<circle cx="256" cy="2820" r="4.5" fill="#1b212c" stroke="#3b4656" stroke-width="1.5"/>
+<text x="292" y="2826" font-family="Inter, 'Segoe UI', 'Noto Sans TC', 'PingFang TC', 'Microsoft JhengHei', sans-serif" font-size="16" fill="#ffffff" font-weight="600">北濱萬金石</text>
+<text x="612" y="2825" font-family="Inter, 'Segoe UI', 'Noto Sans TC', 'PingFang TC', 'Microsoft JhengHei', sans-serif" font-size="13.5" fill="#7f8a9c">自行車嘉年華挑戰</text>
+<text x="1280" y="2825" font-family="Inter, 'Segoe UI', 'Noto Sans TC', 'PingFang TC', 'Microsoft JhengHei', sans-serif" font-size="12.5" fill="#b0b7c3" text-anchor="end">75 K 騎手</text>
+<line x1="292" y1="2848" x2="1280" y2="2848" stroke="#2f3846" stroke-width="1" opacity="0.45"/>
+<circle cx="256" cy="2876" r="4.5" fill="#1b212c" stroke="#3b4656" stroke-width="1.5"/>
+<text x="292" y="2882" font-family="Inter, 'Segoe UI', 'Noto Sans TC', 'PingFang TC', 'Microsoft JhengHei', sans-serif" font-size="16" fill="#ffffff" font-weight="600">全國中等學校運動會</text>
+<text x="612" y="2881" font-family="Inter, 'Segoe UI', 'Noto Sans TC', 'PingFang TC', 'Microsoft JhengHei', sans-serif" font-size="13.5" fill="#7f8a9c">登山車越野賽決賽</text>
+<text x="1280" y="2881" font-family="Inter, 'Segoe UI', 'Noto Sans TC', 'PingFang TC', 'Microsoft JhengHei', sans-serif" font-size="12.5" fill="#b0b7c3" text-anchor="end">國男組</text>
+<line x1="292" y1="2904" x2="1280" y2="2904" stroke="#2f3846" stroke-width="1" opacity="0.45"/>
+<circle cx="256" cy="2932" r="4.5" fill="#1b212c" stroke="#3b4656" stroke-width="1.5"/>
+<text x="292" y="2938" font-family="Inter, 'Segoe UI', 'Noto Sans TC', 'PingFang TC', 'Microsoft JhengHei', sans-serif" font-size="16" fill="#ffffff" font-weight="600">花蓮縣國中技藝競賽</text>
+<text x="612" y="2937" font-family="Inter, 'Segoe UI', 'Noto Sans TC', 'PingFang TC', 'Microsoft JhengHei', sans-serif" font-size="13.5" fill="#7f8a9c">商業管理職群</text>
+<text x="1280" y="2937" font-family="Inter, 'Segoe UI', 'Noto Sans TC', 'PingFang TC', 'Microsoft JhengHei', sans-serif" font-size="12.5" fill="#b0b7c3" text-anchor="end">佳作</text>
+<line x1="292" y1="2960" x2="1280" y2="2960" stroke="#2f3846" stroke-width="1" opacity="0.45"/>
+<text x="160" y="3000" font-family="'JetBrains Mono', 'SFMono-Regular', Menlo, Consolas, monospace" font-size="15" fill="#00a8f0" font-weight="700">2021</text>
+<line x1="292" y1="2994" x2="1280" y2="2994" stroke="#2f3846" stroke-width="1" opacity="0.6"/>
+<circle cx="256" cy="3046" r="4.5" fill="#1b212c" stroke="#3b4656" stroke-width="1.5"/>
+<text x="292" y="3052" font-family="Inter, 'Segoe UI', 'Noto Sans TC', 'PingFang TC', 'Microsoft JhengHei', sans-serif" font-size="16" fill="#ffffff" font-weight="600">PTWA全國自走車大賽</text>
+<text x="612" y="3051" font-family="Inter, 'Segoe UI', 'Noto Sans TC', 'PingFang TC', 'Microsoft JhengHei', sans-serif" font-size="13.5" fill="#7f8a9c">相撲賽</text>
+<text x="1280" y="3051" font-family="Inter, 'Segoe UI', 'Noto Sans TC', 'PingFang TC', 'Microsoft JhengHei', sans-serif" font-size="12.5" fill="#b0b7c3" text-anchor="end">佳作</text>
+<line x1="292" y1="3074" x2="1280" y2="3074" stroke="#2f3846" stroke-width="1" opacity="0.45"/>
+<text x="160" y="3266" font-family="'JetBrains Mono', 'SFMono-Regular', Menlo, Consolas, monospace" font-size="12" fill="#00a8f0" font-weight="700" letter-spacing="1.6">03 — CERTIFICATES</text>
+<text x="160" y="3310" font-family="Inter, 'Segoe UI', 'Noto Sans TC', 'PingFang TC', 'Microsoft JhengHei', sans-serif" font-size="34" fill="#ffffff" font-weight="700">證書</text>
+<text x="1280" y="3306" font-family="'JetBrains Mono', 'SFMono-Regular', Menlo, Consolas, monospace" font-size="13" fill="#7f8a9c" text-anchor="end">31 張 · Google via Coursera</text>
+<rect x="160" y="3350" width="548" height="138" fill="#212936" rx="16" stroke="#2f3846" stroke-width="1"/>
+<rect x="186" y="3376" width="34" height="34" fill="rgba(0,168,240,0.12)" rx="10"/>
+<text x="203" y="3399" font-family="Inter, 'Segoe UI', 'Noto Sans TC', 'PingFang TC', 'Microsoft JhengHei', sans-serif" font-size="17" fill="#00a8f0" text-anchor="middle">✓</text>
+<text x="236" y="3392" font-family="Inter, 'Segoe UI', 'Noto Sans TC', 'PingFang TC', 'Microsoft JhengHei', sans-serif" font-size="16.5" fill="#ffffff" font-weight="600">Google IT Support Professional</text>
+<text x="236" y="3416" font-family="Inter, 'Segoe UI', 'Noto Sans TC', 'PingFang TC', 'Microsoft JhengHei', sans-serif" font-size="16.5" fill="#ffffff" font-weight="600">Certificate</text>
+<text x="236" y="3458" font-family="Inter, 'Segoe UI', 'Noto Sans TC', 'PingFang TC', 'Microsoft JhengHei', sans-serif" font-size="13" fill="#7f8a9c">Google (via Coursera)</text>
+<text x="682" y="3390" font-family="'JetBrains Mono', 'SFMono-Regular', Menlo, Consolas, monospace" font-size="12" fill="#7f8a9c" text-anchor="end">2026-05-29</text>
+<text x="682" y="3458" font-family="Inter, 'Segoe UI', 'Noto Sans TC', 'PingFang TC', 'Microsoft JhengHei', sans-serif" font-size="13" fill="#00a8f0" text-anchor="end">Verify ↗</text>
+<rect x="732" y="3350" width="548" height="138" fill="#212936" rx="16" stroke="#2f3846" stroke-width="1"/>
+<rect x="758" y="3376" width="34" height="34" fill="rgba(0,168,240,0.12)" rx="10"/>
+<text x="775" y="3399" font-family="Inter, 'Segoe UI', 'Noto Sans TC', 'PingFang TC', 'Microsoft JhengHei', sans-serif" font-size="17" fill="#00a8f0" text-anchor="middle">✓</text>
+<text x="808" y="3392" font-family="Inter, 'Segoe UI', 'Noto Sans TC', 'PingFang TC', 'Microsoft JhengHei', sans-serif" font-size="16.5" fill="#ffffff" font-weight="600">Google IT Automation with Python</text>
+<text x="808" y="3416" font-family="Inter, 'Segoe UI', 'Noto Sans TC', 'PingFang TC', 'Microsoft JhengHei', sans-serif" font-size="16.5" fill="#ffffff" font-weight="600">Professional Certificate</text>
+<text x="808" y="3458" font-family="Inter, 'Segoe UI', 'Noto Sans TC', 'PingFang TC', 'Microsoft JhengHei', sans-serif" font-size="13" fill="#7f8a9c">Google (via Coursera)</text>
+<text x="1254" y="3390" font-family="'JetBrains Mono', 'SFMono-Regular', Menlo, Consolas, monospace" font-size="12" fill="#7f8a9c" text-anchor="end">2026-05-29</text>
+<text x="1254" y="3458" font-family="Inter, 'Segoe UI', 'Noto Sans TC', 'PingFang TC', 'Microsoft JhengHei', sans-serif" font-size="13" fill="#00a8f0" text-anchor="end">Verify ↗</text>
+<rect x="160" y="3512" width="548" height="138" fill="#212936" rx="16" stroke="#2f3846" stroke-width="1"/>
+<rect x="186" y="3538" width="34" height="34" fill="rgba(0,168,240,0.12)" rx="10"/>
+<text x="203" y="3561" font-family="Inter, 'Segoe UI', 'Noto Sans TC', 'PingFang TC', 'Microsoft JhengHei', sans-serif" font-size="17" fill="#00a8f0" text-anchor="middle">✓</text>
+<text x="236" y="3554" font-family="Inter, 'Segoe UI', 'Noto Sans TC', 'PingFang TC', 'Microsoft JhengHei', sans-serif" font-size="16.5" fill="#ffffff" font-weight="600">Google Data Analytics Professional</text>
+<text x="236" y="3578" font-family="Inter, 'Segoe UI', 'Noto Sans TC', 'PingFang TC', 'Microsoft JhengHei', sans-serif" font-size="16.5" fill="#ffffff" font-weight="600">Certificate</text>
+<text x="236" y="3620" font-family="Inter, 'Segoe UI', 'Noto Sans TC', 'PingFang TC', 'Microsoft JhengHei', sans-serif" font-size="13" fill="#7f8a9c">Google (via Coursera)</text>
+<text x="682" y="3552" font-family="'JetBrains Mono', 'SFMono-Regular', Menlo, Consolas, monospace" font-size="12" fill="#7f8a9c" text-anchor="end">2026-05-28</text>
+<text x="682" y="3620" font-family="Inter, 'Segoe UI', 'Noto Sans TC', 'PingFang TC', 'Microsoft JhengHei', sans-serif" font-size="13" fill="#00a8f0" text-anchor="end">Verify ↗</text>
+<rect x="732" y="3512" width="548" height="138" fill="#212936" rx="16" stroke="#2f3846" stroke-width="1"/>
+<rect x="758" y="3538" width="34" height="34" fill="rgba(0,168,240,0.12)" rx="10"/>
+<text x="775" y="3561" font-family="Inter, 'Segoe UI', 'Noto Sans TC', 'PingFang TC', 'Microsoft JhengHei', sans-serif" font-size="17" fill="#00a8f0" text-anchor="middle">✓</text>
+<text x="808" y="3554" font-family="Inter, 'Segoe UI', 'Noto Sans TC', 'PingFang TC', 'Microsoft JhengHei', sans-serif" font-size="16.5" fill="#ffffff" font-weight="600">Google Cybersecurity Professional</text>
+<text x="808" y="3578" font-family="Inter, 'Segoe UI', 'Noto Sans TC', 'PingFang TC', 'Microsoft JhengHei', sans-serif" font-size="16.5" fill="#ffffff" font-weight="600">Certificate</text>
+<text x="808" y="3620" font-family="Inter, 'Segoe UI', 'Noto Sans TC', 'PingFang TC', 'Microsoft JhengHei', sans-serif" font-size="13" fill="#7f8a9c">Google (via Coursera)</text>
+<text x="1254" y="3552" font-family="'JetBrains Mono', 'SFMono-Regular', Menlo, Consolas, monospace" font-size="12" fill="#7f8a9c" text-anchor="end">2026-05-27</text>
+<text x="1254" y="3620" font-family="Inter, 'Segoe UI', 'Noto Sans TC', 'PingFang TC', 'Microsoft JhengHei', sans-serif" font-size="13" fill="#00a8f0" text-anchor="end">Verify ↗</text>
+<rect x="160" y="3674" width="1120" height="62" fill="#161c25" rx="14" stroke="#2f3846" stroke-width="1"/>
+<text x="186" y="3712" font-family="Inter, 'Segoe UI', 'Noto Sans TC', 'PingFang TC', 'Microsoft JhengHei', sans-serif" font-size="15" fill="#b0b7c3">另有 27 張課程證書</text>
+<text x="1254" y="3712" font-family="Inter, 'Segoe UI', 'Noto Sans TC', 'PingFang TC', 'Microsoft JhengHei', sans-serif" font-size="14" fill="#00a8f0" text-anchor="end">查看全部 →</text>
+<text x="160" y="3928" font-family="'JetBrains Mono', 'SFMono-Regular', Menlo, Consolas, monospace" font-size="12" fill="#00a8f0" font-weight="700" letter-spacing="1.6">04 — WRITING</text>
+<text x="160" y="3972" font-family="Inter, 'Segoe UI', 'Noto Sans TC', 'PingFang TC', 'Microsoft JhengHei', sans-serif" font-size="34" fill="#ffffff" font-weight="700">部落格</text>
+<text x="1280" y="3968" font-family="'JetBrains Mono', 'SFMono-Regular', Menlo, Consolas, monospace" font-size="13" fill="#7f8a9c" text-anchor="end">所有文章 →</text>
+<rect x="160" y="4012" width="548" height="243" fill="#212936" rx="18" stroke="#2f3846" stroke-width="1"/>
+<rect x="190" y="4012" width="56" height="3" fill="#00a8f0" rx="1.5"/>
+<text x="190" y="4056" font-family="'JetBrains Mono', 'SFMono-Regular', Menlo, Consolas, monospace" font-size="11" fill="#00a8f0" font-weight="700" letter-spacing="1.6">POST</text>
+<text x="190" y="4094" font-family="Inter, 'Segoe UI', 'Noto Sans TC', 'PingFang TC', 'Microsoft JhengHei', sans-serif" font-size="19" fill="#ffffff" font-weight="700">菸盒上印製唯一識別碼｜購買強制實名制</text>
+<text x="190" y="4162" font-family="Inter, 'Segoe UI', 'Noto Sans TC', 'PingFang TC', 'Microsoft JhengHei', sans-serif" font-size="13.5" fill="#7f8a9c">現在未成年人購買菸品的門路五花八門，透過菸盒上印製唯一識別碼，並導入配套</text>
+<text x="190" y="4185" font-family="Inter, 'Segoe UI', 'Noto Sans TC', 'PingFang TC', 'Microsoft JhengHei', sans-serif" font-size="13.5" fill="#7f8a9c">措施，期望減少未成年人違法購買菸品的情況。</text>
+<text x="190" y="4229" font-family="Inter, 'Segoe UI', 'Noto Sans TC', 'PingFang TC', 'Microsoft JhengHei', sans-serif" font-size="13.5" fill="#00a8f0">閱讀全文 →</text>
+<rect x="732" y="4012" width="548" height="243" fill="#212936" rx="18" stroke="#2f3846" stroke-width="1"/>
+<rect x="762" y="4012" width="56" height="3" fill="#00a8f0" rx="1.5"/>
+<text x="762" y="4056" font-family="'JetBrains Mono', 'SFMono-Regular', Menlo, Consolas, monospace" font-size="11" fill="#00a8f0" font-weight="700" letter-spacing="1.6">POST</text>
+<text x="762" y="4094" font-family="Inter, 'Segoe UI', 'Noto Sans TC', 'PingFang TC', 'Microsoft JhengHei', sans-serif" font-size="19" fill="#ffffff" font-weight="700">如何在防範假訊息與認知作戰的同時，不落入數位威權的</text>
+<text x="762" y="4124" font-family="Inter, 'Segoe UI', 'Noto Sans TC', 'PingFang TC', 'Microsoft JhengHei', sans-serif" font-size="19" fill="#ffffff" font-weight="700">陷阱？</text>
+<text x="762" y="4162" font-family="Inter, 'Segoe UI', 'Noto Sans TC', 'PingFang TC', 'Microsoft JhengHei', sans-serif" font-size="13.5" fill="#7f8a9c">臺灣面對假訊息與認知作戰的威脅，絕不能飲鴆止渴，步上數位威權的後塵。</text>
+<text x="762" y="4229" font-family="Inter, 'Segoe UI', 'Noto Sans TC', 'PingFang TC', 'Microsoft JhengHei', sans-serif" font-size="13.5" fill="#00a8f0">閱讀全文 →</text>
+<text x="160" y="4447" font-family="'JetBrains Mono', 'SFMono-Regular', Menlo, Consolas, monospace" font-size="12" fill="#00a8f0" font-weight="700" letter-spacing="1.6">05 — COMMUNITY</text>
+<text x="160" y="4491" font-family="Inter, 'Segoe UI', 'Noto Sans TC', 'PingFang TC', 'Microsoft JhengHei', sans-serif" font-size="34" fill="#ffffff" font-weight="700">愛與支援</text>
+<text x="1280" y="4487" font-family="'JetBrains Mono', 'SFMono-Regular', Menlo, Consolas, monospace" font-size="13" fill="#7f8a9c" text-anchor="end">4 筆支援紀錄</text>
+<rect x="160" y="4531" width="265" height="164" fill="#212936" rx="16" stroke="#2f3846" stroke-width="1"/>
+<text x="184" y="4579" font-family="Inter, 'Segoe UI', 'Noto Sans TC', 'PingFang TC', 'Microsoft JhengHei', sans-serif" font-size="19" fill="#00a8f0" font-weight="800">SCAICT</text>
+<text x="184" y="4609" font-family="Inter, 'Segoe UI', 'Noto Sans TC', 'PingFang TC', 'Microsoft JhengHei', sans-serif" font-size="13.5" fill="#b0b7c3">COSCUP 2026</text>
+<line x1="184" y1="4639" x2="401" y2="4639" stroke="#2f3846" stroke-width="1"/>
+<text x="184" y="4669" font-family="Inter, 'Segoe UI', 'Noto Sans TC', 'PingFang TC', 'Microsoft JhengHei', sans-serif" font-size="13" fill="#7f8a9c">社群攤位支援</text>
+<rect x="445" y="4531" width="265" height="164" fill="#212936" rx="16" stroke="#2f3846" stroke-width="1"/>
+<text x="469" y="4579" font-family="Inter, 'Segoe UI', 'Noto Sans TC', 'PingFang TC', 'Microsoft JhengHei', sans-serif" font-size="19" fill="#00a8f0" font-weight="800">SITCON</text>
+<text x="469" y="4609" font-family="Inter, 'Segoe UI', 'Noto Sans TC', 'PingFang TC', 'Microsoft JhengHei', sans-serif" font-size="13.5" fill="#b0b7c3">Jam the Chaos</text>
+<line x1="469" y1="4639" x2="686" y2="4639" stroke="#2f3846" stroke-width="1"/>
+<text x="469" y="4669" font-family="Inter, 'Segoe UI', 'Noto Sans TC', 'PingFang TC', 'Microsoft JhengHei', sans-serif" font-size="13" fill="#7f8a9c">個人贊助 2</text>
+<rect x="730" y="4531" width="265" height="164" fill="#212936" rx="16" stroke="#2f3846" stroke-width="1"/>
+<text x="754" y="4579" font-family="Inter, 'Segoe UI', 'Noto Sans TC', 'PingFang TC', 'Microsoft JhengHei', sans-serif" font-size="19" fill="#00a8f0" font-weight="800">SCAICT</text>
+<text x="754" y="4609" font-family="Inter, 'Segoe UI', 'Noto Sans TC', 'PingFang TC', 'Microsoft JhengHei', sans-serif" font-size="13.5" fill="#b0b7c3">SITCON 2026</text>
+<line x1="754" y1="4639" x2="971" y2="4639" stroke="#2f3846" stroke-width="1"/>
+<text x="754" y="4669" font-family="Inter, 'Segoe UI', 'Noto Sans TC', 'PingFang TC', 'Microsoft JhengHei', sans-serif" font-size="13" fill="#7f8a9c">社群攤位設備支援</text>
+<rect x="1015" y="4531" width="265" height="164" fill="#212936" rx="16" stroke="#2f3846" stroke-width="1"/>
+<text x="1039" y="4579" font-family="Inter, 'Segoe UI', 'Noto Sans TC', 'PingFang TC', 'Microsoft JhengHei', sans-serif" font-size="19" fill="#00a8f0" font-weight="800">SITCON</text>
+<text x="1039" y="4609" font-family="Inter, 'Segoe UI', 'Noto Sans TC', 'PingFang TC', 'Microsoft JhengHei', sans-serif" font-size="13.5" fill="#b0b7c3">Jam the Chaos</text>
+<line x1="1039" y1="4639" x2="1256" y2="4639" stroke="#2f3846" stroke-width="1"/>
+<text x="1039" y="4669" font-family="Inter, 'Segoe UI', 'Noto Sans TC', 'PingFang TC', 'Microsoft JhengHei', sans-serif" font-size="13" fill="#7f8a9c">個人贊助</text>
+<text x="160" y="4887" font-family="'JetBrains Mono', 'SFMono-Regular', Menlo, Consolas, monospace" font-size="12" fill="#00a8f0" font-weight="700" letter-spacing="1.6">06 — FRIENDS</text>
+<text x="160" y="4931" font-family="Inter, 'Segoe UI', 'Noto Sans TC', 'PingFang TC', 'Microsoft JhengHei', sans-serif" font-size="34" fill="#ffffff" font-weight="700">大電神們</text>
+<text x="1280" y="4927" font-family="'JetBrains Mono', 'SFMono-Regular', Menlo, Consolas, monospace" font-size="13" fill="#7f8a9c" text-anchor="end">11 位</text>
+<circle cx="210.91" cy="5007" r="32" fill="url(#friendGrad)" stroke="#3b4656" stroke-width="1"/>
+<text x="210.91" y="5016" font-family="Inter, 'Segoe UI', 'Noto Sans TC', 'PingFang TC', 'Microsoft JhengHei', sans-serif" font-size="22" fill="#b0b7c3" font-weight="700" text-anchor="middle">L</text>
+<text x="210.91" y="5065" font-family="Inter, 'Segoe UI', 'Noto Sans TC', 'PingFang TC', 'Microsoft JhengHei', sans-serif" font-size="12.5" fill="#7f8a9c" text-anchor="middle">LeiNuo</text>
+<circle cx="312.73" cy="5007" r="32" fill="url(#friendGrad)" stroke="#3b4656" stroke-width="1"/>
+<text x="312.73" y="5016" font-family="Inter, 'Segoe UI', 'Noto Sans TC', 'PingFang TC', 'Microsoft JhengHei', sans-serif" font-size="22" fill="#b0b7c3" font-weight="700" text-anchor="middle">W</text>
+<text x="312.73" y="5065" font-family="Inter, 'Segoe UI', 'Noto Sans TC', 'PingFang TC', 'Microsoft JhengHei', sans-serif" font-size="12.5" fill="#7f8a9c" text-anchor="middle">Wuzuan</text>
+<circle cx="414.55" cy="5007" r="32" fill="url(#friendGrad)" stroke="#3b4656" stroke-width="1"/>
+<text x="414.55" y="5016" font-family="Inter, 'Segoe UI', 'Noto Sans TC', 'PingFang TC', 'Microsoft JhengHei', sans-serif" font-size="22" fill="#b0b7c3" font-weight="700" text-anchor="middle">s</text>
+<text x="414.55" y="5065" font-family="Inter, 'Segoe UI', 'Noto Sans TC', 'PingFang TC', 'Microsoft JhengHei', sans-serif" font-size="12.5" fill="#7f8a9c" text-anchor="middle">sangege</text>
+<circle cx="516.36" cy="5007" r="32" fill="url(#friendGrad)" stroke="#3b4656" stroke-width="1"/>
+<text x="516.36" y="5016" font-family="Inter, 'Segoe UI', 'Noto Sans TC', 'PingFang TC', 'Microsoft JhengHei', sans-serif" font-size="22" fill="#b0b7c3" font-weight="700" text-anchor="middle">毛</text>
+<text x="516.36" y="5065" font-family="Inter, 'Segoe UI', 'Noto Sans TC', 'PingFang TC', 'Microsoft JhengHei', sans-serif" font-size="12.5" fill="#7f8a9c" text-anchor="middle">毛哥EM</text>
+<circle cx="618.18" cy="5007" r="32" fill="url(#friendGrad)" stroke="#3b4656" stroke-width="1"/>
+<text x="618.18" y="5016" font-family="Inter, 'Segoe UI', 'Noto Sans TC', 'PingFang TC', 'Microsoft JhengHei', sans-serif" font-size="22" fill="#b0b7c3" font-weight="700" text-anchor="middle">猴</text>
+<text x="618.18" y="5065" font-family="Inter, 'Segoe UI', 'Noto Sans TC', 'PingFang TC', 'Microsoft JhengHei', sans-serif" font-size="12.5" fill="#7f8a9c" text-anchor="middle">猴貓</text>
+<circle cx="720" cy="5007" r="32" fill="url(#friendGrad)" stroke="#3b4656" stroke-width="1"/>
+<text x="720" y="5016" font-family="Inter, 'Segoe UI', 'Noto Sans TC', 'PingFang TC', 'Microsoft JhengHei', sans-serif" font-size="22" fill="#b0b7c3" font-weight="700" text-anchor="middle">C</text>
+<text x="720" y="5065" font-family="Inter, 'Segoe UI', 'Noto Sans TC', 'PingFang TC', 'Microsoft JhengHei', sans-serif" font-size="12.5" fill="#7f8a9c" text-anchor="middle">Cheerawab</text>
+<circle cx="821.82" cy="5007" r="32" fill="url(#friendGrad)" stroke="#3b4656" stroke-width="1"/>
+<text x="821.82" y="5016" font-family="Inter, 'Segoe UI', 'Noto Sans TC', 'PingFang TC', 'Microsoft JhengHei', sans-serif" font-size="22" fill="#b0b7c3" font-weight="700" text-anchor="middle">T</text>
+<text x="821.82" y="5065" font-family="Inter, 'Segoe UI', 'Noto Sans TC', 'PingFang TC', 'Microsoft JhengHei', sans-serif" font-size="12.5" fill="#7f8a9c" text-anchor="middle">Tofu</text>
+<circle cx="923.64" cy="5007" r="32" fill="url(#friendGrad)" stroke="#3b4656" stroke-width="1"/>
+<text x="923.64" y="5016" font-family="Inter, 'Segoe UI', 'Noto Sans TC', 'PingFang TC', 'Microsoft JhengHei', sans-serif" font-size="22" fill="#b0b7c3" font-weight="700" text-anchor="middle">J</text>
+<text x="923.64" y="5065" font-family="Inter, 'Segoe UI', 'Noto Sans TC', 'PingFang TC', 'Microsoft JhengHei', sans-serif" font-size="12.5" fill="#7f8a9c" text-anchor="middle">Jiaoyue</text>
+<circle cx="1025.45" cy="5007" r="32" fill="url(#friendGrad)" stroke="#3b4656" stroke-width="1"/>
+<text x="1025.45" y="5016" font-family="Inter, 'Segoe UI', 'Noto Sans TC', 'PingFang TC', 'Microsoft JhengHei', sans-serif" font-size="22" fill="#b0b7c3" font-weight="700" text-anchor="middle">Y</text>
+<text x="1025.45" y="5065" font-family="Inter, 'Segoe UI', 'Noto Sans TC', 'PingFang TC', 'Microsoft JhengHei', sans-serif" font-size="12.5" fill="#7f8a9c" text-anchor="middle">Yuan</text>
+<circle cx="1127.27" cy="5007" r="32" fill="url(#friendGrad)" stroke="#3b4656" stroke-width="1"/>
+<text x="1127.27" y="5016" font-family="Inter, 'Segoe UI', 'Noto Sans TC', 'PingFang TC', 'Microsoft JhengHei', sans-serif" font-size="22" fill="#b0b7c3" font-weight="700" text-anchor="middle">p</text>
+<text x="1127.27" y="5065" font-family="Inter, 'Segoe UI', 'Noto Sans TC', 'PingFang TC', 'Microsoft JhengHei', sans-serif" font-size="12.5" fill="#7f8a9c" text-anchor="middle">pan93412</text>
+<circle cx="1229.09" cy="5007" r="32" fill="url(#friendGrad)" stroke="#3b4656" stroke-width="1"/>
+<text x="1229.09" y="5016" font-family="Inter, 'Segoe UI', 'Noto Sans TC', 'PingFang TC', 'Microsoft JhengHei', sans-serif" font-size="22" fill="#b0b7c3" font-weight="700" text-anchor="middle">夏</text>
+<text x="1229.09" y="5065" font-family="Inter, 'Segoe UI', 'Noto Sans TC', 'PingFang TC', 'Microsoft JhengHei', sans-serif" font-size="12.5" fill="#7f8a9c" text-anchor="middle">夏川桃源</text>
+<rect x="160" y="5201" width="1120" height="250" fill="#161c25" rx="24"/>
+<rect x="160" y="5201" width="1120" height="250" fill="url(#ctaGrad)" rx="24"/>
+<rect x="160" y="5201" width="1120" height="250" fill="none" rx="24" stroke="#00a8f0" stroke-width="1" opacity="0.35"/>
+<text x="720" y="5253" font-family="'JetBrains Mono', 'SFMono-Regular', Menlo, Consolas, monospace" font-size="11.5" fill="#00a8f0" font-weight="700" text-anchor="middle" letter-spacing="2">GET IN TOUCH</text>
+<text x="720" y="5307" font-family="Inter, 'Segoe UI', 'Noto Sans TC', 'PingFang TC', 'Microsoft JhengHei', sans-serif" font-size="38" fill="#ffffff" font-weight="800" text-anchor="middle">要不要聊聊？</text>
+<text x="720" y="5343" font-family="'JetBrains Mono', 'SFMono-Regular', Menlo, Consolas, monospace" font-size="19" fill="#7ee0ff" text-anchor="middle">me@longtai.me</text>
+<rect x="544.45" y="5373" width="112" height="48" fill="#00a8f0" rx="24"/>
+<text x="600.45" y="5402.4" font-family="Inter, 'Segoe UI', 'Noto Sans TC', 'PingFang TC', 'Microsoft JhengHei', sans-serif" font-size="15" fill="#1b212c" font-weight="700" text-anchor="middle">寄信給我</text>
+<rect x="670.45" y="5373" width="115.3" height="48" fill="none" rx="24" stroke="#3b4656" stroke-width="1"/>
+<text x="728.1" y="5402.4" font-family="Inter, 'Segoe UI', 'Noto Sans TC', 'PingFang TC', 'Microsoft JhengHei', sans-serif" font-size="15" fill="#ffffff" font-weight="700" text-anchor="middle">Telegram</text>
+<rect x="799.75" y="5373" width="95.8" height="48" fill="none" rx="24" stroke="#3b4656" stroke-width="1"/>
+<text x="847.65" y="5402.4" font-family="Inter, 'Segoe UI', 'Noto Sans TC', 'PingFang TC', 'Microsoft JhengHei', sans-serif" font-size="15" fill="#ffffff" font-weight="700" text-anchor="middle">GitHub</text>
+<line x1="0" y1="5547" x2="1440" y2="5547" stroke="#2f3846" stroke-width="1"/>
+<rect x="0" y="5547" width="1440" height="176" fill="#161c25"/>
+<line x1="0" y1="5547" x2="1440" y2="5547" stroke="#2f3846" stroke-width="1"/>
+<rect x="160" y="5591" width="32" height="32" fill="url(#logoGrad)" rx="10"/>
+<text x="176" y="5614" font-family="Inter, 'Segoe UI', 'Noto Sans TC', 'PingFang TC', 'Microsoft JhengHei', sans-serif" font-size="17" fill="#1b212c" font-weight="800" text-anchor="middle">J</text>
+<text x="204" y="5607" font-family="Inter, 'Segoe UI', 'Noto Sans TC', 'PingFang TC', 'Microsoft JhengHei', sans-serif" font-size="17" fill="#ffffff" font-weight="700">Jiang</text>
+<text x="204" y="5627" font-family="'JetBrains Mono', 'SFMono-Regular', Menlo, Consolas, monospace" font-size="12.5" fill="#7f8a9c">longtai.org</text>
+<text x="838.83" y="5607" font-family="Inter, 'Segoe UI', 'Noto Sans TC', 'PingFang TC', 'Microsoft JhengHei', sans-serif" font-size="13.5" fill="#b0b7c3">About</text>
+<text x="899.12" y="5607" font-family="Inter, 'Segoe UI', 'Noto Sans TC', 'PingFang TC', 'Microsoft JhengHei', sans-serif" font-size="13.5" fill="#b0b7c3">Experience</text>
+<text x="992.88" y="5607" font-family="Inter, 'Segoe UI', 'Noto Sans TC', 'PingFang TC', 'Microsoft JhengHei', sans-serif" font-size="13.5" fill="#b0b7c3">Certificates</text>
+<text x="1089.36" y="5607" font-family="Inter, 'Segoe UI', 'Noto Sans TC', 'PingFang TC', 'Microsoft JhengHei', sans-serif" font-size="13.5" fill="#b0b7c3">Writing</text>
+<text x="1158.96" y="5607" font-family="Inter, 'Segoe UI', 'Noto Sans TC', 'PingFang TC', 'Microsoft JhengHei', sans-serif" font-size="13.5" fill="#b0b7c3">Community</text>
+<text x="1253" y="5607" font-family="Inter, 'Segoe UI', 'Noto Sans TC', 'PingFang TC', 'Microsoft JhengHei', sans-serif" font-size="13.5" fill="#b0b7c3">Blog</text>
+<text x="1280" y="5629" font-family="'JetBrains Mono', 'SFMono-Regular', Menlo, Consolas, monospace" font-size="12.5" fill="#7f8a9c" text-anchor="end">Source on GitHub ↗</text>
+<line x1="160" y1="5663" x2="1280" y2="5663" stroke="#2f3846" stroke-width="1"/>
+<text x="160" y="5693" font-family="Inter, 'Segoe UI', 'Noto Sans TC', 'PingFang TC', 'Microsoft JhengHei', sans-serif" font-size="12.5" fill="#7f8a9c">© 2026 LongTai Jiang</text>
+<text x="1280" y="5693" font-family="Inter, 'Segoe UI', 'Noto Sans TC', 'PingFang TC', 'Microsoft JhengHei', sans-serif" font-size="12.5" fill="#7f8a9c" text-anchor="end">Designed in SVG · 深色藍延續版</text></g>
+<text x="1600" y="100" font-family="'JetBrains Mono', 'SFMono-Regular', Menlo, Consolas, monospace" font-size="12" fill="#b0b7c3" font-weight="700" letter-spacing="1.8">MOBILE</text>
+<text x="1659.08" y="100" font-family="'JetBrains Mono', 'SFMono-Regular', Menlo, Consolas, monospace" font-size="12" fill="#4d5766">390 × 1801</text>
+<g transform="translate(1600,116)" clip-path="url(#clipMobile)"><rect x="0" y="0" width="390" height="1801" fill="#1b212c"/>
+<rect x="24" y="22" width="28" height="28" fill="url(#logoGrad)" rx="9"/>
+<text x="38" y="41" font-family="Inter, 'Segoe UI', 'Noto Sans TC', 'PingFang TC', 'Microsoft JhengHei', sans-serif" font-size="15" fill="#1b212c" font-weight="800" text-anchor="middle">J</text>
+<text x="60" y="41" font-family="Inter, 'Segoe UI', 'Noto Sans TC', 'PingFang TC', 'Microsoft JhengHei', sans-serif" font-size="16" fill="#ffffff" font-weight="700">Jiang</text>
+<line x1="346" y1="29" x2="366" y2="29" stroke="#b0b7c3" stroke-width="2"/>
+<line x1="346" y1="36" x2="366" y2="36" stroke="#b0b7c3" stroke-width="2"/>
+<line x1="346" y1="43" x2="366" y2="43" stroke="#b0b7c3" stroke-width="2"/>
+<line x1="0" y1="72" x2="390" y2="72" stroke="#2f3846" stroke-width="1"/>
+<ellipse cx="195" cy="192" rx="230" ry="220" fill="url(#heroGlow)"/>
+<circle cx="195" cy="180" r="68" fill="none" stroke="#00a8f0" stroke-width="1.5" opacity="0.35"/>
+<circle cx="195" cy="180" r="54" fill="url(#avatarGrad)"/>
+<g clip-path="url(#avatarClip1)" opacity="0.5">
+<circle cx="195" cy="167.04" r="17.82" fill="#1b212c"/>
+<path d="M 159.36 235.08 a 35.64 35.64 0 0 1 71.28 0 Z" fill="#1b212c"/>
+</g>
+<circle cx="195" cy="180" r="54" fill="none" stroke="#3b4656" stroke-width="1"/>
+<rect x="123.4" y="262" width="143.2" height="28" fill="#212936" rx="14" stroke="#2f3846" stroke-width="1"/>
+<circle cx="138.4" cy="276" r="3" fill="#00a8f0"/>
+<text x="203" y="280" font-family="Inter, 'Segoe UI', 'Noto Sans TC', 'PingFang TC', 'Microsoft JhengHei', sans-serif" font-size="12" fill="#b0b7c3" text-anchor="middle">中科大 · 資訊工程科</text>
+<text x="195" y="324" font-family="Inter, 'Segoe UI', 'Noto Sans TC', 'PingFang TC', 'Microsoft JhengHei', sans-serif" font-size="22" fill="#c8d0dc" font-weight="600" text-anchor="middle">Hi, I'm</text>
+<text x="195" y="374" font-family="Inter, 'Segoe UI', 'Noto Sans TC', 'PingFang TC', 'Microsoft JhengHei', sans-serif" font-size="44" fill="url(#titleGrad)" font-weight="800" text-anchor="middle">Longtai.</text>
+<text x="195" y="404" font-family="Inter, 'Segoe UI', 'Noto Sans TC', 'PingFang TC', 'Microsoft JhengHei', sans-serif" font-size="14" fill="#b0b7c3" text-anchor="middle">學生 / 討厭開發的開發者</text>
+<text x="195" y="436" font-family="Inter, 'Segoe UI', 'Noto Sans TC', 'PingFang TC', 'Microsoft JhengHei', sans-serif" font-size="13" fill="#7f8a9c" text-anchor="middle">寫一點 HTML、CSS 與 Python，</text>
+<text x="195" y="458" font-family="Inter, 'Segoe UI', 'Noto Sans TC', 'PingFang TC', 'Microsoft JhengHei', sans-serif" font-size="13" fill="#7f8a9c" text-anchor="middle">時間都花在社群、活動與開源上。</text>
+<rect x="24" y="484" width="165" height="46" fill="#00a8f0" rx="23"/>
+<text x="106.5" y="512.04" font-family="Inter, 'Segoe UI', 'Noto Sans TC', 'PingFang TC', 'Microsoft JhengHei', sans-serif" font-size="14" fill="#1b212c" font-weight="700" text-anchor="middle">認識我 →</text>
+<rect x="201" y="484" width="165" height="46" fill="none" rx="23" stroke="#3b4656" stroke-width="1"/>
+<text x="283.5" y="512.04" font-family="Inter, 'Segoe UI', 'Noto Sans TC', 'PingFang TC', 'Microsoft JhengHei', sans-serif" font-size="14" fill="#ffffff" font-weight="700" text-anchor="middle">GitHub</text>
+<line x1="0" y1="558" x2="390" y2="558" stroke="#2f3846" stroke-width="1"/>
+<rect x="0" y="558" width="390" height="188" fill="#161c25"/>
+<text x="109.5" y="614" font-family="Inter, 'Segoe UI', 'Noto Sans TC', 'PingFang TC', 'Microsoft JhengHei', sans-serif" font-size="30" fill="#ffffff" font-weight="800" text-anchor="middle">18</text>
+<text x="109.5" y="636" font-family="Inter, 'Segoe UI', 'Noto Sans TC', 'PingFang TC', 'Microsoft JhengHei', sans-serif" font-size="12" fill="#7f8a9c" text-anchor="middle">活動經歷</text>
+<text x="280.5" y="614" font-family="Inter, 'Segoe UI', 'Noto Sans TC', 'PingFang TC', 'Microsoft JhengHei', sans-serif" font-size="30" fill="#ffffff" font-weight="800" text-anchor="middle">31</text>
+<text x="280.5" y="636" font-family="Inter, 'Segoe UI', 'Noto Sans TC', 'PingFang TC', 'Microsoft JhengHei', sans-serif" font-size="12" fill="#7f8a9c" text-anchor="middle">證書</text>
+<text x="109.5" y="708" font-family="Inter, 'Segoe UI', 'Noto Sans TC', 'PingFang TC', 'Microsoft JhengHei', sans-serif" font-size="30" fill="#ffffff" font-weight="800" text-anchor="middle">4</text>
+<text x="109.5" y="730" font-family="Inter, 'Segoe UI', 'Noto Sans TC', 'PingFang TC', 'Microsoft JhengHei', sans-serif" font-size="12" fill="#7f8a9c" text-anchor="middle">專業證書</text>
+<text x="280.5" y="708" font-family="Inter, 'Segoe UI', 'Noto Sans TC', 'PingFang TC', 'Microsoft JhengHei', sans-serif" font-size="30" fill="#ffffff" font-weight="800" text-anchor="middle">21K</text>
+<text x="280.5" y="730" font-family="Inter, 'Segoe UI', 'Noto Sans TC', 'PingFang TC', 'Microsoft JhengHei', sans-serif" font-size="12" fill="#7f8a9c" text-anchor="middle">最長完賽</text>
+<line x1="195" y1="584" x2="195" y2="720" stroke="#2f3846" stroke-width="1"/>
+<line x1="24" y1="652" x2="366" y2="652" stroke="#2f3846" stroke-width="1"/>
+<line x1="0" y1="746" x2="390" y2="746" stroke="#2f3846" stroke-width="1"/>
+<text x="24" y="800" font-family="'JetBrains Mono', 'SFMono-Regular', Menlo, Consolas, monospace" font-size="11" fill="#00a8f0" font-weight="700" letter-spacing="1.4">01 — ABOUT</text>
+<text x="24" y="834" font-family="Inter, 'Segoe UI', 'Noto Sans TC', 'PingFang TC', 'Microsoft JhengHei', sans-serif" font-size="25" fill="#ffffff" font-weight="700">關於我</text>
+<rect x="24" y="858" width="342" height="193" fill="#212936" rx="16" stroke="#2f3846" stroke-width="1"/>
+<text x="46" y="900" font-family="Inter, 'Segoe UI', 'Noto Sans TC', 'PingFang TC', 'Microsoft JhengHei', sans-serif" font-size="14" fill="#b0b7c3">就讀國立台中科技大學資訊工程科，目前在資工</text>
+<text x="46" y="924.92" font-family="Inter, 'Segoe UI', 'Noto Sans TC', 'PingFang TC', 'Microsoft JhengHei', sans-serif" font-size="14" fill="#b0b7c3">科科學會擔任資訊部長。活躍於</text>
+<text x="46" y="949.84" font-family="Inter, 'Segoe UI', 'Noto Sans TC', 'PingFang TC', 'Microsoft JhengHei', sans-serif" font-size="14" fill="#b0b7c3">SCAICT、SITCON、COSCUP 等台灣資訊社群。</text>
+<rect x="46" y="979" width="52.7" height="27" fill="none" rx="13.5" stroke="#2f3846" stroke-width="1"/>
+<text x="72.35" y="996.64" font-family="'JetBrains Mono', 'SFMono-Regular', Menlo, Consolas, monospace" font-size="11.5" fill="#b0b7c3" text-anchor="middle">HTML</text>
+<rect x="106.7" y="979" width="42.7" height="27" fill="none" rx="13.5" stroke="#2f3846" stroke-width="1"/>
+<text x="128.06" y="996.64" font-family="'JetBrains Mono', 'SFMono-Regular', Menlo, Consolas, monospace" font-size="11.5" fill="#b0b7c3" text-anchor="middle">CSS</text>
+<rect x="157.41" y="979" width="57.42" height="27" fill="none" rx="13.5" stroke="#2f3846" stroke-width="1"/>
+<text x="186.12" y="996.64" font-family="'JetBrains Mono', 'SFMono-Regular', Menlo, Consolas, monospace" font-size="11.5" fill="#b0b7c3" text-anchor="middle">Python</text>
+<text x="24" y="1115" font-family="'JetBrains Mono', 'SFMono-Regular', Menlo, Consolas, monospace" font-size="11" fill="#00a8f0" font-weight="700" letter-spacing="1.4">02 — EXPERIENCE</text>
+<text x="24" y="1149" font-family="Inter, 'Segoe UI', 'Noto Sans TC', 'PingFang TC', 'Microsoft JhengHei', sans-serif" font-size="25" fill="#ffffff" font-weight="700">經驗與活動</text>
+<rect x="24" y="1173" width="342" height="168" fill="#212936" rx="16" stroke="#2f3846" stroke-width="1"/>
+<rect x="46" y="1173" width="52" height="3" fill="#00a8f0" rx="1.5"/>
+<text x="46" y="1213" font-family="'JetBrains Mono', 'SFMono-Regular', Menlo, Consolas, monospace" font-size="11.5" fill="#00a8f0" font-weight="700" letter-spacing="1.2">2026</text>
+<text x="46" y="1245" font-family="Inter, 'Segoe UI', 'Noto Sans TC', 'PingFang TC', 'Microsoft JhengHei', sans-serif" font-size="19" fill="#ffffff" font-weight="700">衛星軌道設計競賽</text>
+<text x="46" y="1279" font-family="Inter, 'Segoe UI', 'Noto Sans TC', 'PingFang TC', 'Microsoft JhengHei', sans-serif" font-size="13" fill="#7f8a9c">0 基礎能飛多遠</text>
+<rect x="46" y="1295" width="81.5" height="26" fill="rgba(0,168,240,0.10)" rx="13" stroke="#00a8f0" stroke-width="1"/>
+<text x="86.75" y="1312.14" font-family="Inter, 'Segoe UI', 'Noto Sans TC', 'PingFang TC', 'Microsoft JhengHei', sans-serif" font-size="11.5" fill="#7ee0ff" text-anchor="middle">初賽參賽者</text>
+<text x="24" y="1383" font-family="'JetBrains Mono', 'SFMono-Regular', Menlo, Consolas, monospace" font-size="13" fill="#00a8f0" font-weight="700">2026</text>
+<line x1="24" y1="1399" x2="366" y2="1399" stroke="#2f3846" stroke-width="1" opacity="0.6"/>
+<text x="24" y="1429" font-family="Inter, 'Segoe UI', 'Noto Sans TC', 'PingFang TC', 'Microsoft JhengHei', sans-serif" font-size="15" fill="#ffffff" font-weight="600">futuremode</text>
+<text x="366" y="1429" font-family="Inter, 'Segoe UI', 'Noto Sans TC', 'PingFang TC', 'Microsoft JhengHei', sans-serif" font-size="12" fill="#7f8a9c" text-anchor="end">會眾</text>
+<text x="24" y="1449" font-family="Inter, 'Segoe UI', 'Noto Sans TC', 'PingFang TC', 'Microsoft JhengHei', sans-serif" font-size="12.5" fill="#7f8a9c">台灣未來祭</text>
+<line x1="24" y1="1465" x2="366" y2="1465" stroke="#2f3846" stroke-width="1" opacity="0.6"/>
+<text x="24" y="1495" font-family="Inter, 'Segoe UI', 'Noto Sans TC', 'PingFang TC', 'Microsoft JhengHei', sans-serif" font-size="15" fill="#ffffff" font-weight="600">COSCUP</text>
+<text x="366" y="1495" font-family="Inter, 'Segoe UI', 'Noto Sans TC', 'PingFang TC', 'Microsoft JhengHei', sans-serif" font-size="12" fill="#7f8a9c" text-anchor="end">會眾</text>
+<text x="24" y="1515" font-family="Inter, 'Segoe UI', 'Noto Sans TC', 'PingFang TC', 'Microsoft JhengHei', sans-serif" font-size="12.5" fill="#7f8a9c">UbuCon Asia</text>
+<line x1="24" y1="1531" x2="366" y2="1531" stroke="#2f3846" stroke-width="1" opacity="0.6"/>
+<text x="24" y="1561" font-family="Inter, 'Segoe UI', 'Noto Sans TC', 'PingFang TC', 'Microsoft JhengHei', sans-serif" font-size="15" fill="#ffffff" font-weight="600">COMPUTEX</text>
+<text x="366" y="1561" font-family="Inter, 'Segoe UI', 'Noto Sans TC', 'PingFang TC', 'Microsoft JhengHei', sans-serif" font-size="12" fill="#7f8a9c" text-anchor="end">一般民眾</text>
+<text x="24" y="1581" font-family="Inter, 'Segoe UI', 'Noto Sans TC', 'PingFang TC', 'Microsoft JhengHei', sans-serif" font-size="12.5" fill="#7f8a9c">Taipei</text>
+<line x1="24" y1="1597" x2="366" y2="1597" stroke="#2f3846" stroke-width="1" opacity="0.6"/>
+<text x="24" y="1631" font-family="Inter, 'Segoe UI', 'Noto Sans TC', 'PingFang TC', 'Microsoft JhengHei', sans-serif" font-size="13.5" fill="#00a8f0">查看全部 18 筆 →</text>
+<rect x="0" y="1673" width="390" height="128" fill="#161c25"/>
+<line x1="0" y1="1673" x2="390" y2="1673" stroke="#2f3846" stroke-width="1"/>
+<text x="195" y="1717" font-family="'JetBrains Mono', 'SFMono-Regular', Menlo, Consolas, monospace" font-size="15" fill="#7ee0ff" text-anchor="middle">me@longtai.me</text>
+<g transform="translate(84.18,0)"><rect x="0" y="1735" width="57.58" height="27" fill="none" rx="13.5" stroke="#2f3846" stroke-width="1"/>
+<text x="28.79" y="1752.64" font-family="'JetBrains Mono', 'SFMono-Regular', Menlo, Consolas, monospace" font-size="11.5" fill="#7f8a9c" text-anchor="middle">GitHub</text>
+<rect x="65.58" y="1735" width="72.53" height="27" fill="none" rx="13.5" stroke="#2f3846" stroke-width="1"/>
+<text x="101.84" y="1752.64" font-family="'JetBrains Mono', 'SFMono-Regular', Menlo, Consolas, monospace" font-size="11.5" fill="#7f8a9c" text-anchor="middle">Telegram</text>
+<rect x="146.11" y="1735" width="75.52" height="27" fill="none" rx="13.5" stroke="#2f3846" stroke-width="1"/>
+<text x="183.87" y="1752.64" font-family="'JetBrains Mono', 'SFMono-Regular', Menlo, Consolas, monospace" font-size="11.5" fill="#7f8a9c" text-anchor="middle">Instagram</text></g>
+<text x="195" y="1785" font-family="Inter, 'Segoe UI', 'Noto Sans TC', 'PingFang TC', 'Microsoft JhengHei', sans-serif" font-size="11.5" fill="#7f8a9c" text-anchor="middle">© 2026 LongTai Jiang</text></g>
+<text x="1600" y="2017" font-family="'JetBrains Mono', 'SFMono-Regular', Menlo, Consolas, monospace" font-size="12" fill="#b0b7c3" font-weight="700" letter-spacing="1.8">TOKENS</text>
+<text x="1659.2" y="2017" font-family="'JetBrains Mono', 'SFMono-Regular', Menlo, Consolas, monospace" font-size="12" fill="#4d5766">design system</text>
+<g transform="translate(1600,2033)"><rect x="0" y="0" width="640" height="1269.2" fill="#1b212c" rx="20" stroke="#2f3846" stroke-width="1"/>
+<text x="28" y="46" font-family="'JetBrains Mono', 'SFMono-Regular', Menlo, Consolas, monospace" font-size="12" fill="#00a8f0" font-weight="700" letter-spacing="2">DESIGN TOKENS</text>
+<text x="28" y="78" font-family="Inter, 'Segoe UI', 'Noto Sans TC', 'PingFang TC', 'Microsoft JhengHei', sans-serif" font-size="22" fill="#ffffff" font-weight="700">延續現有深色藍識別</text>
+<line x1="28" y1="104" x2="612" y2="104" stroke="#2f3846" stroke-width="1"/>
+<text x="28" y="132" font-family="'JetBrains Mono', 'SFMono-Regular', Menlo, Consolas, monospace" font-size="10.5" fill="#7f8a9c" letter-spacing="1.6">COLOR</text>
+<rect x="28" y="158" width="64" height="64" fill="#00a8f0" rx="14" stroke="#3b4656" stroke-width="1"/>
+<text x="28" y="242" font-family="Inter, 'Segoe UI', 'Noto Sans TC', 'PingFang TC', 'Microsoft JhengHei', sans-serif" font-size="12" fill="#ffffff">primary</text>
+<text x="28" y="258" font-family="'JetBrains Mono', 'SFMono-Regular', Menlo, Consolas, monospace" font-size="11" fill="#7f8a9c">#00a8f0</text>
+<rect x="174" y="158" width="64" height="64" fill="#7ee0ff" rx="14" stroke="#3b4656" stroke-width="1"/>
+<text x="174" y="242" font-family="Inter, 'Segoe UI', 'Noto Sans TC', 'PingFang TC', 'Microsoft JhengHei', sans-serif" font-size="12" fill="#ffffff">cyan</text>
+<text x="174" y="258" font-family="'JetBrains Mono', 'SFMono-Regular', Menlo, Consolas, monospace" font-size="11" fill="#7f8a9c">#7ee0ff</text>
+<rect x="320" y="158" width="64" height="64" fill="#ffffff" rx="14" stroke="#3b4656" stroke-width="1"/>
+<text x="320" y="242" font-family="Inter, 'Segoe UI', 'Noto Sans TC', 'PingFang TC', 'Microsoft JhengHei', sans-serif" font-size="12" fill="#ffffff">text</text>
+<text x="320" y="258" font-family="'JetBrains Mono', 'SFMono-Regular', Menlo, Consolas, monospace" font-size="11" fill="#7f8a9c">#ffffff</text>
+<rect x="466" y="158" width="64" height="64" fill="#b0b7c3" rx="14" stroke="#3b4656" stroke-width="1"/>
+<text x="466" y="242" font-family="Inter, 'Segoe UI', 'Noto Sans TC', 'PingFang TC', 'Microsoft JhengHei', sans-serif" font-size="12" fill="#ffffff">muted</text>
+<text x="466" y="258" font-family="'JetBrains Mono', 'SFMono-Regular', Menlo, Consolas, monospace" font-size="11" fill="#7f8a9c">#b0b7c3</text>
+<rect x="28" y="284" width="64" height="64" fill="#1b212c" rx="14" stroke="#3b4656" stroke-width="1"/>
+<text x="28" y="368" font-family="Inter, 'Segoe UI', 'Noto Sans TC', 'PingFang TC', 'Microsoft JhengHei', sans-serif" font-size="12" fill="#ffffff">bg</text>
+<text x="28" y="384" font-family="'JetBrains Mono', 'SFMono-Regular', Menlo, Consolas, monospace" font-size="11" fill="#7f8a9c">#1b212c</text>
+<rect x="174" y="284" width="64" height="64" fill="#161c25" rx="14" stroke="#3b4656" stroke-width="1"/>
+<text x="174" y="368" font-family="Inter, 'Segoe UI', 'Noto Sans TC', 'PingFang TC', 'Microsoft JhengHei', sans-serif" font-size="12" fill="#ffffff">bg-2</text>
+<text x="174" y="384" font-family="'JetBrains Mono', 'SFMono-Regular', Menlo, Consolas, monospace" font-size="11" fill="#7f8a9c">#161c25</text>
+<rect x="320" y="284" width="64" height="64" fill="#212936" rx="14" stroke="#3b4656" stroke-width="1"/>
+<text x="320" y="368" font-family="Inter, 'Segoe UI', 'Noto Sans TC', 'PingFang TC', 'Microsoft JhengHei', sans-serif" font-size="12" fill="#ffffff">surface</text>
+<text x="320" y="384" font-family="'JetBrains Mono', 'SFMono-Regular', Menlo, Consolas, monospace" font-size="11" fill="#7f8a9c">#212936</text>
+<rect x="466" y="284" width="64" height="64" fill="#2f3846" rx="14" stroke="#3b4656" stroke-width="1"/>
+<text x="466" y="368" font-family="Inter, 'Segoe UI', 'Noto Sans TC', 'PingFang TC', 'Microsoft JhengHei', sans-serif" font-size="12" fill="#ffffff">line</text>
+<text x="466" y="384" font-family="'JetBrains Mono', 'SFMono-Regular', Menlo, Consolas, monospace" font-size="11" fill="#7f8a9c">#2f3846</text>
+<line x1="28" y1="414" x2="612" y2="414" stroke="#2f3846" stroke-width="1"/>
+<text x="28" y="448" font-family="'JetBrains Mono', 'SFMono-Regular', Menlo, Consolas, monospace" font-size="10.5" fill="#7f8a9c" letter-spacing="1.6">TYPE SCALE</text>
+<text x="28" y="555.6" font-family="Inter, 'Segoe UI', 'Noto Sans TC', 'PingFang TC', 'Microsoft JhengHei', sans-serif" font-size="76" fill="#ffffff" font-weight="800">Longtai.</text>
+<text x="612" y="555.6" font-family="'JetBrains Mono', 'SFMono-Regular', Menlo, Consolas, monospace" font-size="11" fill="#7f8a9c" text-anchor="end">Display / 76px</text>
+<text x="28" y="613.6" font-family="Inter, 'Segoe UI', 'Noto Sans TC', 'PingFang TC', 'Microsoft JhengHei', sans-serif" font-size="40" fill="#ffffff" font-weight="700">Hi, I'm</text>
+<text x="612" y="613.6" font-family="'JetBrains Mono', 'SFMono-Regular', Menlo, Consolas, monospace" font-size="11" fill="#7f8a9c" text-anchor="end">H1 / 40px</text>
+<text x="28" y="665" font-family="Inter, 'Segoe UI', 'Noto Sans TC', 'PingFang TC', 'Microsoft JhengHei', sans-serif" font-size="34" fill="#ffffff" font-weight="700">經驗與活動</text>
+<text x="612" y="665" font-family="'JetBrains Mono', 'SFMono-Regular', Menlo, Consolas, monospace" font-size="11" fill="#7f8a9c" text-anchor="end">H2 / 34px</text>
+<text x="28" y="701" font-family="Inter, 'Segoe UI', 'Noto Sans TC', 'PingFang TC', 'Microsoft JhengHei', sans-serif" font-size="20" fill="#ffffff" font-weight="700">衛星軌道設計競賽</text>
+<text x="612" y="701" font-family="'JetBrains Mono', 'SFMono-Regular', Menlo, Consolas, monospace" font-size="11" fill="#7f8a9c" text-anchor="end">H3 / 20px</text>
+<text x="28" y="733.7" font-family="Inter, 'Segoe UI', 'Noto Sans TC', 'PingFang TC', 'Microsoft JhengHei', sans-serif" font-size="17" fill="#ffffff">就讀國立台中科技大學</text>
+<text x="612" y="733.7" font-family="'JetBrains Mono', 'SFMono-Regular', Menlo, Consolas, monospace" font-size="11" fill="#7f8a9c" text-anchor="end">Body / 17px</text>
+<text x="28" y="762.55" font-family="Inter, 'Segoe UI', 'Noto Sans TC', 'PingFang TC', 'Microsoft JhengHei', sans-serif" font-size="13.5" fill="#ffffff">0 基礎能飛多遠</text>
+<text x="612" y="762.55" font-family="'JetBrains Mono', 'SFMono-Regular', Menlo, Consolas, monospace" font-size="11" fill="#7f8a9c" text-anchor="end">Small / 13.5px</text>
+<text x="28" y="789.2" font-family="Inter, 'Segoe UI', 'Noto Sans TC', 'PingFang TC', 'Microsoft JhengHei', sans-serif" font-size="11.5" fill="#ffffff" font-weight="700">02 — EXPERIENCE</text>
+<text x="612" y="789.2" font-family="'JetBrains Mono', 'SFMono-Regular', Menlo, Consolas, monospace" font-size="11" fill="#7f8a9c" text-anchor="end">Micro / 11.5px</text>
+<line x1="28" y1="819.2" x2="612" y2="819.2" stroke="#2f3846" stroke-width="1"/>
+<text x="28" y="853.2" font-family="'JetBrains Mono', 'SFMono-Regular', Menlo, Consolas, monospace" font-size="10.5" fill="#7f8a9c" letter-spacing="1.6">RADIUS &amp; SPACING</text>
+<rect x="28" y="873.2" width="68" height="52" fill="#212936" rx="10" stroke="#2f3846" stroke-width="1"/>
+<text x="62" y="905.2" font-family="Inter, 'Segoe UI', 'Noto Sans TC', 'PingFang TC', 'Microsoft JhengHei', sans-serif" font-size="14" fill="#b0b7c3" text-anchor="middle">10</text>
+<rect x="124" y="873.2" width="68" height="52" fill="#212936" rx="16" stroke="#2f3846" stroke-width="1"/>
+<text x="158" y="905.2" font-family="Inter, 'Segoe UI', 'Noto Sans TC', 'PingFang TC', 'Microsoft JhengHei', sans-serif" font-size="14" fill="#b0b7c3" text-anchor="middle">16</text>
+<rect x="220" y="873.2" width="68" height="52" fill="#212936" rx="20" stroke="#2f3846" stroke-width="1"/>
+<text x="254" y="905.2" font-family="Inter, 'Segoe UI', 'Noto Sans TC', 'PingFang TC', 'Microsoft JhengHei', sans-serif" font-size="14" fill="#b0b7c3" text-anchor="middle">20</text>
+<rect x="316" y="873.2" width="68" height="52" fill="#212936" rx="24" stroke="#2f3846" stroke-width="1"/>
+<text x="350" y="905.2" font-family="Inter, 'Segoe UI', 'Noto Sans TC', 'PingFang TC', 'Microsoft JhengHei', sans-serif" font-size="14" fill="#b0b7c3" text-anchor="middle">24</text>
+<text x="28" y="947.2" font-family="'JetBrains Mono', 'SFMono-Regular', Menlo, Consolas, monospace" font-size="12.5" fill="#b0b7c3">spacing  4 · 8 · 12 · 16 · 24 · 40 · 56 · 96</text>
+<line x1="28" y1="981.2" x2="612" y2="981.2" stroke="#2f3846" stroke-width="1"/>
+<text x="28" y="1015.2" font-family="'JetBrains Mono', 'SFMono-Regular', Menlo, Consolas, monospace" font-size="10.5" fill="#7f8a9c" letter-spacing="1.6">COMPONENTS</text>
+<rect x="28" y="1035.2" width="116" height="48" fill="#00a8f0" rx="24"/>
+<text x="86" y="1064.6" font-family="Inter, 'Segoe UI', 'Noto Sans TC', 'PingFang TC', 'Microsoft JhengHei', sans-serif" font-size="15" fill="#1b212c" font-weight="700" text-anchor="middle">主要按鈕</text>
+<rect x="158" y="1035.2" width="116" height="48" fill="none" rx="24" stroke="#3b4656" stroke-width="1"/>
+<text x="216" y="1064.6" font-family="Inter, 'Segoe UI', 'Noto Sans TC', 'PingFang TC', 'Microsoft JhengHei', sans-serif" font-size="15" fill="#ffffff" font-weight="700" text-anchor="middle">次要按鈕</text>
+<rect x="28" y="1101.2" width="49" height="30" fill="none" rx="15" stroke="#2f3846" stroke-width="1"/>
+<text x="52.5" y="1120.7" font-family="'JetBrains Mono', 'SFMono-Regular', Menlo, Consolas, monospace" font-size="12.5" fill="#b0b7c3" text-anchor="middle">標籤</text>
+<rect x="85" y="1101.2" width="62.5" height="30" fill="none" rx="15" stroke="#2f3846" stroke-width="1"/>
+<text x="116.25" y="1120.7" font-family="'JetBrains Mono', 'SFMono-Regular', Menlo, Consolas, monospace" font-size="12.5" fill="#b0b7c3" text-anchor="middle">Python</text>
+<rect x="155.5" y="1101.2" width="74" height="30" fill="none" rx="15" stroke="#2f3846" stroke-width="1"/>
+<text x="192.5" y="1120.7" font-family="'JetBrains Mono', 'SFMono-Regular', Menlo, Consolas, monospace" font-size="12.5" fill="#b0b7c3" text-anchor="middle">資訊部長</text>
+<rect x="28" y="1149.2" width="584" height="92" fill="#212936" rx="16" stroke="#2f3846" stroke-width="1"/>
+<rect x="50" y="1149.2" width="52" height="3" fill="#00a8f0" rx="1.5"/>
+<text x="50" y="1185.2" font-family="Inter, 'Segoe UI', 'Noto Sans TC', 'PingFang TC', 'Microsoft JhengHei', sans-serif" font-size="17" fill="#ffffff" font-weight="700">卡片 Card</text>
+<text x="50" y="1209.2" font-family="Inter, 'Segoe UI', 'Noto Sans TC', 'PingFang TC', 'Microsoft JhengHei', sans-serif" font-size="12.5" fill="#7f8a9c">底 surface · 框線 line · 頂端 3px 主色</text></g>
+</svg>
