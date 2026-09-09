@@ -1,0 +1,46 @@
+/* 區塊共用零件：標題計數與收合列 */
+.section-count {
+  color: var(--muted);
+  font-size: 16px;
+  font-weight: bold;
+}
+
+/* .grid > a 有 display:flex，需要明確蓋掉才收得起來 */
+.grid > a[hidden] {
+  display: none;
+}
+
+.section-toggle {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 15px;
+  width: 100%;
+  margin-top: 20px;
+  padding: 20px 25px;
+  background: var(--card);
+  border: 0;
+  border-radius: 18px;
+  color: var(--muted);
+  font-family: inherit;
+  font-size: 16px;
+  text-align: left;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.section-toggle:hover {
+  background: var(--card-hover);
+  color: var(--text);
+}
+
+.section-toggle:focus-visible {
+  outline: 2px solid var(--primary);
+  outline-offset: 3px;
+}
+
+.section-toggle-action {
+  color: var(--primary);
+  font-weight: bold;
+  white-space: nowrap;
+}

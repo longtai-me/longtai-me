@@ -315,8 +315,15 @@
       </section>
 
       <section id="Experience" aria-labelledby="exp-heading">
-        <h2 id="exp-heading">經驗與活動</h2>
-        <div class="grid" id="experience-container" role="list"></div>
+        <div class="section-title-wrapper">
+          <h2 id="exp-heading">經驗與活動</h2>
+          <span class="section-count" id="experience-count"></span>
+        </div>
+        <div class="timeline" id="experience-container"></div>
+        <button type="button" class="section-toggle" id="experience-toggle" aria-controls="experience-container" aria-expanded="false" hidden>
+          <span class="section-toggle-label"></span>
+          <span class="section-toggle-action"></span>
+        </button>
       </section>
 
       <section id="GitHub" aria-labelledby="github-heading">
@@ -340,9 +347,9 @@
           <span class="section-count" id="certificate-count"></span>
         </div>
         <div class="grid" id="certificate-container" role="list"></div>
-        <button type="button" class="cert-toggle" id="certificate-toggle" aria-controls="certificate-container" aria-expanded="false" hidden>
-          <span class="cert-toggle-label"></span>
-          <span class="cert-toggle-action"></span>
+        <button type="button" class="section-toggle" id="certificate-toggle" aria-controls="certificate-container" aria-expanded="false" hidden>
+          <span class="section-toggle-label"></span>
+          <span class="section-toggle-action"></span>
         </button>
       </section>
 

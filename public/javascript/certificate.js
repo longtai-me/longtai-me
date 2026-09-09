@@ -47,8 +47,8 @@ export const certificateConfig = {
     const toggle = document.getElementById('certificate-toggle');
     if (!toggle || !extras.length) return;
 
-    const label = toggle.querySelector('.cert-toggle-label');
-    const action = toggle.querySelector('.cert-toggle-action');
+    const label = toggle.querySelector('.section-toggle-label');
+    const action = toggle.querySelector('.section-toggle-action');
     const extraCards = el.querySelectorAll('a[data-cert-extra]');
     let expanded = false;
 
