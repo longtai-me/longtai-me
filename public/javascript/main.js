@@ -1,4 +1,5 @@
 import { experienceConfig } from './experiences.js';
+import { certificateConfig } from './certificate.js';
 import { friendsConfig } from './friends.js';
 import { supportConfig } from './support.js';
 import { adsConfig } from './ads.js';
@@ -13,7 +14,7 @@ document.addEventListener('DOMContentLoaded', () => {
   initHeaderScroll();
 
   // 2. 處理資料渲染
-  const configs = [experienceConfig, friendsConfig, supportConfig, adsConfig, blogsConfig];
+  const configs = [experienceConfig, certificateConfig, friendsConfig, supportConfig, adsConfig, blogsConfig];
   
   // 建立一個 Promise 陣列來追蹤所有資料是否載入完成
   const fetchPromises = configs.map(conf => {
@@ -23,7 +24,12 @@ document.addEventListener('DOMContentLoaded', () => {
     return fetch(conf.url, { cache: 'no-store' })
       .then(res => res.json())
       .then(data => {
-        el.innerHTML = data.map(conf.tpl).join('') + (conf.suffix || '');
+        // 有自訂 render 的區塊（例如證書）自行決定版面，其餘走共用模板
+        if (typeof conf.render === 'function') {
+          conf.render(data, el);
+        } else {
+          el.innerHTML = data.map(conf.tpl).join('') + (conf.suffix || '');
+        }
       })
       .catch(err => {
         console.error(`載入 ${conf.url} 失敗:`, err);
