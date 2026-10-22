@@ -45,6 +45,7 @@
 
 | 項目 | 描述 | 角色 |
 | :--- | :--- | :--- |
+| THJCC | 學生自主籌辦資安競賽 | 社群攤位支援 |
 | SCAICT | COSCUP 2026 | 社群攤位支援 |
 | SITCON | Jam the Chaos | 個人贊助 2 |
 | SCAICT | SITCON 2026 | 社群攤位設備支援 |
