@@ -19,7 +19,8 @@
 
 | 年份 | 項目 | 描述 | 角色 |
 | :--- | :--- | :--- | :--- |
-| 2026 | [衛星軌道設計競賽](https://www.tasa.org.tw/zh-TW/events/detail/1ede28cc-8183-4171-947f-feed453f4182) | 0 基礎能飛多遠 | 初賽參賽者 |
+| 2026 | [NUTCCSIE 主題課程](https://www.tasa.org.tw/zh-TW/events/detail/1ede28cc-8183-4171-947f-feed453f4182) | 新手的第一堂課 | 總召 |
+| 2026 | [2026 Orbital Design Contest](https://www.tasa.org.tw/zh-TW/events/detail/1ede28cc-8183-4171-947f-feed453f4182) | 0 基礎能飛多遠 | 初賽參賽者 |
 | 2026 | [futuremode](https://futuremode.org) | 台灣未來祭 | 會眾 |
 | 2026 | [HITCON](https://HITCON.org/2026/) | When AI Acts: Hacking the Age of Agentic Systems | 會眾 |
 | 2026 | [COSCUP](https://coscup.org/2026/) | UbuCon Asia | 會眾 |
@@ -45,7 +46,7 @@
 
 | 項目 | 描述 | 角色 |
 | :--- | :--- | :--- |
-| THJCC | 學生自主籌辦資安競賽 | 社群攤位支援 |
+| THJCC | 學生自主籌辦資安競賽 | &quot;合作單位&quot; |
 | SCAICT | COSCUP 2026 | 社群攤位支援 |
 | SITCON | Jam the Chaos | 個人贊助 2 |
 | SCAICT | SITCON 2026 | 社群攤位設備支援 |
