@@ -2,8 +2,17 @@
   {
     "link": "https://www.tasa.org.tw/zh-TW/events/detail/1ede28cc-8183-4171-947f-feed453f4182",
     "img": "public/images/Experience/2026 Orbital Design Contest.jpg",
+    "alt": "第八屆 國立台中科技大學 資訊工程科 科會會 主題課程",
+    "title": "NUTCCSIE 主題課程",
+    "subtitle": "新手的第一堂課",
+    "years": "2026",
+    "role": "總召"
+  },
+  {
+    "link": "https://www.tasa.org.tw/zh-TW/events/detail/1ede28cc-8183-4171-947f-feed453f4182",
+    "img": "public/images/Experience/2026 Orbital Design Contest.jpg",
     "alt": "2026 Orbital Design Contest",
-    "title": "衛星軌道設計競賽",
+    "title": "2026 Orbital Design Contest",
     "subtitle": "0 基礎能飛多遠",
     "years": "2026",
     "role": "初賽參賽者"
