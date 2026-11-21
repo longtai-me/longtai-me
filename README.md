@@ -19,7 +19,11 @@
 
 | 年份 | 項目 | 描述 | 角色 |
 | :--- | :--- | :--- | :--- |
-| 2026 | [NUTCCSIE 主題課程](https://www.tasa.org.tw/zh-TW/events/detail/1ede28cc-8183-4171-947f-feed453f4182) | 新手的第一堂課 | 總召 |
+| 2026 | [NUTCCSIE 主題課程](https://nutccsie.org/events) | Init:CTF — 從 Linux 到 Web 的資安初探 | 總召組兼助教組 |
+| 2026 | [TASTI EXPO](https://www.tasa.org.tw/zh-TW/events/detail/0fc22d70-7d70-4a62-91fb-bab667db1878) | 台灣太空國際年會暨產業博覽會 | 會眾 |
+| 2026 | [MOPCON](https://mopcon.org/2026/) | MOPCON 2026 | 會眾 |
+| 2026 | [全國資安社團暨社群幹部訓練營](https://ais3.org/) | 全國資安社團暨社群幹部訓練營 - 中部場 | Staff |
+| 2026 | [NUTCCSIE 主題課程](https://nutccsie.org/events) | 新手的第一堂課 | 總召兼助教組 |
 | 2026 | [2026 Orbital Design Contest](https://www.tasa.org.tw/zh-TW/events/detail/1ede28cc-8183-4171-947f-feed453f4182) | 0 基礎能飛多遠 | 初賽參賽者 |
 | 2026 | [futuremode](https://futuremode.org) | 台灣未來祭 | 會眾 |
 | 2026 | [HITCON](https://HITCON.org/2026/) | When AI Acts: Hacking the Age of Agentic Systems | 會眾 |
