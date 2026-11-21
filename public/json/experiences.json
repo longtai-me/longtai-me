@@ -1,12 +1,48 @@
 [
   {
-    "link": "https://www.tasa.org.tw/zh-TW/events/detail/1ede28cc-8183-4171-947f-feed453f4182",
-    "img": "public/images/Experience/2026 Orbital Design Contest.jpg",
+    "link": "https://nutccsie.org/events",
+    "img": "public/images/Experience/NUTC_CSIE.webp",
+    "alt": "第八屆 國立台中科技大學 資訊工程科 科會會 主題課程",
+    "title": "NUTCCSIE 主題課程",
+    "subtitle": "Init:CTF — 從 Linux 到 Web 的資安初探",
+    "years": "2026",
+    "role": "總召組兼助教組"
+  },
+  {
+    "link": "https://www.tasa.org.tw/zh-TW/events/detail/0fc22d70-7d70-4a62-91fb-bab667db1878",
+    "img": "public/images/Experience/TASTI.jpg",
+    "alt": "TASTI",
+    "title": "TASTI EXPO",
+    "subtitle": "台灣太空國際年會暨產業博覽會",
+    "years": "2026",
+    "role": "會眾"
+  },
+  {
+    "link": "https://mopcon.org/2026/",
+    "img": "public/images/Experience/MOPCON 2026.svg",
+    "alt": "MOPCON",
+    "title": "MOPCON",
+    "subtitle": "MOPCON 2026",
+    "years": "2026",
+    "role": "會眾"
+  },
+  {
+    "link": "https://ais3.org/",
+    "img": "public/images/Experience/AIS3 Club.jpg",
+    "alt": "全國資安社團暨社群幹部訓練營 - 中部場",
+    "title": "全國資安社團暨社群幹部訓練營",
+    "subtitle": "全國資安社團暨社群幹部訓練營 - 中部場",
+    "years": "2026",
+    "role": "Staff"
+  },
+  {
+    "link": "https://nutccsie.org/events",
+    "img": "public/images/Experience/NUTC_CSIE.webp",
     "alt": "第八屆 國立台中科技大學 資訊工程科 科會會 主題課程",
     "title": "NUTCCSIE 主題課程",
     "subtitle": "新手的第一堂課",
     "years": "2026",
-    "role": "總召"
+    "role": "總召兼助教組"
   },
   {
     "link": "https://www.tasa.org.tw/zh-TW/events/detail/1ede28cc-8183-4171-947f-feed453f4182",
